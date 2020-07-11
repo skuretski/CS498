@@ -1,12 +1,21 @@
+@import '../scss/styles.scss';
+
 .body-container {
 	height: calc(100vh);
 }
 
 .header {
-	margin-left: -0.999rem;
-	margin-right: -0.999rem;
+	margin-left: -0.95rem;
+	margin-right: -0.95rem;
 }
 
 .ow-logo {
 	height: 100px;
 }
+
+.nav-pills {
+	border: 4px solid $ow-light-blue;
+}
+// .nav-link {
+// 	border-radius: 0 !important;
+// }
