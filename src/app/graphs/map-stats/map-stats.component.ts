@@ -35,7 +35,9 @@ export class MapStatsComponent implements OnInit {
   constructor() { }
 
   ngAfterViewInit() {
-    this.svg = d3.select("svg");
+    this.svg = d3.select("#mapviz")
+    .append("svg")
+    .attr("viewBox", `0 0 ${this.width + this.margin.left + this.margin.right} ${this.height + this.margin.top  + this.margin.bottom}`)
   }
 
   async ngOnInit() {
