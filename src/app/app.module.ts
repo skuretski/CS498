@@ -9,6 +9,7 @@ import { SecondSeasonComponent } from './views/second-season/second-season.compo
 import { ThirdSeasonComponent } from './views/third-season/third-season.component';
 import { StageOneComponent } from './views/inaugural/stages/stage-one/stage-one.component';
 import { StageTwoComponent } from './views/inaugural/stages/stage-two/stage-two.component';
+import { MapStatsComponent } from './graphs/map-stats/map-stats.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StageTwoComponent } from './views/inaugural/stages/stage-two/stage-two.
     SecondSeasonComponent,
     ThirdSeasonComponent,
     StageOneComponent,
-    StageTwoComponent
+    StageTwoComponent,
+    MapStatsComponent
   ],
   imports: [
     BrowserModule,

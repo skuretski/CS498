@@ -1,0 +1,199 @@
+[
+	{
+		"team": "Boston Uprising",
+		"win": 26,
+		"loss": 14,
+		"stages": [
+			{
+				"id": 1,
+				"win": 6,
+				"loss": 4
+			},
+			{
+				"id": 2
+			}
+		]
+	},
+	{
+		"team": "Dallas Fuel",
+		"win": 12,
+		"loss": 28,
+		"stages": [
+			{
+				"id": 1,
+				"win": 3,
+				"loss": 7
+			},
+			{
+				"id": 2
+
+			}
+		]
+	},
+	{
+		"team": "Florida Mayhem",
+		"win": 7,
+		"loss": 33,
+		"stages": [
+			{
+				"id": 1,
+				"win": 9,
+				"loss": 1
+			},
+			{
+				"id": 2
+
+			}
+		]
+	},
+	{
+		"team": "Houston Outlaws",
+		"win": 22,
+		"loss": 18,
+		"stages": [
+			{
+				"id": 1,
+				"win": 7,
+				"loss": 3
+			},
+			{
+				"id": 2
+
+			}
+		]
+	},
+	{
+		"team": "London Spitfire",
+		"win": 24,
+		"loss": 16,
+		"stages": [
+			{
+				"id": 1,
+				"win": 7,
+				"loss": 3
+			},
+			{
+				"id": 2,
+				"win": 8,
+				"loss": 2
+			}
+		]
+	},
+	{
+		"team": "Los Angeles Gladiators",
+		"win": 25,
+		"loss": 15,
+		"stages": [
+			{
+				"id": 1,
+				"win": 4,
+				"loss": 6
+			},
+			{
+				"id": 2,
+				"win": 6,
+				"loss": 4
+			}
+		]
+	},
+	{
+		"team": "Los Angeles Valiant",
+		"win": 27,
+		"loss": 13,
+		"stages": [
+			{
+				"id": 1,
+				"win": 7,
+				"loss": 3
+			},
+			{
+				"id": 2
+
+			}
+		]
+	},
+	{
+		"team": "New York Excelsior",
+		"win": 34,
+		"loss": 6,
+		"stages": [
+			{
+				"id": 1,
+				"win": 9,
+				"loss": 1
+			},
+			{
+				"id": 2,
+				"win": 9,
+				"loss": 1
+			}
+		]
+	},
+	{
+		"team": "Philadelphia Fusion",
+		"win": 24,
+		"loss": 16,
+		"stages": [
+			{
+				"id": 1,
+				"win": 6,
+				"loss": 4
+			},
+			{
+				"id": 2,
+				"win": 7,
+				"loss": 3
+
+			}
+		]
+	},
+	{
+		"team": "San Francisco Shock",
+		"win": 17,
+		"loss": 23,
+		"stages": [
+			{
+				"id": 1,
+				"win": 3,
+				"loss": 7
+			},
+			{
+				"id": 2
+
+			}
+		]
+	},
+	{
+		"team": "Seoul Dynasty",
+		"win": 22,
+		"loss": 18,
+		"stages": [
+			{
+				"id": 1,
+				"win": 7,
+				"loss": 3
+			},
+			{
+				"id": 2,
+				"win": 7,
+				"loss": 3
+			}
+		]
+	},
+	{
+		"team": "Shanghai Dragons",
+		"win": 0,
+		"loss": 40,
+		"stages": [
+			{
+				"id": 1,
+				"win": 0,
+				"loss": 10
+			},
+			{
+				"id": 2
+
+			}
+		]
+	}
+]
