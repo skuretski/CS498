@@ -1,3 +1,4 @@
+import { MapData } from './../../class';
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import * as d3 from 'd3';
 
@@ -9,15 +10,29 @@ import * as d3 from 'd3';
 export class MapStatsComponent implements OnInit {
   @ViewChild('my_viz', { static: false} ) my_viz;
 
-  @Input() data: any;
+  @Input() 
+    get data() { return this._data; }
+    set data(d: any) {
+      if(d != undefined) {
+        this.original_data = d;
+        this._data = d3.nest()
+          .key((d:MapData) => d.map_name)
+          .rollup((values) => {
+            return d3.sum(values, (x:MapData) => x.match_count) as any
+          })
+          .entries(d)
+      }
+    }
+  _data: any;
   @Input() title: string;
 
+  original_data: any;
   // d3 Variables
   svg: any;
   margin: { top: number, right: number, bottom: number, left: number} = {
-    top: 32, 
-    right: 32, 
-    bottom: 32, 
+    top: 32,
+    right: 32,
+    bottom: 32,
     left: 32
   };
 
@@ -30,12 +45,13 @@ export class MapStatsComponent implements OnInit {
     this.svg = d3.select("#mapviz")
     .append("svg")
     .attr("viewBox", `0 0 ${this.width + this.margin.left + this.margin.right} ${this.height + this.margin.top  + this.margin.bottom + 100}`)
-    this.buildBarChart();
+    this.buildInitialBarChart();
   }
 
   ngOnInit() { }
 
-  buildBarChart():void {
+  buildInitialBarChart():void {
+    // Tooltip
     let tooltip = d3.select("body")
       .append("div")
       .attr("id", "tooltip")
@@ -47,47 +63,58 @@ export class MapStatsComponent implements OnInit {
       .style("border-radius", "0.5rem")
       .style("padding", "0.5rem")
 
+    // x scale
     let x = d3.scaleBand()
       .range([0,this.width])
-      .domain(this.data.map((d) => { return d.map_name}))
+      .domain(this._data.map((d) => {
+        return d['key']
+      }))
       .padding(0.2);
 
+    // y scale
     let y = d3.scaleLinear()
       .domain([0,600])
       .range([this.height, 0])
 
+    // y axis
     let y_axis = d3.axisLeft(y)
       .tickFormat(d3.format("~s"))
     
+    // Colors
     //let colors = d3.scaleLinear().domain([0, 600]).range(['red', 'blue']);
     let color_scale = d3.scaleOrdinal(d3.schemeTableau10);
 
+    // Skeleton graph
     this.svg.append("g")
       .attr("transform", `translate(${this.margin.left},${this.height + this.margin.top})`)
       .call(d3.axisBottom(x))
       .selectAll("text")
+      .attr("font-size", "12px")
       .attr("transform", "translate(-14,12)rotate(-90)")
       .style("text-anchor", "end");
     this.svg.append("g")
       .attr("transform", `translate(${this.margin.left}, ${this.margin.top})`)
       .call(y_axis)
-      
+    
+    // Add Bars
     this.svg.append("g")
       .attr("transform", `translate(${this.margin.left}, ${this.margin.top + this.margin.bottom})`)
-      .selectAll().data(this.data)
+      .selectAll().data(this._data)
       .enter().append("rect")
       .style("fill-opacity", "0.8")
+      
+      // Tooltips
       .on("mouseover", (d) => {
         d3.select("#tooltip")
           .style("opacity", 0.9)
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
-          .text(`Map name: ${d.map_name}`)
+          .text(`Map name: ${d['key']}`)
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
-          .text(`Count: ${d.match_count}`)
+          .text(`Count: ${d['value']}`)
       })
       .on("mousemove", () => {
         d3.select("#tooltip")
@@ -98,10 +125,11 @@ export class MapStatsComponent implements OnInit {
         d3.select('#tooltip').style('opacity', 0)
         d3.select("#tooltip-text").remove()
       })
-      .attr("x", (d) => {
-        return x(d.map_name)
-      })
 
+      // Place bars
+      .attr("x", (d) => {
+        return x(d['key'])
+      })
       .attr("y", (d) => { return y(0)})
       .attr("width", x.bandwidth())
       .attr("height", (d) => {
@@ -112,14 +140,18 @@ export class MapStatsComponent implements OnInit {
         return color_scale(i)
       })
 
+    // Transition bars in
     this.svg.selectAll("rect")
       .transition()
       .duration(800)
-      .attr("y", (d) => { return y(d.match_count)})
+      .attr("y", (d) => { return y(d['value'])})
       .attr("height", (d) => {
-        return this.height - y(d.match_count)
+        return this.height - y(d['value'])
       })
       .delay((d,i) => { return(i*50) })
+  }
+
+  updateBarChart(key_name: string):void {
 
   }
 }
