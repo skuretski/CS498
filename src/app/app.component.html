@@ -1,12 +1,17 @@
-<div class="container body-container bg-white">
+<div class="container body-container bg-white" [attr.id]="'all-seasons'">
+  <div class="row">
+    <div class="col-12">
   <div class="sticky-top header">
     <div class="bg-ow-yellow py-4">
       <div class="d-flex align-items-center">
         <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
-        <h1>A Tale of the Overwatch League</h1>
+        <h1 class="text-ow-gray">A Tale of the Overwatch League</h1>
       </div>
     </div>
     <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue" [(activeId)]="active">
+      <li ngbNavItem="all-seasons">
+        <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'all-seasons'}" ngbNavLink [routerLink]="'.'" [fragment]="'all-seasons'">All Seasons</a>
+      </li>
       <li class="" ngbNavItem="inaugural">
         <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'inaugural'}" ngbNavLink [routerLink]="'.'" [fragment]="'inaugural'">Inaugural Season</a>
       </li>
@@ -26,17 +31,12 @@
       <a href="https://playoverwatch.com/en-us/" target="_blank" rel="noopener" noreferrer>Overwatch</a>, 
       a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
       playing different heroes and roles.
-      There are 3 main types of roles heroes can be:<br/><br/>
-
-      <ul>
-        <li>Tank</li>
-        <li>Damage</li>
-        <li>Support</li>
-      </ul>
-
+      <hr/>
       Over three seasons, the Overwatch League has collected statistics on teams, players, and maps. Let's begin the journey 
-      of discovering some of the most important characteristics of winning and losing teams, unique players stats, and map 
-      facts. 
+      by looking at the map breakdown over the past few seasons. And then we'll break down each season.
+    </div>
+    <div>
+      <app-all-seasons></app-all-seasons>
     </div>
     <div [attr.id]="'inaugural'">
       <app-inaugural></app-inaugural>
@@ -48,4 +48,6 @@
       <app-third-season></app-third-season>
     </div>
   </div>
+</div>
+</div>
 </div>

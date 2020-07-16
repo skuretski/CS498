@@ -10,6 +10,7 @@ import { ThirdSeasonComponent } from './views/third-season/third-season.componen
 import { StageOneComponent } from './views/inaugural/stages/stage-one/stage-one.component';
 import { StageTwoComponent } from './views/inaugural/stages/stage-two/stage-two.component';
 import { MapStatsComponent } from './graphs/map-stats/map-stats.component';
+import { AllSeasonsComponent } from './views/all-seasons/all-seasons.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MapStatsComponent } from './graphs/map-stats/map-stats.component';
     ThirdSeasonComponent,
     StageOneComponent,
     StageTwoComponent,
-    MapStatsComponent
+    MapStatsComponent,
+    AllSeasonsComponent
   ],
   imports: [
     BrowserModule,
