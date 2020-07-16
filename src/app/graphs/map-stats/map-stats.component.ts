@@ -57,7 +57,6 @@ export class MapStatsComponent implements OnInit {
       .range([this.height, 0])
 
     let y_axis = d3.axisLeft(y)
-      .tickValues([0,100,200,300,400,500,600])
       .tickFormat(d3.format("~s"))
     
     //let colors = d3.scaleLinear().domain([0, 600]).range(['red', 'blue']);
@@ -77,9 +76,10 @@ export class MapStatsComponent implements OnInit {
       .attr("transform", `translate(${this.margin.left}, ${this.margin.top + this.margin.bottom})`)
       .selectAll().data(this.data)
       .enter().append("rect")
+      .style("fill-opacity", "0.8")
       .on("mouseover", (d) => {
         d3.select("#tooltip")
-          .style("opacity", 1)
+          .style("opacity", 0.9)
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")

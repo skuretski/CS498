@@ -1,53 +1,53 @@
 <div class="container body-container bg-white" [attr.id]="'all-seasons'">
   <div class="row">
     <div class="col-12">
-  <div class="sticky-top header">
-    <div class="bg-ow-yellow py-4">
-      <div class="d-flex align-items-center">
-        <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
-        <h1 class="text-ow-gray">A Tale of the Overwatch League</h1>
+      <div class="sticky-top header">
+        <div class="bg-ow-yellow py-4">
+          <div class="d-flex align-items-center">
+            <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
+            <h1 class="text-ow-gray">A Tale of the Overwatch League</h1>
+          </div>
+        </div>
+        <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue" [(activeId)]="active">
+          <li ngbNavItem="all-seasons">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'all-seasons'}" ngbNavLink [routerLink]="'.'" [fragment]="'all-seasons'">All Seasons</a>
+          </li>
+          <li class="" ngbNavItem="inaugural">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'inaugural'}" ngbNavLink [routerLink]="'.'" [fragment]="'inaugural'">Inaugural Season</a>
+          </li>
+          <li ngbNavItem="second-season">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'second-season'}" ngbNavLink [routerLink]="'.'" [fragment]="'second-season'">Second Season</a>
+          </li>
+          <li ngbNavItem="third-season">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'third-season'}" ngbNavLink [routerLink]="'.'" [fragment]="'third-season'">Third Season</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="p-4">
+          The <a href="https://overwatchleague.com/en-us/about" target="_blank" rel="noopener" noreferrer>Overwatch League</a> 
+          is a competitive video game league featuring 20 city-based teams. The teams play 280 regular season matches in 
+          Blizzard Entertainment's game 
+          <a href="https://playoverwatch.com/en-us/" target="_blank" rel="noopener" noreferrer>Overwatch</a>, 
+          a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
+          playing different heroes and roles.
+          <hr/>
+          Over three seasons, the Overwatch League has collected statistics on teams, players, and maps. Let's begin the journey 
+          by looking at the map breakdown over the past few seasons. And then we'll break down each season.
+        </div>
+        <div>
+          <app-all-seasons></app-all-seasons>
+        </div>
+        <div [attr.id]="'inaugural'">
+          <app-inaugural></app-inaugural>
+        </div>
+        <div [attr.id]="'second-season'">
+          <app-second-season></app-second-season>
+        </div>
+        <div [attr.id]="'third-season'">
+          <app-third-season></app-third-season>
+        </div>
       </div>
     </div>
-    <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue" [(activeId)]="active">
-      <li ngbNavItem="all-seasons">
-        <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'all-seasons'}" ngbNavLink [routerLink]="'.'" [fragment]="'all-seasons'">All Seasons</a>
-      </li>
-      <li class="" ngbNavItem="inaugural">
-        <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'inaugural'}" ngbNavLink [routerLink]="'.'" [fragment]="'inaugural'">Inaugural Season</a>
-      </li>
-      <li ngbNavItem="second-season">
-        <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'second-season'}" ngbNavLink [routerLink]="'.'" [fragment]="'second-season'">Second Season</a>
-      </li>
-      <li ngbNavItem="third-season">
-        <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'third-season'}" ngbNavLink [routerLink]="'.'" [fragment]="'third-season'">Third Season</a>
-      </li>
-    </ul>
   </div>
-  <div>
-    <div class="p-4">
-      The <a href="https://overwatchleague.com/en-us/about" target="_blank" rel="noopener" noreferrer>Overwatch League</a> 
-      is a competitive video game league featuring 20 city-based teams. The teams play 280 regular season matches in 
-      Blizzard Entertainment's game 
-      <a href="https://playoverwatch.com/en-us/" target="_blank" rel="noopener" noreferrer>Overwatch</a>, 
-      a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
-      playing different heroes and roles.
-      <hr/>
-      Over three seasons, the Overwatch League has collected statistics on teams, players, and maps. Let's begin the journey 
-      by looking at the map breakdown over the past few seasons. And then we'll break down each season.
-    </div>
-    <div>
-      <app-all-seasons></app-all-seasons>
-    </div>
-    <div [attr.id]="'inaugural'">
-      <app-inaugural></app-inaugural>
-    </div>
-    <div [attr.id]="'second-season'">
-      <app-second-season></app-second-season>
-    </div>
-    <div [attr.id]="'third-season'">
-      <app-third-season></app-third-season>
-    </div>
-  </div>
-</div>
-</div>
 </div>
