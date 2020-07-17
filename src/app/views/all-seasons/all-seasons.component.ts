@@ -1,6 +1,5 @@
-import { MapData } from './../../class';
+import { MainService } from '../../main.service';
 import { Component, OnInit } from '@angular/core';
-import * as d3 from 'd3';
 
 @Component({
   selector: 'app-all-seasons',
@@ -8,14 +7,11 @@ import * as d3 from 'd3';
   styleUrls: ['./all-seasons.component.scss']
 })
 export class AllSeasonsComponent implements OnInit {
-  data: any;
-  title: string = 'Number of times each map has been played (All seasons)';
+  title: string = 'Map Breakdown';
 
-  constructor() { }
+  constructor(public ms: MainService) { }
 
-  async ngOnInit() {
-    this.data = await d3.csv('/data/match_map_stats/all_maps_played_counts.csv');
-    console.log(this.data[0])
+  ngOnInit() {
   }
 
 }

@@ -1,5 +1,18 @@
-<div class="text-center">
-	<h4 class="text-ow-gray">{{ title }}</h4>
+<div>
+	<h4 class="text-ow-gray text-center">{{ title }}</h4>
+	<!-- Filters -->
+	<div class="py-2">
+		<button class="btn btn-outline-ow-light-blue d-inline-block mr-2" (click)="update(null, null)">Clear filters</button>
+		<div ngbDropdown placement="bottom-left" class="d-inline-block">
+			<button class="btn btn-outline-ow-light-blue" ngbDropdownToggle>Filter by Team</button>
+			<div ngbDropdownMenu aria-labelledby="team filter dropdown">
+				<button *ngFor="let t of ms?.support_data?.teams" ngbDropdownItem (click)="update('map_winner', t)">
+					{{ t }}
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- Graph -->
 	<div #mapviz id="mapviz" class="px-4"></div>
 </div>
 

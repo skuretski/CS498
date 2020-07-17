@@ -1,11 +1,20 @@
-import { Component } from '@angular/core';
+import { MainService } from './main.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  providers: [ MainService ]
 })
-export class AppComponent {
-  title = 'Narrative Visualization';
-  active = 'all-seasons'
+export class AppComponent implements OnInit {
+  active = 'all-seasons';
+
+  constructor(public ms: MainService) {}
+
+  async ngOnInit() {
+    await this.ms.init();
+  }
 }
+
+

@@ -1,3 +1,4 @@
+import { MainService } from './../../main.service';
 import { MapData } from './../../class';
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import * as d3 from 'd3';
@@ -10,8 +11,10 @@ import * as d3 from 'd3';
 export class MapStatsComponent implements OnInit {
   @ViewChild('my_viz', { static: false} ) my_viz;
 
-  @Input() 
-    get data() { return this._data; }
+  @Input()
+    get data() { 
+      return this._data; 
+    }
     set data(d: any) {
       if(d != undefined) {
         this.original_data = d;
@@ -20,13 +23,15 @@ export class MapStatsComponent implements OnInit {
           .rollup((values) => {
             return d3.sum(values, (x:MapData) => x.match_count) as any
           })
+          .sortKeys(d3.ascending)
           .entries(d)
       }
     }
-  _data: any;
+    _data: any;
   @Input() title: string;
 
   original_data: any;
+
   // d3 Variables
   svg: any;
   margin: { top: number, right: number, bottom: number, left: number} = {
@@ -36,10 +41,29 @@ export class MapStatsComponent implements OnInit {
     left: 32
   };
 
+  x: any;
+  y: any;
+  y_axis: any;
+
   width: number = 1064 - this.margin.left - this.margin.right;
   height: number = 564 - this.margin.top - this.margin.bottom;
+
+  // UI Variables
+  active_filters: {
+    map_name: boolean,
+    map_winner: boolean,
+    map_loser: boolean,
+    map_type: boolean,
+    stage: boolean,
+    season:boolean
+  }
+
   
-  constructor() { }
+  constructor(public ms: MainService) {
+    for(let key in this.active_filters) {
+      this.active_filters[key] = false;
+    }
+  }
 
   ngAfterViewInit() {
     this.svg = d3.select("#mapviz")
@@ -64,20 +88,20 @@ export class MapStatsComponent implements OnInit {
       .style("padding", "0.5rem")
 
     // x scale
-    let x = d3.scaleBand()
+    this.x = d3.scaleBand()
       .range([0,this.width])
+      .padding(0.2)
       .domain(this._data.map((d) => {
-        return d['key']
-      }))
-      .padding(0.2);
+        return d['key']})
+      );
 
     // y scale
-    let y = d3.scaleLinear()
-      .domain([0,600])
+    this.y = d3.scaleLinear()
       .range([this.height, 0])
+      .domain([0,600]);
 
     // y axis
-    let y_axis = d3.axisLeft(y)
+    this.y_axis = d3.axisLeft(this.y)
       .tickFormat(d3.format("~s"))
     
     // Colors
@@ -87,15 +111,16 @@ export class MapStatsComponent implements OnInit {
     // Skeleton graph
     this.svg.append("g")
       .attr("transform", `translate(${this.margin.left},${this.height + this.margin.top})`)
-      .call(d3.axisBottom(x))
+      .call(d3.axisBottom(this.x))
       .selectAll("text")
       .attr("font-size", "12px")
       .attr("transform", "translate(-14,12)rotate(-90)")
       .style("text-anchor", "end");
     this.svg.append("g")
+      .attr("class", "y")
       .attr("transform", `translate(${this.margin.left}, ${this.margin.top})`)
-      .call(y_axis)
-    
+      .call(this.y_axis)
+
     // Add Bars
     this.svg.append("g")
       .attr("transform", `translate(${this.margin.left}, ${this.margin.top + this.margin.bottom})`)
@@ -128,10 +153,10 @@ export class MapStatsComponent implements OnInit {
 
       // Place bars
       .attr("x", (d) => {
-        return x(d['key'])
+        return this.x(d['key'])
       })
-      .attr("y", (d) => { return y(0)})
-      .attr("width", x.bandwidth())
+      .attr("y", (d) => { return this.y(0)})
+      .attr("width", this.x.bandwidth())
       .attr("height", (d) => {
         return 0
       })
@@ -144,14 +169,49 @@ export class MapStatsComponent implements OnInit {
     this.svg.selectAll("rect")
       .transition()
       .duration(800)
-      .attr("y", (d) => { return y(d['value'])})
+      .attr("y", (d) => { return this.y(d['value'])})
       .attr("height", (d) => {
-        return this.height - y(d['value'])
+        return this.height - this.y(d['value'])
       })
       .delay((d,i) => { return(i*50) })
   }
 
-  updateBarChart(key_name: string):void {
+  update(key_name: string, value: any):void {
+      // Preprocess data
+      let filtered = this.original_data.filter((d) => {
+        return d[key_name] == value;
+      })
+      this._data = d3.nest()
+      .key((d:MapData) => d.map_name)
+      .rollup((values) => {
+        return d3.sum(values, (x:MapData) => x.match_count) as any
+      })
+      .sortKeys(d3.ascending)
+      .entries(filtered);
 
+      // Change the y axis
+      this.y = d3.scaleLinear()
+        .range([this.height, 0])
+        .domain([0, d3.max(this._data, (d) => {
+          return parseInt(d['value'])
+        })])
+      this.y_axis = d3.axisLeft(this.y)
+      .tickFormat(d3.format("~s"))
+      this.svg.select("g.y")
+        .call(this.y_axis);
+
+      // Change the bars
+      this.svg.selectAll("rect")
+      .data(this._data)
+      .transition()
+      .duration(800)
+      .attr("y", (d) => {
+        return this.y(d['value']);
+      })
+      .attr("transform", `translate(0, -${this.margin.top})`)
+      .attr("height", (d) => {
+        return this.height - this.y(d['value'])
+      })
+    
   }
 }

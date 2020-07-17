@@ -1,3 +1,4 @@
+import { MainService } from './main.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -28,7 +29,7 @@ import { AllSeasonsComponent } from './views/all-seasons/all-seasons.component';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [],
+  providers: [ MainService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
