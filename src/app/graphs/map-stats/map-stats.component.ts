@@ -212,7 +212,7 @@ export class MapStatsComponent implements OnInit {
     })
     .sortKeys(d3.ascending)
     .entries(this.original_data);
-    console.log(this._data);
+
     // Change the y axis
     this.y = d3.scaleLinear()
       .range([this.height, 0])
