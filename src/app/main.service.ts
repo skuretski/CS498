@@ -23,13 +23,19 @@ export class MainService {
     this.map_data = await d3.csv('/data/match_map_stats/all_maps_played_counts.csv');
 
     let my_obj = {
+     // data: {},
       maps: new Set(),
       teams: new Set(),
       map_types: new Set(),
       stages: new Set(),
       seasons: new Set()
     }
+
     let my_func = (acc, curr) => {
+      // if(!acc.data[curr['map_name']]) {
+      //   acc.data[curr['map_name']] = []
+      // }
+      // acc.data[curr['map_name']].push(curr);
       acc.maps.add(curr['map_name']);
       acc.teams.add(curr['map_loser']);
       acc.teams.add(curr['map_winner']);

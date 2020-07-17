@@ -19,7 +19,9 @@ export class MapStatsComponent implements OnInit {
       if(d != undefined) {
         this.original_data = d;
         this._data = d3.nest()
-          .key((d:MapData) => d.map_name)
+          .key((d:MapData) => {
+            return d.map_name;
+          })
           .rollup((values) => {
             return d3.sum(values, (x:MapData) => x.match_count) as any
           })
@@ -50,12 +52,10 @@ export class MapStatsComponent implements OnInit {
 
   // UI Variables
   active_filters = {
-    map_name: false,
-    map_winner: false,
-    map_loser: false,
-    map_type: false,
-    stage: false,
-    season: false,
+    team: null,
+    map_type: null,
+    stage: null,
+    season: null
   }
 
   constructor(public ms: MainService) {
@@ -95,7 +95,9 @@ export class MapStatsComponent implements OnInit {
     // y scale
     this.y = d3.scaleLinear()
       .range([this.height, 0])
-      .domain([0,600]);
+      .domain([0, d3.max(this._data, (d) => {
+        return parseInt(d['value'])
+      })])
 
     // y axis
     this.y_axis = d3.axisLeft(this.y)
@@ -175,29 +177,42 @@ export class MapStatsComponent implements OnInit {
 
   update(key_name: string, value: any):void {
     if(key_name == null) {
-      Object.keys(this.active_filters).forEach(v => this.active_filters[v] = false);
+      Object.keys(this.active_filters).forEach(v => this.active_filters[v] = null);
     } else {
-      this.active_filters[key_name] = true;
+      this.active_filters[key_name] = value;
     }
     // Preprocess data
-    //console.log(this.active_filters);
-    let filtered = this.original_data.filter((d) => {
-      for(let key in this.active_filters) {
-        if(this.active_filters[key_name] === false || d[key_name] != value) {
-          return false;
-        }
-      }
-      return true;
-    })
-    //console.log(filtered);
+    const match_by_team = (v) => {
+      if(this.active_filters.team == null) return true;
+      return v['map_winner'] == this.active_filters.team || v['map_loser'] == this.active_filters.team;
+    }
+    const match_by_stage = (v) => {
+      if(this.active_filters.stage == null) return true;
+      return v['stage'] == this.active_filters.stage;
+
+    }
+    const match_by_season = (v) => {
+      if(this.active_filters.season == null) return true;
+      return v['season'] == this.active_filters.season;
+
+    }
+    const match_by_map_type = (v) => {
+      if(this.active_filters.map_type == null) return true;
+      return v['map_type'] == this.active_filters.map_type;
+    }
+    const filter_all = (val) => {
+      return match_by_map_type(val) && match_by_season(val) && match_by_stage(val) && match_by_team(val);
+    }
+
     this._data = d3.nest()
     .key((d:MapData) => d.map_name)
     .rollup((values) => {
-      return d3.sum(values, (x:MapData) => x.match_count) as any
+      const filter = values.filter(filter_all);
+      return d3.sum(filter, (x:MapData) => x.match_count) as any
     })
     .sortKeys(d3.ascending)
-    .entries(filtered);
-
+    .entries(this.original_data);
+    console.log(this._data);
     // Change the y axis
     this.y = d3.scaleLinear()
       .range([this.height, 0])

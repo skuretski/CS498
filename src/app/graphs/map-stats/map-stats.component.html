@@ -1,5 +1,12 @@
 <div>
-	<h4 class="text-ow-gray text-center">{{ title }}</h4>
+	<h4 class="text-ow-gray text-center">
+		{{ title }}
+		{{ active_filters.team ? ' of ' + active_filters.team : ''}}
+		{{ active_filters.season ? ' in Season ' + active_filters.season : '' }}
+		{{ active_filters.stage ? ' Stage ' + active_filters.stage : ''}}
+		{{ active_filters.map_type ? ' on ' +  active_filters.map_type : '' }}
+
+	</h4>
 	<!-- Filters -->
 	<div class="py-2">
 		<button class="btn btn-outline-ow-light-blue d-inline-block mr-2" (click)="update(null, null)">Clear filters</button>
@@ -7,19 +14,34 @@
 		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
 			<button class="btn"
 				[ngClass]="{
-					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.map_winner, 
-					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.map_winner
+					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.team, 
+					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.team
 				}" 
 				ngbDropdownToggle>Filter by Team
 			</button>
 			<div ngbDropdownMenu aria-labelledby="team filter dropdown">
-				<button *ngFor="let t of ms?.support_data?.teams" ngbDropdownItem (click)="update('map_winner', t)">
+				<button *ngFor="let t of ms?.support_data?.teams" ngbDropdownItem (click)="update('team', t)">
 					{{ t }}
 				</button>
 			</div>
 		</div>
 
-		<div ngbDropdown placement="bottom-left" class="d-inline-block">
+		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
+			<button class="btn"
+				[ngClass]="{
+					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.season, 
+					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.season
+				}" 
+				ngbDropdownToggle>Filter by Season
+			</button>
+			<div ngbDropdownMenu aria-labelledby="season filter dropdown">
+				<button *ngFor="let t of ms?.support_data?.seasons" ngbDropdownItem (click)="update('season', t)">
+					{{ t == 1 ? 'One' : (t == 2 ? 'Two' : (t == 3 ? 'Three' : '')) }}
+				</button>
+			</div>
+		</div>
+
+		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
 			<button class="btn"
 				[ngClass]="{
 					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.stage, 
@@ -34,6 +56,20 @@
 			</div>
 		</div>
 
+		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
+			<button class="btn"
+				[ngClass]="{
+					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.map_type, 
+					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.map_type
+				}" 
+				ngbDropdownToggle>Filter by Map Type
+			</button>
+			<div ngbDropdownMenu aria-labelledby="map type filter dropdown">
+				<button *ngFor="let t of ms?.support_data?.map_types" ngbDropdownItem (click)="update('map_type', t)">
+					{{ t }}
+				</button>
+			</div>
+		</div>
 
 	</div>
 	<!-- Graph -->
