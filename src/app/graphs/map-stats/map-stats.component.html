@@ -3,14 +3,38 @@
 	<!-- Filters -->
 	<div class="py-2">
 		<button class="btn btn-outline-ow-light-blue d-inline-block mr-2" (click)="update(null, null)">Clear filters</button>
-		<div ngbDropdown placement="bottom-left" class="d-inline-block">
-			<button class="btn btn-outline-ow-light-blue" ngbDropdownToggle>Filter by Team</button>
+
+		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
+			<button class="btn"
+				[ngClass]="{
+					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.map_winner, 
+					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.map_winner
+				}" 
+				ngbDropdownToggle>Filter by Team
+			</button>
 			<div ngbDropdownMenu aria-labelledby="team filter dropdown">
 				<button *ngFor="let t of ms?.support_data?.teams" ngbDropdownItem (click)="update('map_winner', t)">
 					{{ t }}
 				</button>
 			</div>
 		</div>
+
+		<div ngbDropdown placement="bottom-left" class="d-inline-block">
+			<button class="btn"
+				[ngClass]="{
+					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.stage, 
+					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.stage
+				}" 
+				ngbDropdownToggle>Filter by Stage
+			</button>
+			<div ngbDropdownMenu aria-labelledby="stage filter dropdown">
+				<button *ngFor="let t of ms?.support_data?.stages" ngbDropdownItem (click)="update('stage', t)">
+					{{ t }}
+				</button>
+			</div>
+		</div>
+
+
 	</div>
 	<!-- Graph -->
 	<div #mapviz id="mapviz" class="px-4"></div>

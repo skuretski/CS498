@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { InauguralComponent } from '../app/views/inaugural/inaugural.component';
-import { SecondSeasonComponent } from './views/second-season/second-season.component';
 
 const routes: Routes = [
 

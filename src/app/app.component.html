@@ -1,25 +1,25 @@
-<div class="container body-container bg-white" [attr.id]="'all-seasons'">
+<div class="container body-container bg-white mb-4" [attr.id]="'maps'">
   <div class="row">
     <div class="col-12">
       <div class="sticky-top header">
         <div class="bg-ow-yellow py-4">
           <div class="d-flex align-items-center">
             <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
-            <h1 class="text-ow-gray">A Tale of the Overwatch League</h1>
+            <h1 class="text-ow-gray">A Breakdown of the Overwatch League&trade;</h1>
           </div>
         </div>
         <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue" [(activeId)]="active">
-          <li ngbNavItem="all-seasons">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'all-seasons'}" ngbNavLink [routerLink]="'.'" [fragment]="'all-seasons'">All Seasons</a>
+          <li ngbNavItem="maps">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'maps'}" ngbNavLink [routerLink]="'.'" [fragment]="'maps'">Maps</a>
           </li>
-          <li class="" ngbNavItem="inaugural">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'inaugural'}" ngbNavLink [routerLink]="'.'" [fragment]="'inaugural'">Inaugural Season</a>
+          <li class="" ngbNavItem="tanks">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'tanks'}" ngbNavLink [routerLink]="'.'" [fragment]="'tanks'">Tanks</a>
           </li>
-          <li ngbNavItem="second-season">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'second-season'}" ngbNavLink [routerLink]="'.'" [fragment]="'second-season'">Second Season</a>
+          <li ngbNavItem="support">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'support'}" ngbNavLink [routerLink]="'.'" [fragment]="'support'">Support</a>
           </li>
-          <li ngbNavItem="third-season">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'third-season'}" ngbNavLink [routerLink]="'.'" [fragment]="'third-season'">Third Season</a>
+          <li ngbNavItem="damage">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'damage'}" ngbNavLink [routerLink]="'.'" [fragment]="'damage'">Damage</a>
           </li>
         </ul>
       </div>
@@ -32,22 +32,28 @@
           a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
           playing different heroes and roles.
           <hr/>
-          Over three seasons, the Overwatch League has collected statistics on teams, players, and maps. Let's begin the journey 
-          by looking at the map breakdown over the past few seasons. And then we'll break down each season.
+          Over three seasons, the Overwatch League has collected statistics on maps, teams, and players. Let's begin
+          by looking at the map breakdown over the past few seasons. And then we'll break down hero roles.
         </div>
         <div>
-          <app-all-seasons></app-all-seasons>
+          <app-maps></app-maps>
         </div>
-        <div [attr.id]="'inaugural'">
-          <app-inaugural></app-inaugural>
+        <div [attr.id]="'tanks'">
         </div>
-        <div [attr.id]="'second-season'">
-          <app-second-season></app-second-season>
+        <div [attr.id]="'support'">
+
         </div>
-        <div [attr.id]="'third-season'">
-          <app-third-season></app-third-season>
+        <div [attr.id]="'damage'">
+
         </div>
       </div>
+      <footer class="py-4 text-center">
+        <span class="font-italic">
+          <small>The Overwatch League and Overwatch are registered trademarks of Blizzard Entertainment, Inc. 
+            in the United States and/or other countries.
+          </small>
+        </span>
+      </footer>
     </div>
   </div>
 </div>

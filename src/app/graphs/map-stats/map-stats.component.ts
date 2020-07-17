@@ -49,20 +49,17 @@ export class MapStatsComponent implements OnInit {
   height: number = 564 - this.margin.top - this.margin.bottom;
 
   // UI Variables
-  active_filters: {
-    map_name: boolean,
-    map_winner: boolean,
-    map_loser: boolean,
-    map_type: boolean,
-    stage: boolean,
-    season:boolean
+  active_filters = {
+    map_name: false,
+    map_winner: false,
+    map_loser: false,
+    map_type: false,
+    stage: false,
+    season: false,
   }
 
-  
   constructor(public ms: MainService) {
-    for(let key in this.active_filters) {
-      this.active_filters[key] = false;
-    }
+
   }
 
   ngAfterViewInit() {
@@ -177,41 +174,52 @@ export class MapStatsComponent implements OnInit {
   }
 
   update(key_name: string, value: any):void {
-      // Preprocess data
-      let filtered = this.original_data.filter((d) => {
-        return d[key_name] == value;
-      })
-      this._data = d3.nest()
-      .key((d:MapData) => d.map_name)
-      .rollup((values) => {
-        return d3.sum(values, (x:MapData) => x.match_count) as any
-      })
-      .sortKeys(d3.ascending)
-      .entries(filtered);
+    if(key_name == null) {
+      Object.keys(this.active_filters).forEach(v => this.active_filters[v] = false);
+    } else {
+      this.active_filters[key_name] = true;
+    }
+    // Preprocess data
+    //console.log(this.active_filters);
+    let filtered = this.original_data.filter((d) => {
+      for(let key in this.active_filters) {
+        if(this.active_filters[key_name] === false || d[key_name] != value) {
+          return false;
+        }
+      }
+      return true;
+    })
+    //console.log(filtered);
+    this._data = d3.nest()
+    .key((d:MapData) => d.map_name)
+    .rollup((values) => {
+      return d3.sum(values, (x:MapData) => x.match_count) as any
+    })
+    .sortKeys(d3.ascending)
+    .entries(filtered);
 
-      // Change the y axis
-      this.y = d3.scaleLinear()
-        .range([this.height, 0])
-        .domain([0, d3.max(this._data, (d) => {
-          return parseInt(d['value'])
-        })])
-      this.y_axis = d3.axisLeft(this.y)
-      .tickFormat(d3.format("~s"))
-      this.svg.select("g.y")
-        .call(this.y_axis);
+    // Change the y axis
+    this.y = d3.scaleLinear()
+      .range([this.height, 0])
+      .domain([0, d3.max(this._data, (d) => {
+        return parseInt(d['value'])
+      })])
+    this.y_axis = d3.axisLeft(this.y)
+    .tickFormat(d3.format("~s"))
+    this.svg.select("g.y")
+      .call(this.y_axis);
 
-      // Change the bars
-      this.svg.selectAll("rect")
-      .data(this._data)
-      .transition()
-      .duration(800)
-      .attr("y", (d) => {
-        return this.y(d['value']);
-      })
-      .attr("transform", `translate(0, -${this.margin.top})`)
-      .attr("height", (d) => {
-        return this.height - this.y(d['value'])
-      })
-    
+    // Change the bars
+    this.svg.selectAll("rect")
+    .data(this._data)
+    .transition()
+    .duration(800)
+    .attr("y", (d) => {
+      return this.y(d['value']);
+    })
+    .attr("transform", `translate(0, -${this.margin.top})`)
+    .attr("height", (d) => {
+      return this.height - this.y(d['value'])
+    })
   }
 }
