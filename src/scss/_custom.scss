@@ -10,8 +10,15 @@ $theme-colors: (
 	"dal-dark": $dal-dark,
 	"dal-light": $dal-light,
 	"fla-dark": $fla-dark,
-	"fla-light": $fla-light
-
+	"fla-light": $fla-light,
+	"gray-100": $gray-100,
+	"gray-200":$gray-200,
+	"gray-300":$gray-300,
+	"gray-400":$gray-400,
+	"gray-500":$gray-500,
+	"gray-600":$gray-600,
+	"gray-700":$gray-700,
+	"gray-800":$gray-800
 );
 
 @import "bootstrap";

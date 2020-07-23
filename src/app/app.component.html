@@ -2,13 +2,13 @@
   <div class="row">
     <div class="col-12">
       <div class="sticky-top header">
-        <div class="bg-ow-yellow py-4">
+        <div class="bg-ow-gray py-4">
           <div class="d-flex align-items-center">
             <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
-            <h1 class="text-ow-gray">A Breakdown of the Overwatch League&trade;</h1>
+            <h1 class="text-white">A Breakdown of the Overwatch League&trade;</h1>
           </div>
         </div>
-        <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue" [(activeId)]="active">
+        <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue p-2" [(activeId)]="active">
           <li ngbNavItem="maps">
             <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'maps'}" ngbNavLink [routerLink]="'.'" [fragment]="'maps'">Maps</a>
           </li>
