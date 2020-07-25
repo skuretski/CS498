@@ -32,10 +32,6 @@ export class MainService {
     }
 
     let my_func = (acc, curr) => {
-      // if(!acc.data[curr['map_name']]) {
-      //   acc.data[curr['map_name']] = []
-      // }
-      // acc.data[curr['map_name']].push(curr);
       acc.maps.add(curr['map_name']);
       acc.teams.add(curr['map_loser']);
       acc.teams.add(curr['map_winner']);

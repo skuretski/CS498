@@ -11,6 +11,7 @@ import { MapsComponent } from './views/maps/maps.component';
 import { TanksComponent } from './views/tanks/tanks.component';
 import { SupportComponent } from './views/support/support.component';
 import { DamageComponent } from './views/damage/damage.component';
+import { HeroStatsComponent } from './graphs/hero-stats/hero-stats.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DamageComponent } from './views/damage/damage.component';
     MapsComponent,
     TanksComponent,
     SupportComponent,
-    DamageComponent
+    DamageComponent,
+    HeroStatsComponent
   ],
   imports: [
     BrowserModule,

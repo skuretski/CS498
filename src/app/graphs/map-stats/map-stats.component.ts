@@ -1,6 +1,6 @@
 import { MainService } from './../../main.service';
 import { MapData } from './../../class';
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ModuleWithComponentFactories } from '@angular/core';
 import * as d3 from 'd3';
 
 @Component({
@@ -138,7 +138,7 @@ export class MapStatsComponent implements OnInit {
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
-          .text(`Count: ${d['value']}`)
+          .text(`Count: ${typeof d['value'] == "number" ? d['value'] : d['value']['values']}`)
       })
       .on("mousemove", () => {
         d3.select("#tooltip")
@@ -203,12 +203,19 @@ export class MapStatsComponent implements OnInit {
     const filter_all = (val) => {
       return match_by_map_type(val) && match_by_season(val) && match_by_stage(val) && match_by_team(val);
     }
+    let winner, loser;
 
     this._data = d3.nest()
     .key((d:MapData) => d.map_name)
-    .rollup((values) => {
+    .rollup((values:any) => {
       const filter = values.filter(filter_all);
-      return d3.sum(filter, (x:MapData) => x.match_count) as any
+      winner = filter.filter((f) => { return this.active_filters.team == f['map_winner']});
+      loser = filter.filter((f) => { return this.active_filters.team == f['map_loser']});
+      return {
+        values: d3.sum(filter, (x:MapData) => x.match_count) as any,
+        winner: d3.sum(winner, (x:MapData) => x.match_count) as any,
+        loser: d3.sum(loser, (x:MapData) => x.match_count) as any,
+      }
     })
     .sortKeys(d3.ascending)
     .entries(this.original_data);
@@ -217,7 +224,7 @@ export class MapStatsComponent implements OnInit {
     this.y = d3.scaleLinear()
       .range([this.height, 0])
       .domain([0, d3.max(this._data, (d) => {
-        return parseInt(d['value'])
+        return parseInt(d['value']['values'])
       })])
     this.y_axis = d3.axisLeft(this.y)
     .tickFormat(d3.format("~s"))
@@ -230,11 +237,11 @@ export class MapStatsComponent implements OnInit {
     .transition()
     .duration(800)
     .attr("y", (d) => {
-      return this.y(d['value']);
+      return this.y(d['value']['values'])
     })
     .attr("transform", `translate(0, -${this.margin.top})`)
     .attr("height", (d) => {
-      return this.height - this.y(d['value'])
+      return this.height - this.y(d['value']['values'])
     })
   }
 }
