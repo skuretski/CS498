@@ -39,6 +39,7 @@
           <app-maps></app-maps>
         </div>
         <div [attr.id]="'tanks'">
+          <app-tanks *ngIf="ms?.tanks"></app-tanks>
         </div>
         <div [attr.id]="'support'">
 

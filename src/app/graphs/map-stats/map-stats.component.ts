@@ -207,7 +207,7 @@ export class MapStatsComponent implements OnInit {
 
     this._data = d3.nest()
     .key((d:MapData) => d.map_name)
-    .rollup((values:any) => {
+    .rollup((values: unknown[]) => {
       const filter = values.filter(filter_all);
       winner = filter.filter((f) => { return this.active_filters.team == f['map_winner']});
       loser = filter.filter((f) => { return this.active_filters.team == f['map_loser']});
@@ -215,7 +215,7 @@ export class MapStatsComponent implements OnInit {
         values: d3.sum(filter, (x:MapData) => x.match_count) as any,
         winner: d3.sum(winner, (x:MapData) => x.match_count) as any,
         loser: d3.sum(loser, (x:MapData) => x.match_count) as any,
-      }
+      } as any
     })
     .sortKeys(d3.ascending)
     .entries(this.original_data);

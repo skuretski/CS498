@@ -16,11 +16,24 @@ export class MainService {
 
   // Data for viz
   map_data: any;
+  tanks: any;
+  support: any;
+  dps: any;
 
   constructor() {}
 
   async init() {
-    this.map_data = await d3.csv('/data/match_map_stats/all_maps_played_counts.csv');
+    [
+      this.map_data,
+      this.tanks,
+      this.support,
+      this.dps
+    ] = await Promise.all([
+      d3.csv('/data/match_map_stats/all_maps_played_counts.csv'),
+      d3.csv('/data/player_stats/tanks.csv'),
+      d3.csv('/data/player_stats/support.csv'),
+      d3.csv('/data/player_stats/dps.csv')
+    ]);
 
     let my_obj = {
      // data: {},

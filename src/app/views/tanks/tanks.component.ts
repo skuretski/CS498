@@ -1,3 +1,4 @@
+import { MainService } from './../../main.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tanks.component.scss']
 })
 export class TanksComponent implements OnInit {
+  title: string = 'Tank Breakdown';
 
-  constructor() { }
+  constructor(public ms: MainService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    console.log(this.ms.tanks[0])
+
   }
 
 }
