@@ -1,2315 +1,417 @@
-﻿stage,season,player,team,stat_name,Time,stat_amount
-Three,2,Twilight,Vancouver Titans,All Damage Done,133.39242599,8003.5455594
-Two,2,Decay,Los Angeles Gladiators,All Damage Done,1541.641607536,92498.49645218
-Four,1,Profit,London Spitfire,Critical Hits,23.466666667,1408
-Two,2,BUMPER,Vancouver Titans,Time Played,5.597235598,335.834135854
-Four,2,Rascal,San Francisco Shock,Time Alive,248.809757484,14928.585449056
-One,2,Mano,New York Excelsior,Time Alive,0.566166684,33.970001028
-Three,1,Bunny,Los Angeles Valiant,Deaths,2.316666667,139
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,Deaths,0.133333333,8
-Four,2,Bazzi,Hangzhou Spark,Critical Hits,0.25,15
-Two,1,DreamKazper,Boston Uprising,Solo Kills,0.966666667,58
-Two,1,KariV,Los Angeles Valiant,Eliminations,7.816666667,469
-Season 2 Championship,2,Libero,New York Excelsior,Deaths,3.016666667,181
-Three - Title,1,Surefour,Los Angeles Gladiators,Deaths,0.333333333,20
-Three - Title,1,Neko,Boston Uprising,Eliminations,0.066666667,4
-Three - Title,2,Haksal,Vancouver Titans,Deaths,0.166666667,10
-Two,2,Decay,Los Angeles Gladiators,Critical Hits,8.9,534
-One,1,JJonak,New York Excelsior,All Damage Done,353.982729333,21238.96376
-Three,1,Neko,Boston Uprising,Deaths,0.066666667,4
-One,2,BUMPER,Vancouver Titans,Time Played,1.184352764,71.061165869
-Two - Title,2,MekO,New York Excelsior,Critical Hits,0.283333333,17
-Two - Title,2,Viol2t,San Francisco Shock,Time Alive,0.45651668,27.39100083
-Two,1,Bdosin,London Spitfire,All Damage Done,28.382769033,1702.966142
-Three,1,Profit,London Spitfire,Solo Kills,1.116666667,67
-Four,1,BigG00se,Los Angeles Gladiators,Critical Hits,0.083333333,5
-Three,1,Profit,London Spitfire,Critical Hits,59.85,3591
-Three,1,Hooreg,London Spitfire,Time Alive,180.746255475,10844.775328488
-Two - Title,2,Ria,Hangzhou Spark,Time Alive,0.265883341,15.953000486
-One,2,GodsB,Hangzhou Spark,Time Alive,57.423035074,3445.382104466
-One,1,Asher,Los Angeles Gladiators,All Damage Done,4641.268270563,278476.0962338
-Four,2,SAEBYEOLBE,New York Excelsior,Critical Hits,4.633333333,278
-One,1,uNKOE,Los Angeles Valiant,Deaths,0.016666667,1
-Two,2,Hooreg,Vancouver Titans,All Damage Done,210.63344325,12638.006595
-Inaugural Championship,1,Bdosin,London Spitfire,Eliminations,0.766666667,46
-One,1,Mano,New York Excelsior,Eliminations,0.05,3
-Inaugural Championship,1,Pine,New York Excelsior,Eliminations,2.083333333,125
-Four,1,Surefour,Los Angeles Gladiators,Deaths,4.233333333,254
-Two - Title,2,JJonak,New York Excelsior,Deaths,0.016666667,1
-Two,2,Void,Los Angeles Gladiators,Deaths,0.066666667,4
-Four - Title,1,BigG00se,Los Angeles Gladiators,All Damage Done,0.4,24
-Three,2,super,San Francisco Shock,Time Alive,0.424416679,25.465000764
-Two,1,STRIKER,Boston Uprising,All Damage Done,9437.91147377,566274.6884262
-One,2,Architect,San Francisco Shock,Time Played,22.176673398,1330.600403885
-Two,2,Libero,New York Excelsior,Time Alive,16.716767169,1003.006030119
-Two,2,Fl0w3R,New York Excelsior,Deaths,0.116666667,7
-One - Title,2,BUMPER,Vancouver Titans,Eliminations,0.016666667,1
-Two,2,iDK,Hangzhou Spark,All Damage Done,5.394534556,323.67207334
-Inaugural Championship,1,JJonak,New York Excelsior,Time Alive,3.044233426,182.654005538
-Three,2,Fl0w3R,New York Excelsior,Time Played,13.625536487,817.5321892
-Two,1,Neko,Boston Uprising,All Damage Done,87.170596923,5230.2358154
-Two - Title,1,Birdring,London Spitfire,Deaths,0.683333333,41
-Two - Title,2,SeoMinSoo,Vancouver Titans,Eliminations,0.183333333,11
-Two - Title,2,BUMPER,Vancouver Titans,Deaths,0.016666667,1
-Inaugural Championship,1,Profit,London Spitfire,Eliminations,7.266666667,436
-Inaugural Championship,1,Bdosin,London Spitfire,Time Played,20.958085357,1257.485121431
-One,1,Mano,New York Excelsior,Deaths,0.05,3
-Three - Title,1,Libero,New York Excelsior,Eliminations,1.566666667,94
-One,1,BigG00se,Los Angeles Gladiators,Solo Kills,0.033333333,2
-Three,1,SoOn,Los Angeles Valiant,Critical Hits,33.583333333,2015
-Two,2,Twilight,Vancouver Titans,Critical Hits,0.016666667,1
-Three,1,SAEBYEOLBE,New York Excelsior,Eliminations,15.316666667,919
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,Eliminations,4.15,249
-Four,1,KariV,Los Angeles Valiant,Eliminations,0.25,15
-One,1,Rascal,London Spitfire,Deaths,0.716666667,43
-One,2,SeoMinSoo,Vancouver Titans,All Damage Done,651.231822717,39073.90936304
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,Solo Kills,0.166666667,10
-Two,1,Profit,London Spitfire,Deaths,3.433333333,206
-One - Title,1,Birdring,London Spitfire,Time Alive,40.110651137,2406.6390682
-Two - Title,1,Libero,New York Excelsior,Time Alive,23.037350689,1382.24104135
-Two,1,Kalios,Boston Uprising,Eliminations,0.033333333,2
-One,1,Fissure,London Spitfire,Time Played,0.048717211,2.923032641
-Four,1,Surefour,Los Angeles Gladiators,All Damage Done,7714.223444951,462853.406697056
-Inaugural Championship,1,Agilities,Los Angeles Valiant,All Damage Done,2382.551500036,142953.09000218
-Four,1,Pine,New York Excelsior,Eliminations,4.05,243
-One,1,Pine,New York Excelsior,All Damage Done,2967.893606535,178073.6163921
-Three - Title,2,Adora,Hangzhou Spark,All Damage Done,89.116421538,5346.9852923
-Two - Title,2,sinatraa,San Francisco Shock,Eliminations,0.1,6
-One,2,iDK,Hangzhou Spark,Time Played,2.124857601,127.491456034
-Three,2,Fl0w3R,New York Excelsior,Critical Hits,1.566666667,94
-Three,2,SASIN,Hangzhou Spark,Time Played,5.743022008,344.5813205
-Three,1,Birdring,London Spitfire,Critical Hits,12.25,735
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,Deaths,5.5,330
-Two,1,SAEBYEOLBE,New York Excelsior,Deaths,3.216666667,193
-One,2,SAEBYEOLBE,New York Excelsior,All Damage Done,0.579775278,34.78651667
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,Critical Hits,69.216666667,4153
-One,1,JJonak,New York Excelsior,Deaths,0.1,6
-Three - Title,2,Libero,New York Excelsior,Time Alive,1.725000052,103.500003114
-Four,2,sinatraa,San Francisco Shock,Solo Kills,0.05,3
-Three,1,Bdosin,London Spitfire,Time Alive,0.846150026,50.769001536
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,Eliminations,4.183333333,251
-One - Title,1,Birdring,London Spitfire,Critical Hits,7.966666667,478
-One,2,Bazzi,Hangzhou Spark,Time Played,45.601183507,2736.071010442
-Four,2,Fl0w3R,New York Excelsior,Eliminations,2.666666667,160
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,Deaths,3.916666667,235
-Two,2,MekO,New York Excelsior,Time Alive,5.72131684,343.279010408
-One - Title,2,SeoMinSoo,Vancouver Titans,All Damage Done,151.231706178,9073.9023707
-Three,1,silkthread,Los Angeles Gladiators,Time Alive,43.721867991,2623.31207943
-One,2,Stitch,Vancouver Titans,All Damage Done,225.180908467,13510.854508
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,Deaths,2.716666667,163
-Four,2,SeoMinSoo,Vancouver Titans,Eliminations,2.7,162
-Three - Title,1,Libero,New York Excelsior,Solo Kills,0.15,9
-One - Title,1,Libero,New York Excelsior,All Damage Done,1365.578871343,81934.7322806
-Three - Title,1,STRIKER,Boston Uprising,Time Alive,34.015834363,2040.9500618
-Season 2 Championship,2,Rascal,San Francisco Shock,All Damage Done,2939.830321561,176389.81929368
-One,2,BUMPER,Vancouver Titans,Critical Hits,0.183333333,11
-One - Title,1,Profit,London Spitfire,Time Played,99.84406816,5990.644089598
-Three,2,Hydration,Los Angeles Gladiators,Critical Hits,0.15,9
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,All Damage Done,10579.896588653,634793.7953192
-Three,2,SeoMinSoo,Vancouver Titans,Critical Hits,15.266666667,916
-Three - Title,2,Stitch,Vancouver Titans,Time Alive,54.805018329,3288.30109972
-One,2,SLIME,Vancouver Titans,Time Played,0.06482101,3.889260591
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,Time Played,751.732639161,45103.958349667
-Two,1,Envy,Los Angeles Valiant,Deaths,0.166666667,10
-One,2,Architect,San Francisco Shock,Deaths,0.083333333,5
-Four,2,GodsB,Hangzhou Spark,Deaths,3.083333333,185
-One - Title,1,Profit,London Spitfire,Deaths,0.983333333,59
-Four - Title,1,Hydration,Los Angeles Gladiators,All Damage Done,883.988656752,53039.3194051
-One,2,Choihyobin,San Francisco Shock,Solo Kills,0.016666667,1
-Four,1,NUS,London Spitfire,Eliminations,0.033333333,2
-Two,1,SAEBYEOLBE,New York Excelsior,Eliminations,19.733333333,1184
-Four,1,Birdring,London Spitfire,All Damage Done,7548.587153734,452915.22922403
-Four,2,Hydration,Los Angeles Gladiators,Time Played,8.760284611,525.61707667
-Inaugural Championship,1,Profit,London Spitfire,Solo Kills,0.516666667,31
-Two,1,JJonak,New York Excelsior,Eliminations,0.133333333,8
-Three,1,Birdring,London Spitfire,Time Played,190.563268235,11433.796094073
-Inaugural Championship,1,JJonak,New York Excelsior,All Damage Done,44.671323599,2680.27941594
-One - Title,1,Fury,London Spitfire,Time Played,0.194603257,11.67619544
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,Time Played,74.655254376,4479.31526257
-Two - Title,1,Profit,London Spitfire,Critical Hits,5.216666667,313
-Two,2,Surefour,Los Angeles Gladiators,Deaths,0.416666667,25
-Season 2 Championship,2,Fl0w3R,New York Excelsior,Eliminations,0.983333333,59
-Four,2,STRIKER,San Francisco Shock,Time Alive,62.955018562,3777.301113715
-Two,1,Libero,New York Excelsior,Deaths,4.25,255
-Four,2,Bazzi,Hangzhou Spark,Time Alive,14.012567087,840.75402522
-Two - Title,1,Mano,New York Excelsior,Time Played,0.746356759,44.781405566
-Two - Title,2,Viol2t,San Francisco Shock,All Damage Done,13.894633738,833.6780243
-Four,1,MekO,New York Excelsior,Eliminations,0.1,6
-Three - Title,1,Libero,New York Excelsior,Critical Hits,0.533333333,32
-Two,2,SeoMinSoo,Vancouver Titans,Deaths,0.166666667,10
-Four,1,Profit,London Spitfire,Eliminations,8.6,516
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,Deaths,0.566666667,34
-One,2,Haksal,Vancouver Titans,Deaths,0.25,15
-Two,2,sinatraa,San Francisco Shock,Time Alive,56.951568386,3417.094103132
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,All Damage Done,6606.778080338,396406.6848203
-Two - Title,2,Haksal,Vancouver Titans,Deaths,0.066666667,4
-Three,2,Surefour,Los Angeles Gladiators,Deaths,0.95,57
-Three - Title,1,SAEBYEOLBE,New York Excelsior,All Damage Done,1366.871716482,82012.3029889
-Three,2,Choihyobin,San Francisco Shock,Deaths,0.066666667,4
-One,1,Profit,London Spitfire,Solo Kills,1.083333333,65
-One,1,Agilities,Los Angeles Valiant,Time Alive,80.271268887,4816.276133228
-Three - Title,2,Rascal,San Francisco Shock,Critical Hits,0.6,36
-Three - Title,2,STRIKER,San Francisco Shock,Eliminations,0.333333333,20
-Three - Title,1,Asher,Los Angeles Gladiators,All Damage Done,118.387843617,7103.270617
-Four - Title,1,JJonak,New York Excelsior,Time Alive,0.169033338,10.14200031
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,Critical Hits,23.833333333,1430
-Three,1,BigG00se,Los Angeles Gladiators,Eliminations,0.016666667,1
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,Time Played,670.76758863,40246.055317812
-Four - Title,1,SoOn,Los Angeles Valiant,Deaths,0.9,54
-One,2,Nenne,New York Excelsior,Deaths,0.15,9
-One,2,Decay,Los Angeles Gladiators,Critical Hits,0.366666667,22
-Two,2,SeoMinSoo,Vancouver Titans,All Damage Done,394.079912492,23644.7947495
-Three - Title,1,Hydration,Los Angeles Gladiators,Eliminations,0.216666667,13
-Three,2,sinatraa,San Francisco Shock,Deaths,0.4,24
-Two - Title,1,Profit,London Spitfire,All Damage Done,720.687145045,43241.228702715
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,Solo Kills,0.066666667,4
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,Critical Hits,2.633333333,158
-Three - Title,1,Agilities,Los Angeles Valiant,Time Alive,11.305167005,678.3100203
-Four,2,Rascal,San Francisco Shock,All Damage Done,6407.409424532,384444.56547194
-Four,1,Void,Los Angeles Gladiators,Deaths,0.016666667,1
-Four,1,KariV,Los Angeles Valiant,Time Played,12.565750891,753.945053479
-Two,1,uNKOE,Los Angeles Valiant,Time Alive,0.952783362,57.167001731
-Three - Title,2,iDK,Hangzhou Spark,Time Played,0.308168866,18.49013197
-Three,1,NUS,London Spitfire,Time Alive,0.159700005,9.582000289
-Two,1,ArK,New York Excelsior,Time Played,0.259598279,15.575896739
-One,2,Rascal,San Francisco Shock,Critical Hits,0.033333333,2
-Three,1,Hydration,Los Angeles Gladiators,Time Alive,134.76318741,8085.791244607
-Two,2,Mano,New York Excelsior,Critical Hits,0.25,15
-Four,1,Profit,London Spitfire,Deaths,3.133333333,188
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,Eliminations,0.683333333,41
-Three - Title,2,Nenne,New York Excelsior,Time Alive,25.154617431,1509.277045886
-Two,1,SAEBYEOLBE,New York Excelsior,All Damage Done,8680.401888967,520824.113338
-One,1,Birdring,London Spitfire,Deaths,4.716666667,283
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,Eliminations,10.983333333,659
-Three - Title,2,Haksal,Vancouver Titans,Solo Kills,0.033333333,2
-Three,2,SASIN,Hangzhou Spark,Deaths,0.016666667,1
-Three - Title,2,SeoMinSoo,Vancouver Titans,Deaths,0.2,12
-One - Title,2,BUMPER,Vancouver Titans,Time Played,1.314156019,78.849361123
-Three - Title,2,Haksal,Vancouver Titans,Time Alive,14.055450422,843.32702535
-One,2,SLIME,Vancouver Titans,Time Alive,0.10291667,6.175000187
-Two,2,Adora,Hangzhou Spark,Time Alive,37.376534464,2242.59206787
-Three - Title,1,Agilities,Los Angeles Valiant,Critical Hits,0.183333333,11
-Two,1,Libero,New York Excelsior,Time Alive,239.256107169,14355.366430167
-Four,2,sinatraa,San Francisco Shock,All Damage Done,1514.415665063,90864.93990378
-Two,1,Agilities,Los Angeles Valiant,Deaths,2.15,129
-Three,1,Libero,New York Excelsior,Solo Kills,1.133333333,68
-Four - Title,1,BigG00se,Los Angeles Gladiators,Time Played,0.438145118,26.288707078
-Three,2,BUMPER,Vancouver Titans,Critical Hits,0.35,21
-Three - Title,2,Ria,Hangzhou Spark,Time Alive,1.339916707,80.39500244
-Four,1,Fissure,Los Angeles Gladiators,Time Alive,0.192850006,11.57100035
-One,1,SAEBYEOLBE,New York Excelsior,Time Played,384.780596301,23086.83577807
-Three,2,Libero,New York Excelsior,Solo Kills,0.083333333,5
-One - Title,2,SeoMinSoo,Vancouver Titans,Critical Hits,0.166666667,10
-One - Title,1,Profit,London Spitfire,Solo Kills,0.383333333,23
-Three,2,Decay,Los Angeles Gladiators,Deaths,0.683333333,41
-Three - Title,1,SAEBYEOLBE,New York Excelsior,Time Played,82.576063401,4954.56380407
-Three - Title,1,Agilities,Los Angeles Valiant,Time Played,31.441136465,1886.46818791
-Three - Title,2,Stitch,Vancouver Titans,Eliminations,1.85,111
-Three,2,Adora,Hangzhou Spark,Time Alive,17.355400525,1041.324031528
-Four,1,Neko,Boston Uprising,Critical Hits,2.1,126
-Three - Title,2,Ria,Hangzhou Spark,All Damage Done,33.185706817,1991.142409
-One,2,Surefour,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Two,2,Ria,Hangzhou Spark,Time Played,20.408905338,1224.534320298
-One,2,Ria,Hangzhou Spark,Critical Hits,0.233333333,14
-Four,1,Libero,New York Excelsior,Time Alive,218.438956566,13106.337393952
-Four,1,AimGod,Boston Uprising,Eliminations,0.45,27
-Two - Title,2,Krystal,Hangzhou Spark,Deaths,0.066666667,4
-Three,1,Pine,New York Excelsior,Critical Hits,5.55,333
-Two - Title,1,Mano,New York Excelsior,Time Alive,0.491383348,29.48300088
-One - Title,2,moth,San Francisco Shock,Deaths,0.016666667,1
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,Time Alive,584.327351036,35059.641062183
-Three,2,sinatraa,San Francisco Shock,Eliminations,1.916666667,115
-Four - Title,1,SoOn,Los Angeles Valiant,Solo Kills,0.4,24
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,Deaths,7.05,423
-One,2,SAEBYEOLBE,New York Excelsior,Critical Hits,0.016666667,1
-Three,1,Mistakes,Boston Uprising,Critical Hits,10.033333333,602
-Three - Title,2,super,San Francisco Shock,Time Alive,0.483333348,29.000000882
-Three - Title,2,sinatraa,San Francisco Shock,Solo Kills,0.066666667,4
-One - Title,1,SAEBYEOLBE,New York Excelsior,Time Alive,21.576833945,1294.6100367
-Four - Title,1,Libero,New York Excelsior,Time Alive,34.329667701,2059.78006205
-Two - Title,2,BUMPER,Vancouver Titans,Eliminations,0.183333333,11
-OWL 2020 Regular Season,3,ChipSa,Philadelphia Fusion,All Damage Done,125.405373167,7524.32239
-One,2,BEBE,Hangzhou Spark,All Damage Done,106.056456083,6363.387365
-Four,1,Mistakes,Boston Uprising,Deaths,4.05,243
-Three - Title,1,Mistakes,Boston Uprising,Eliminations,1.95,117
-Three - Title,2,Haksal,Vancouver Titans,Critical Hits,0.466666667,28
-One,1,NotE,Boston Uprising,All Damage Done,16.728333317,1003.699999
-Inaugural Championship,1,Gesture,London Spitfire,Time Alive,0.135650004,8.139000243
-One,1,KariV,Los Angeles Valiant,All Damage Done,441.250570036,26475.03420216
-One - Title,2,SeoMinSoo,Vancouver Titans,Time Played,6.650966738,399.05800425
-Two - Title,1,Mano,New York Excelsior,All Damage Done,7.619791412,457.1874847
-Four - Title,1,SAEBYEOLBE,New York Excelsior,Eliminations,0.85,51
-Four,1,Custa,Los Angeles Valiant,Time Played,0.875979582,52.558774893
-Inaugural Championship,1,Neko,Boston Uprising,Eliminations,0.883333333,53
-One,1,STRIKER,Boston Uprising,Eliminations,20.5,1230
-Three,2,Twilight,Vancouver Titans,Critical Hits,0.283333333,17
-Four,1,Bdosin,London Spitfire,Time Played,14.717276488,883.036589292
-Three,1,STRIKER,Boston Uprising,Deaths,4.016666667,241
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,Solo Kills,0.1,6
-Two - Title,1,Birdring,London Spitfire,Time Played,54.995990366,3299.759421978
-Three,1,Surefour,Los Angeles Gladiators,Deaths,4.566666667,274
-Four,1,SoOn,Los Angeles Valiant,All Damage Done,7633.71809428,458023.0856568
-Two - Title,2,SeoMinSoo,Vancouver Titans,Critical Hits,0.566666667,34
-Season 2 Championship,2,Libero,New York Excelsior,Time Alive,226.445940149,13586.756408926
-Three - Title,1,KariV,Los Angeles Valiant,Critical Hits,0.1,6
-Three,2,Viol2t,San Francisco Shock,Time Alive,5.913366846,354.802010751
-Season 2 Championship,2,sinatraa,San Francisco Shock,Time Alive,259.913691143,15594.821468568
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,All Damage Done,5906.368077912,354382.08467473
-Two,1,Fissure,Los Angeles Gladiators,Time Played,0.56387262,33.832357229
-One,1,Mano,New York Excelsior,Time Played,1.861551536,111.69309217
-Three,2,Stitch,Vancouver Titans,Critical Hits,4.616666667,277
-One,1,Hooreg,London Spitfire,Critical Hits,1,60
-One,1,JJonak,New York Excelsior,Time Alive,2.005550058,120.333003464
-Two - Title,2,Viol2t,San Francisco Shock,Critical Hits,0.05,3
-Three,2,Fl0w3R,New York Excelsior,All Damage Done,230.5605805,13833.63483
-Three,1,DreamKazper,Boston Uprising,Eliminations,3.35,201
-Two,1,Neko,Boston Uprising,Time Alive,1.199200036,71.952002177
-Four,2,Fl0w3R,New York Excelsior,Time Played,98.825169444,5929.510166628
-Three,1,Hydration,Los Angeles Gladiators,Solo Kills,0.4,24
-One,2,SeoMinSoo,Vancouver Titans,Time Played,37.519153848,2251.149230887
-One - Title,2,MekO,New York Excelsior,Time Played,0.032517728,1.951063693
-Four,1,Bischu,Los Angeles Gladiators,Time Played,0.048721722,2.923303306
-Two - Title,2,Haksal,Vancouver Titans,Time Played,7.284833497,437.09000979
-One,1,Kalios,Boston Uprising,Time Played,0.032421828,1.945309699
-Four - Title,1,Surefour,Los Angeles Gladiators,Time Alive,21.886000664,1313.160039845
-Two,2,Adora,Hangzhou Spark,Time Played,40.410169477,2424.610168614
-One - Title,1,Libero,New York Excelsior,Deaths,0.9,54
-One,2,iDK,Hangzhou Spark,Deaths,0.05,3
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,Time Played,548.928685258,32935.721115505
-Three,1,Bunny,Los Angeles Valiant,Time Alive,146.349721098,8780.9832659
-Four - Title,1,Pine,New York Excelsior,Time Alive,9.399983615,563.99901692
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,Solo Kills,0.15,9
-Inaugural Championship,1,silkthread,Los Angeles Gladiators,Time Played,39.438043688,2366.282621289
-One - Title,2,moth,San Francisco Shock,Time Played,0.599881422,35.99288535
-One,1,Neko,Boston Uprising,Eliminations,0.683333333,41
-One,2,GodsB,Hangzhou Spark,Eliminations,1.716666667,103
-Inaugural Championship,1,KariV,Los Angeles Valiant,Time Alive,12.949350392,776.961023506
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,Deaths,3.316666667,199
-One,1,SoOn,Los Angeles Valiant,Time Played,566.18816972,33971.290183191
-Three - Title,1,SoOn,Los Angeles Valiant,Deaths,0.2,12
-Two,1,ArK,New York Excelsior,Time Alive,0.089016669,5.341000163
-Three,1,Libero,New York Excelsior,Time Alive,141.464154243,8487.849254601
-Two - Title,1,Mano,New York Excelsior,Deaths,0.016666667,1
-Four - Title,1,Bischu,Los Angeles Gladiators,Time Played,0.016199044,0.971942663
-Three,2,Nenne,New York Excelsior,Time Alive,64.981635301,3898.898118089
-One,1,BigG00se,Los Angeles Gladiators,Eliminations,0.066666667,4
-One - Title,1,SAEBYEOLBE,New York Excelsior,All Damage Done,971.533245333,58291.99472
-Four,1,silkthread,Los Angeles Gladiators,Critical Hits,3.933333333,236
-Three,1,STRIKER,Boston Uprising,All Damage Done,10467.787898515,628067.2739109
-Three - Title,1,Libero,New York Excelsior,Time Alive,21.078417299,1264.70503795
-One,2,Nenne,New York Excelsior,Time Alive,19.868283936,1192.097036151
-Four,1,Birdring,London Spitfire,Time Played,504.831143103,30289.868586181
-Season 2 Championship,2,Rascal,San Francisco Shock,Time Played,103.519442224,6211.166533436
-Inaugural Championship,1,Fury,London Spitfire,All Damage Done,36.98218,2218.9308
-Three,2,Surefour,Los Angeles Gladiators,Time Played,112.811068912,6768.66413475
-Three,1,Neko,Boston Uprising,All Damage Done,241.5515613,14493.093678
-Four - Title,1,ArK,New York Excelsior,Time Played,0.016199176,0.971950531
-Three - Title,2,Twilight,Vancouver Titans,Time Played,0.097280741,5.836844444
-One,1,Neko,Boston Uprising,Solo Kills,0.033333333,2
-One,2,Rascal,San Francisco Shock,Time Played,7.136999511,428.21997069
-One,2,Twilight,Vancouver Titans,Time Played,0.697216561,41.832993685
-Two,2,BUMPER,Vancouver Titans,All Damage Done,144.215194167,8652.91165
-Inaugural Championship,1,silkthread,Los Angeles Gladiators,All Damage Done,877.202002161,52632.12012966
-Two,2,SASIN,Hangzhou Spark,Deaths,0.083333333,5
-Four,2,STRIKER,San Francisco Shock,Time Played,68.569916981,4114.195018857
-One,1,Agilities,Los Angeles Valiant,Critical Hits,6.15,369
-Two - Title,1,Birdring,London Spitfire,Time Alive,17.341933852,1040.51603109
-Three,1,Shaz,Los Angeles Gladiators,Time Played,15.656250504,939.375030252
-One,1,DreamKazper,Boston Uprising,All Damage Done,10981.861321323,658911.6792794
-One,1,silkthread,Los Angeles Valiant,Time Played,211.456403498,12687.3842099
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,Critical Hits,2.583333333,155
-Inaugural Championship,1,Fury,London Spitfire,Time Played,3.259919256,195.595155354
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,Deaths,2.15,129
-One,2,iDK,Hangzhou Spark,Critical Hits,0.05,3
-Three - Title,1,KariV,Los Angeles Valiant,Deaths,0.016666667,1
-One,1,Bdosin,London Spitfire,Time Alive,1.716683381,103.001002839
-Inaugural Championship,1,Libero,New York Excelsior,Time Played,64.478476788,3868.708607274
-Four - Title,1,Custa,Los Angeles Valiant,Time Played,0.210813943,12.64883655
-One - Title,2,MekO,New York Excelsior,Time Alive,0.030450001,1.827000056
-Three - Title,1,Bunny,Los Angeles Valiant,Time Alive,10.799900327,647.9940196
-Two,2,Decay,Los Angeles Gladiators,Deaths,0.75,45
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,Time Played,127.46918286,7648.150971629
-Two,1,JJonak,New York Excelsior,Time Played,5.660638094,339.638285626
-Two,1,Asher,Los Angeles Gladiators,Critical Hits,51.3,3078
-Three - Title,1,Mistakes,Boston Uprising,Critical Hits,2.333333333,140
-One,2,SeoMinSoo,Vancouver Titans,Eliminations,0.883333333,53
-Four - Title,1,Hydration,Los Angeles Gladiators,Eliminations,0.933333333,56
-Three,2,Ria,Hangzhou Spark,Deaths,0.033333333,2
-Four,2,Adora,Hangzhou Spark,Eliminations,10.15,609
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,Time Played,796.515655843,47790.939350593
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,Solo Kills,0.566666667,34
-One - Title,1,Birdring,London Spitfire,Deaths,1.066666667,64
-Two,1,HaGoPeun,London Spitfire,Eliminations,0.583333333,35
-One - Title,2,SeoMinSoo,Vancouver Titans,Deaths,0.05,3
-Two,2,Adora,Hangzhou Spark,Solo Kills,0.033333333,2
-Two,1,Hydration,Los Angeles Gladiators,Eliminations,8.4,504
-One,1,Shaz,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Three - Title,1,Shaz,Los Angeles Gladiators,Eliminations,0.116666667,7
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Season 2 Championship,2,Libero,New York Excelsior,Critical Hits,0.9,54
-One - Title,2,Libero,New York Excelsior,Deaths,0.016666667,1
-OWL 2020 Regular Season,3,ChipSa,Philadelphia Fusion,Time Played,8.306442367,498.386542
-Three,2,Decay,Los Angeles Gladiators,Solo Kills,0.283333333,17
-Four,1,Mistakes,Boston Uprising,Solo Kills,1.033333333,62
-Three,2,SAEBYEOLBE,New York Excelsior,Critical Hits,36.166666667,2170
-One,2,SeoMinSoo,Vancouver Titans,Solo Kills,0.016666667,1
-One,1,KariV,Los Angeles Valiant,Eliminations,0.783333333,47
-Inaugural Championship,1,KariV,Los Angeles Valiant,Eliminations,0.266666667,16
-Three - Title,1,Shaz,Los Angeles Gladiators,Time Played,3.780472297,226.8283378
-One,2,JJonak,New York Excelsior,All Damage Done,190.482100435,11428.9260261
-Four,2,Haksal,Vancouver Titans,Critical Hits,6.566666667,394
-Four,1,SoOn,Los Angeles Valiant,Time Alive,220.496189975,13229.771398478
-One - Title,2,Haksal,Vancouver Titans,Solo Kills,0.016666667,1
-Two - Title,2,Mano,New York Excelsior,Time Alive,0.815500024,48.930001465
-One - Title,1,Pine,New York Excelsior,Critical Hits,0.35,21
-Two,2,BUMPER,Vancouver Titans,Eliminations,0.066666667,4
-Three,2,SeoMinSoo,Vancouver Titans,Eliminations,4.716666667,283
-Four,1,JJonak,New York Excelsior,All Damage Done,81.642278063,4898.5366838
-Two,1,Neko,Boston Uprising,Deaths,0.2,12
-Four,2,Fl0w3R,New York Excelsior,All Damage Done,2334.743119442,140084.58716654
-Three,1,Bischu,Los Angeles Gladiators,Time Played,0.129810923,7.788655401
-One,1,JJonak,New York Excelsior,Time Played,12.860635734,771.63814407
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,All Damage Done,16006.018291374,960361.09748241
-Four,1,Custa,Los Angeles Valiant,Eliminations,0.016666667,1
-Two - Title,2,Rascal,San Francisco Shock,Deaths,0.016666667,1
-Two,1,Bdosin,London Spitfire,Deaths,0.05,3
-Three - Title,2,Nenne,New York Excelsior,Critical Hits,2.366666667,142
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,Time Alive,525.448065762,31526.883945728
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,Time Played,407.393338259,24443.600295512
-One,2,sinatraa,San Francisco Shock,Deaths,0.116666667,7
-One,2,Stitch,Vancouver Titans,Time Played,14.097049715,845.82298293
-Season 2 Championship,2,GodsB,Hangzhou Spark,Critical Hits,49.25,2955
-One,2,Void,Los Angeles Gladiators,Eliminations,0.066666667,4
-Two,2,sinatraa,San Francisco Shock,Eliminations,2.183333333,131
-One,1,STRIKER,Boston Uprising,Time Alive,255.7232572,15343.395431971
-One,2,BEBE,Hangzhou Spark,Eliminations,0.183333333,11
-Three - Title,2,Choihyobin,San Francisco Shock,Eliminations,0.033333333,2
-One - Title,2,Libero,New York Excelsior,Time Alive,0.325733343,19.544000589
-One,2,Surefour,Los Angeles Gladiators,All Damage Done,985.893272484,59153.596349015
-Three,1,Shaz,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Four,2,sinatraa,San Francisco Shock,Time Alive,68.03161871,4081.89712258
-Inaugural Championship,1,Profit,London Spitfire,All Damage Done,6568.010661132,394080.6396679
-One - Title,2,sinatraa,San Francisco Shock,Time Alive,0.538033349,32.28200097
-Two,1,Kalios,Boston Uprising,Time Alive,0.750466689,45.028001363
-Three - Title,2,sinatraa,San Francisco Shock,Time Played,79.099984565,4745.999073891
-One,2,STRIKER,San Francisco Shock,Time Alive,11.48318368,688.99102078
-Season 2 Championship,2,GodsB,Hangzhou Spark,Time Played,270.712899912,16242.773994735
-Three - Title,2,GodsB,Hangzhou Spark,All Damage Done,677.62031205,40657.218723
-Three,1,Surefour,Los Angeles Gladiators,Critical Hits,32.316666667,1939
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,All Damage Done,8730.214626869,523812.87761215
-One - Title,2,JJonak,New York Excelsior,Critical Hits,0.016666667,1
-Three,1,Shaz,Los Angeles Gladiators,Eliminations,0.383333333,23
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,All Damage Done,2870.802411767,172248.144706
-Three - Title,2,GodsB,Hangzhou Spark,Time Played,31.003229765,1860.193785928
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,Solo Kills,0.8,48
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,Deaths,1.166666667,70
-Season 2 Championship,2,Haksal,Vancouver Titans,Time Alive,248.171874135,14890.312448075
-Four - Title,1,SAEBYEOLBE,New York Excelsior,Time Played,48.069728259,2884.18369552
-One,1,BigG00se,Los Angeles Gladiators,Critical Hits,0.233333333,14
-Four - Title,1,Libero,New York Excelsior,Time Played,86.534146063,5192.048763797
-Season 2 Championship,2,Decay,Los Angeles Gladiators,Deaths,0.766666667,46
-Three,1,Hooreg,London Spitfire,Deaths,3.283333333,197
-Four,1,JJonak,New York Excelsior,Deaths,0.1,6
-Four,2,SAEBYEOLBE,New York Excelsior,Solo Kills,0.166666667,10
-Three - Title,1,Neko,Boston Uprising,Critical Hits,0.016666667,1
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,Time Played,137.413735194,8244.824111646
-Three - Title,1,Neko,Boston Uprising,Time Played,2.000430147,120.025808838
-Three,2,Viol2t,San Francisco Shock,Eliminations,0.266666667,16
-Four - Title,1,Surefour,Los Angeles Gladiators,All Damage Done,900.38339148,54023.00348879
-Three,2,Hydration,Los Angeles Gladiators,Deaths,0.45,27
-Two,2,Haksal,Vancouver Titans,Eliminations,1.133333333,68
-One,2,STRIKER,San Francisco Shock,Time Played,12.864129775,771.84778652
-One,1,Surefour,Los Angeles Gladiators,Critical Hits,23.333333333,1400
-One - Title,2,Nenne,New York Excelsior,All Damage Done,18.63645062,1118.1870372
-One,1,Hydration,Los Angeles Gladiators,Time Played,335.172432399,20110.34594392
-Four,1,Agilities,Los Angeles Valiant,Time Alive,195.775122519,11746.507351169
-Season 2 Championship,2,Haksal,Vancouver Titans,Time Played,280.893137514,16853.588250864
-One,1,SAEBYEOLBE,New York Excelsior,Eliminations,11.916666667,715
-Three,1,SAEBYEOLBE,New York Excelsior,Deaths,3.25,195
-One,1,SoOn,Los Angeles Valiant,Eliminations,19.4,1164
-Two,2,Void,Los Angeles Gladiators,All Damage Done,135.951700757,8157.1020454
-Three - Title,2,Architect,San Francisco Shock,Solo Kills,0.016666667,1
-Three - Title,1,Shaz,Los Angeles Gladiators,All Damage Done,170.260826333,10215.64958
-One - Title,2,JJonak,New York Excelsior,Eliminations,0.033333333,2
-One - Title,2,Rascal,San Francisco Shock,Time Played,0.940897071,56.453824282
-Three - Title,1,Libero,New York Excelsior,All Damage Done,1042.855002552,62571.3001531
-One,1,Asher,Los Angeles Gladiators,Critical Hits,43.283333333,2597
-Four,1,Asher,Los Angeles Gladiators,Eliminations,0.1,6
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,Time Alive,255.157424362,15309.445461713
-Two,1,KariV,Los Angeles Valiant,Solo Kills,0.683333333,41
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,Time Alive,126.128553819,7567.713229124
-Inaugural Championship,1,Mistakes,Boston Uprising,Time Alive,108.595469934,6515.728196034
-Two,1,DreamKazper,Boston Uprising,All Damage Done,8521.099164901,511265.94989409
-One,2,Adora,Hangzhou Spark,Critical Hits,0.316666667,19
-Two,2,Adora,Hangzhou Spark,Deaths,0.35,21
-One - Title,1,Birdring,London Spitfire,All Damage Done,1966.102440517,117966.146431
-Two,1,Kellex,Boston Uprising,Solo Kills,0.016666667,1
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,Time Played,321.587970944,19295.278256614
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,Solo Kills,0.25,15
-Two,1,Envy,Los Angeles Valiant,Time Alive,2.231716734,133.903004037
-Two,2,Adora,Hangzhou Spark,Critical Hits,1.4,84
-Two - Title,2,Rascal,San Francisco Shock,Eliminations,0.05,3
-Inaugural Championship,1,KariV,Los Angeles Valiant,Time Played,16.53533488,992.120092785
-Season 2 Championship,2,STRIKER,San Francisco Shock,Time Played,273.33763342,16400.258005225
-Three,1,Surefour,Los Angeles Gladiators,All Damage Done,7874.602748585,472476.1649151
-Two,2,Mano,New York Excelsior,Time Played,5.029549127,301.772947608
-Three,1,KariV,Los Angeles Valiant,Eliminations,0.516666667,31
-Four,2,Nenne,New York Excelsior,Deaths,1.683333333,101
-Four,1,KSF,Los Angeles Valiant,Critical Hits,0.516666667,31
-Two - Title,2,Mano,New York Excelsior,All Damage Done,1.853833348,111.2300009
-Four,1,Surefour,Los Angeles Gladiators,Time Played,480.34536265,28820.721758983
-Four,1,Fury,London Spitfire,Time Played,0.623711834,37.422710063
-Three,1,DreamKazper,Boston Uprising,Deaths,1,60
-Two,1,Profit,London Spitfire,Solo Kills,1.25,75
-One,1,iRemiix,Los Angeles Gladiators,Time Played,0.017885107,1.073106438
-One,2,GodsB,Hangzhou Spark,Time Played,62.812786093,3768.767165586
-Inaugural Championship,1,STRIKER,Boston Uprising,Eliminations,3.033333333,182
-Two - Title,2,Twilight,Vancouver Titans,Critical Hits,0.2,12
-Two,2,SeoMinSoo,Vancouver Titans,Time Alive,20.55511729,1233.307037401
-One - Title,1,Birdring,London Spitfire,Eliminations,3.05,183
-Four - Title,1,Libero,New York Excelsior,All Damage Done,1987.469633033,119248.177982
-Season 2 Championship,2,Bazzi,Hangzhou Spark,Time Alive,252.518157625,15151.089457502
-Three - Title,2,STRIKER,San Francisco Shock,Solo Kills,0.033333333,2
-Two - Title,2,GodsB,Hangzhou Spark,Eliminations,0.033333333,2
-Season 2 Championship,2,Bazzi,Hangzhou Spark,Eliminations,10.233333333,614
-One,2,Rascal,San Francisco Shock,Eliminations,0.2,12
-Three - Title,2,Guxue,Hangzhou Spark,Time Alive,0.187716672,11.26300034
-Inaugural Championship,1,Mistakes,Boston Uprising,All Damage Done,3287.24473435,197234.684061
-Four,2,STRIKER,San Francisco Shock,Critical Hits,5.316666667,319
-One,2,Adora,Hangzhou Spark,Time Alive,0.635716686,38.143001146
-Two,2,Krystal,Hangzhou Spark,Time Played,38.235372404,2294.122344212
-One,1,Pine,New York Excelsior,Critical Hits,14.333333333,860
-Four - Title,1,KariV,Los Angeles Valiant,Time Alive,0.077800002,4.668000141
-Two,1,Pine,New York Excelsior,Eliminations,1.666666667,100
-Three,1,KariV,Los Angeles Valiant,Time Played,23.889112857,1433.346771449
-One,2,Architect,San Francisco Shock,Solo Kills,0.05,3
-Four,1,Hydration,Los Angeles Gladiators,Time Alive,171.099988488,10265.999309267
-Three,1,Bunny,Los Angeles Valiant,Critical Hits,59.616666667,3577
-One - Title,1,Libero,New York Excelsior,Eliminations,1.983333333,119
-One,1,Shaz,Los Angeles Gladiators,All Damage Done,351.451235597,21087.0741358
-Three,2,Surefour,Los Angeles Gladiators,Solo Kills,0.15,9
-Two - Title,2,Decay,Los Angeles Gladiators,Time Played,0.730220383,43.813223007
-Three,1,KariV,Los Angeles Valiant,Solo Kills,0.05,3
-Three - Title,1,Hydration,Los Angeles Gladiators,Deaths,0.2,12
-One,1,Libero,New York Excelsior,Time Alive,200.02050562,12001.230337206
-Two,2,sinatraa,San Francisco Shock,Deaths,0.35,21
-Two,2,Surefour,Los Angeles Gladiators,Solo Kills,0.066666667,4
-Season 2 Championship,2,Libero,New York Excelsior,Time Played,256.325413059,15379.524783527
-Three,1,Pine,New York Excelsior,Eliminations,5.966666667,358
-Season 2 Championship,2,Architect,San Francisco Shock,Time Played,103.113113084,6186.78678503
-Four,2,sinatraa,San Francisco Shock,Time Played,74.574262467,4474.45574804
-One - Title,2,SLIME,Vancouver Titans,Time Played,0.129819403,7.789164186
-Two,2,Nenne,New York Excelsior,Critical Hits,1.316666667,79
-Three - Title,1,Asher,Los Angeles Gladiators,Deaths,0.1,6
-One,1,Pine,New York Excelsior,Deaths,1.933333333,116
-Two,2,SASIN,Hangzhou Spark,Time Alive,8.630766927,517.8460156
-Four,1,Void,Los Angeles Gladiators,Time Played,0.470237222,28.214233343
-Season 2 Championship,2,Fl0w3R,New York Excelsior,Solo Kills,0.016666667,1
-Three - Title,1,Surefour,Los Angeles Gladiators,All Damage Done,402.59161923,24155.4971538
-Four,2,Rascal,San Francisco Shock,Eliminations,9.65,579
-One,1,Hydration,Los Angeles Gladiators,Deaths,4.4,264
-Inaugural Championship,1,Birdring,London Spitfire,Deaths,2.366666667,142
-One - Title,1,Rascal,London Spitfire,All Damage Done,225.756294387,13545.3776632
-Four,2,Fl0w3R,New York Excelsior,Time Alive,88.066702662,5284.002159741
-Three - Title,1,Mistakes,Boston Uprising,Deaths,1.1,66
-Four,1,KariV,Los Angeles Valiant,All Damage Done,227.53681592,13652.2089552
-Four,1,Void,Los Angeles Gladiators,Critical Hits,0.15,9
-Three,1,SoOn,Los Angeles Valiant,Deaths,4.166666667,250
-One,1,Rascal,London Spitfire,Critical Hits,0.833333333,50
-Two - Title,1,Profit,London Spitfire,Deaths,0.5,30
-Season 2 Championship,2,Decay,Los Angeles Gladiators,Solo Kills,0.016666667,1
-One,1,NUS,London Spitfire,Time Alive,0.202050006,12.123000361
-Three,2,SAEBYEOLBE,New York Excelsior,Deaths,1.833333333,110
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,Time Alive,8.387066922,503.22401529
-Two,1,Hydration,Los Angeles Gladiators,Time Played,287.770125252,17266.207515144
-Four - Title,1,SAEBYEOLBE,New York Excelsior,Deaths,0.4,24
-Three,2,Stitch,Vancouver Titans,Deaths,0.2,12
-Four,1,KariV,Los Angeles Valiant,Deaths,0.1,6
-Three - Title,1,Bunny,Los Angeles Valiant,Deaths,0.183333333,11
-Four,1,Mistakes,Boston Uprising,Critical Hits,18.366666667,1102
-Three - Title,2,Stitch,Vancouver Titans,Time Played,59.084761433,3545.085686007
-Three - Title,1,Surefour,Los Angeles Gladiators,Time Alive,6.927866877,415.6720126
-Four,2,Libero,New York Excelsior,Eliminations,8.85,531
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,All Damage Done,7340.538399788,440432.30398729
-Three - Title,1,STRIKER,Boston Uprising,All Damage Done,1919.866219117,115191.973147
-Four,2,Hydration,Los Angeles Gladiators,Time Alive,7.569533561,454.17201365
-Two - Title,2,Twilight,Vancouver Titans,Solo Kills,0.016666667,1
-Three - Title,1,JJonak,New York Excelsior,Time Played,0.681397779,40.88386673
-Three - Title,2,SeoMinSoo,Vancouver Titans,Time Played,19.935678477,1196.140708617
-Two,2,rOar,Los Angeles Gladiators,Time Alive,0.242200007,14.532000434
-Two,1,BigG00se,Los Angeles Gladiators,Eliminations,0.5,30
-Two,2,Surefour,Los Angeles Gladiators,All Damage Done,1059.968056832,63598.08340995
-Four,2,Architect,San Francisco Shock,All Damage Done,7335.582732895,440134.9639737
-Inaugural Championship,1,Agilities,Los Angeles Valiant,Solo Kills,0.233333333,14
-One,1,Pine,New York Excelsior,Solo Kills,0.716666667,43
-Two,1,Kellex,Boston Uprising,Deaths,0.066666667,4
-Season 2 Championship,2,Decay,Los Angeles Gladiators,Time Played,67.812258351,4068.735501079
-One,1,Birdring,London Spitfire,Eliminations,15.733333333,944
-One,1,Profit,London Spitfire,Time Alive,173.914088243,10434.84529461
-One,1,Mano,New York Excelsior,Solo Kills,0.033333333,2
-Three,1,STRIKER,Boston Uprising,Solo Kills,1.383333333,83
-Two,2,Decay,Los Angeles Gladiators,Time Alive,107.171386572,6430.283194294
-Three - Title,2,STRIKER,San Francisco Shock,Time Alive,10.962783662,657.767019739
-Four,1,Hydration,Los Angeles Gladiators,Solo Kills,0.483333333,29
-Three,1,KSF,Los Angeles Valiant,Critical Hits,0.083333333,5
-Four,1,Pine,New York Excelsior,Time Alive,34.63525104,2078.11506239
-Season 2 Championship,2,Fl0w3R,New York Excelsior,All Damage Done,1060.7367778,63644.206668
-Four,2,sinatraa,San Francisco Shock,Deaths,0.683333333,41
-Inaugural Championship,1,STRIKER,Boston Uprising,Solo Kills,0.433333333,26
-One,1,Bdosin,London Spitfire,Deaths,0.116666667,7
-Four,1,KariV,Los Angeles Valiant,Time Alive,0.262100008,15.726000474
-Three - Title,2,Rascal,San Francisco Shock,Eliminations,0.933333333,56
-One,2,BUMPER,Vancouver Titans,All Damage Done,10.483754784,629.02528706
-Four,1,Mano,New York Excelsior,Deaths,0.033333333,2
-One,1,uNKOE,Los Angeles Valiant,Time Played,1.168209539,70.09257233
-Two,1,Asher,Los Angeles Gladiators,Time Played,390.118972818,23407.138369087
-Two,1,SAEBYEOLBE,New York Excelsior,Time Played,557.754878793,33465.29272758
-Three,1,Agilities,Los Angeles Valiant,Solo Kills,0.733333333,44
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,Solo Kills,0.3,18
-Two - Title,1,Bdosin,London Spitfire,Time Played,0.178454848,10.70729089
-Three,2,Decay,Los Angeles Gladiators,Critical Hits,5.416666667,325
-Four - Title,1,Pine,New York Excelsior,Solo Kills,0.3,18
-One,1,Envy,Los Angeles Valiant,All Damage Done,403.435163743,24206.1098246
-Four,2,STRIKER,San Francisco Shock,All Damage Done,1015.350647223,60921.0388334
-One,1,SoOn,Los Angeles Valiant,Deaths,6.283333333,377
-One,2,Mano,New York Excelsior,All Damage Done,0.168862824,10.13176942
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,Deaths,1.45,87
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,Critical Hits,0.05,3
-Four,1,KSF,Los Angeles Valiant,Time Played,37.862026498,2271.72158986
-Four,2,Adora,Hangzhou Spark,Time Played,374.673205683,22480.392340956
-Two,1,SoOn,Los Angeles Valiant,Solo Kills,1.466666667,88
-Two,1,Surefour,Los Angeles Gladiators,Deaths,3.433333333,206
-Four,1,silkthread,Los Angeles Gladiators,Solo Kills,0.05,3
-Three - Title,1,SoOn,Los Angeles Valiant,Time Played,13.867748819,832.06492911
-Three,1,JJonak,New York Excelsior,Time Alive,0.432283346,25.937000779
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,Time Played,136.008341645,8160.500498683
-Three - Title,1,Shaz,Los Angeles Gladiators,Critical Hits,0.066666667,4
-One,2,Nevix,San Francisco Shock,All Damage Done,6.366666857,382.0000114
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,Solo Kills,0.833333333,50
-Two - Title,1,Birdring,London Spitfire,All Damage Done,877.207191722,52632.4315033
-Four,1,Libero,New York Excelsior,Deaths,3.683333333,221
-Four,2,Architect,San Francisco Shock,Time Played,267.309163494,16038.549809622
-Four,2,Adora,Hangzhou Spark,All Damage Done,8022.981165836,481378.86995019
-Four - Title,1,SAEBYEOLBE,New York Excelsior,Time Alive,26.493734134,1589.624048018
-Inaugural Championship,1,JJonak,New York Excelsior,Deaths,0.05,3
-Two,2,Adora,Hangzhou Spark,All Damage Done,854.748775783,51284.926547
-One,2,GodsB,Hangzhou Spark,Solo Kills,0.083333333,5
-Three,1,SoOn,Los Angeles Valiant,Time Played,412.423835595,24745.43013569
-One,1,JJonak,New York Excelsior,Critical Hits,0.516666667,31
-One,1,Hooreg,London Spitfire,Time Alive,61.08596839,3665.15810338
-Two,2,Surefour,Los Angeles Gladiators,Time Alive,53.170851615,3190.25109692
-One,1,Asher,Los Angeles Gladiators,Time Played,279.236357501,16754.181450033
-Three,1,SAEBYEOLBE,New York Excelsior,Critical Hits,80.966666667,4858
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,Critical Hits,45.3,2718
-One,2,moth,San Francisco Shock,All Damage Done,14.888502142,893.3101285
-Two,2,BEBE,Hangzhou Spark,Time Alive,6.217266855,373.03601132
-Two,1,Birdring,London Spitfire,Solo Kills,0.716666667,43
-Season 2 Championship,2,STRIKER,San Francisco Shock,Eliminations,11.266666667,676
-One,2,Bazzi,Hangzhou Spark,All Damage Done,587.387291258,35243.23747547
-Two,2,Haksal,Vancouver Titans,Solo Kills,0.016666667,1
-Two,1,Janus,New York Excelsior,Time Played,0.162293813,9.737628758
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,Critical Hits,50.866666667,3052
-Season 2 Championship,2,Adora,Hangzhou Spark,All Damage Done,423.680361,25420.82166
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,Deaths,1.716666667,103
-Two - Title,2,GodsB,Hangzhou Spark,All Damage Done,36.041485333,2162.48912
-Two - Title,2,Hydration,Los Angeles Gladiators,All Damage Done,1.427127882,85.62767291
-Four,1,Anamo,New York Excelsior,Time Alive,0.046900001,2.814000085
-Three,2,Choihyobin,San Francisco Shock,Eliminations,0.316666667,19
-One - Title,2,JJonak,New York Excelsior,Solo Kills,0.016666667,1
-One - Title,1,Bdosin,London Spitfire,Deaths,0.083333333,5
-One - Title,2,BUMPER,Vancouver Titans,Time Alive,1.167250035,70.035002124
-Two - Title,1,Profit,London Spitfire,Solo Kills,0.05,3
-Three,1,Surefour,Los Angeles Gladiators,Time Played,506.67502791,30400.501674573
-Three,1,STRIKER,Boston Uprising,Critical Hits,80.45,4827
-Three - Title,2,SeoMinSoo,Vancouver Titans,Time Alive,17.934067211,1076.04403268
-One,2,Bazzi,Hangzhou Spark,Solo Kills,0.083333333,5
-Three - Title,2,Stitch,Vancouver Titans,All Damage Done,942.622393733,56557.343624
-One - Title,1,Rascal,London Spitfire,Deaths,0.1,6
-Four,1,Pine,New York Excelsior,Deaths,1.866666667,112
-Three,1,MekO,New York Excelsior,Time Played,0.762273298,45.736397869
-Three - Title,1,Bunny,Los Angeles Valiant,Solo Kills,0.016666667,1
-Two,1,BigG00se,Los Angeles Gladiators,All Damage Done,253.817700638,15229.0620383
-Two,2,Hooreg,Vancouver Titans,Critical Hits,1.016666667,61
-Three,2,Decay,Los Angeles Gladiators,Time Played,103.629927291,6217.795637453
-Three,1,SAEBYEOLBE,New York Excelsior,Time Alive,254.327441045,15259.64646273
-Four,2,Surefour,Los Angeles Gladiators,Time Alive,368.836244508,22130.174670507
-Three - Title,1,Neko,Boston Uprising,Deaths,0.016666667,1
-Two,1,Envy,Los Angeles Valiant,Time Played,7.205486987,432.329219196
-Two,1,DreamKazper,Boston Uprising,Critical Hits,11.7,702
-Four,1,Mano,New York Excelsior,All Damage Done,6.991666667,419.5
-Two,2,GodsB,Hangzhou Spark,Critical Hits,11.25,675
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,Eliminations,1.566666667,94
-Three - Title,1,Asher,Los Angeles Gladiators,Time Played,7.68980495,461.388297
-Two,2,Rascal,San Francisco Shock,Critical Hits,0.016666667,1
-Three - Title,1,Pine,New York Excelsior,Deaths,0.583333333,35
-Two,2,JJonak,New York Excelsior,Eliminations,0.033333333,2
-Four,2,GodsB,Hangzhou Spark,Eliminations,9.75,585
-Three,1,Bdosin,London Spitfire,Eliminations,0.316666667,19
-Four,1,Gesture,London Spitfire,Deaths,0.033333333,2
-Four,1,Hydration,Los Angeles Gladiators,Time Played,309.282460715,18556.947642907
-Season 2 Championship,2,Rascal,San Francisco Shock,Eliminations,4.15,249
-One - Title,1,Libero,New York Excelsior,Critical Hits,1.166666667,70
-Three,1,Neko,Boston Uprising,Time Played,6.618957479,397.137448723
-Four,2,Decay,Los Angeles Gladiators,Time Alive,360.508960831,21630.537649886
-Three,1,JJonak,New York Excelsior,Eliminations,0.45,27
-One,2,sinatraa,San Francisco Shock,Time Played,13.07514971,784.508982606
-Four - Title,1,Agilities,Los Angeles Valiant,Time Alive,36.763617771,2205.817066245
-One - Title,2,Libero,New York Excelsior,Critical Hits,0.016666667,1
-Three - Title,1,SAEBYEOLBE,New York Excelsior,Solo Kills,0.2,12
-Two - Title,2,Mano,New York Excelsior,Time Played,0.956977066,57.418623988
-Two - Title,1,Profit,London Spitfire,Eliminations,0.966666667,58
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,Critical Hits,0.116666667,7
-Two,2,Krystal,Hangzhou Spark,Solo Kills,0.1,6
-Four,2,Libero,New York Excelsior,Time Played,339.839983403,20390.399004163
-One,1,Agilities,Los Angeles Valiant,Solo Kills,0.783333333,47
-Four,2,SeoMinSoo,Vancouver Titans,Time Alive,82.216369149,4932.98214895
-Four,1,JJonak,New York Excelsior,Time Alive,1.309766706,78.586002355
-One,1,MekO,New York Excelsior,Deaths,0.016666667,1
-Three,2,Hydration,Los Angeles Gladiators,Eliminations,1.5,90
-One,2,Stitch,Vancouver Titans,Solo Kills,0.016666667,1
-One,2,JJonak,New York Excelsior,Deaths,0.083333333,5
-Two,1,Hooreg,London Spitfire,Time Played,156.055092459,9363.305547554
-Two,1,BigG00se,Los Angeles Gladiators,Time Alive,16.488350499,989.301029916
-Two,1,Profit,London Spitfire,Time Alive,197.617389329,11857.043359728
-Three,1,Hooreg,London Spitfire,All Damage Done,5550.272236367,333016.334182
-One,1,Shaz,Los Angeles Gladiators,Deaths,0.216666667,13
-Two,1,Envy,Los Angeles Valiant,Solo Kills,0.066666667,4
-One,1,SoOn,Los Angeles Valiant,Time Alive,234.852639926,14091.15839553
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,Time Alive,489.345731458,29360.743887484
-Season 2 Championship,2,Architect,San Francisco Shock,Time Alive,94.854252862,5691.255171723
-Three - Title,2,Mano,New York Excelsior,Time Alive,0.647966686,38.878001185
-Four,2,STRIKER,San Francisco Shock,Eliminations,1.933333333,116
-Two,2,BEBE,Hangzhou Spark,Eliminations,0.05,3
-One - Title,1,Bdosin,London Spitfire,Eliminations,0.1,6
-One - Title,1,Rascal,London Spitfire,Solo Kills,0.033333333,2
-One,2,Libero,New York Excelsior,Time Played,11.858975186,711.538511179
-Three,1,KSF,Los Angeles Valiant,Eliminations,0.033333333,2
-One - Title,2,Libero,New York Excelsior,All Damage Done,5.90533549,354.3201294
-One,1,Bdosin,London Spitfire,All Damage Done,180.009483552,10800.5690131
-Three,1,Mistakes,Boston Uprising,Deaths,4.466666667,268
-One,1,Mano,New York Excelsior,All Damage Done,24.945127202,1496.7076321
-Two,1,HaGoPeun,London Spitfire,Time Alive,3.766933448,226.016006855
-Two,2,Libero,New York Excelsior,Critical Hits,0.15,9
-Three,2,sinatraa,San Francisco Shock,Time Played,58.676016792,3520.56100754
-Four - Title,1,Pine,New York Excelsior,Time Played,47.807024357,2868.42146141
-Inaugural Championship,1,SoOn,Los Angeles Valiant,All Damage Done,1855.937932188,111356.2759313
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,Eliminations,11.933333333,716
-One - Title,2,SLIME,Vancouver Titans,All Damage Done,4.95,297
-Three - Title,2,Rascal,San Francisco Shock,Time Played,28.761881976,1725.712918533
-Four,2,Hydration,Los Angeles Gladiators,Deaths,0.116666667,7
-Two,1,JJonak,New York Excelsior,All Damage Done,73.984375582,4439.0625349
-Four,1,silkthread,Los Angeles Gladiators,Time Alive,9.460450286,567.627017145
-Four,1,SAEBYEOLBE,New York Excelsior,Time Played,390.360751558,23421.645093455
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,Eliminations,3.333333333,200
-Three,1,Bischu,Los Angeles Gladiators,Time Alive,0.037450001,2.247000067
-Two,1,uNKOE,Los Angeles Valiant,Deaths,0.3,18
-Four,2,Hooreg,Vancouver Titans,Eliminations,3.483333333,209
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,Time Alive,726.399421817,43583.96530905
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,Deaths,4.55,273
-Four,2,Architect,San Francisco Shock,Deaths,2.05,123
-Three,1,SoOn,Los Angeles Valiant,Time Alive,158.057604784,9483.456287062
-Three,1,KariV,Los Angeles Valiant,Deaths,0.216666667,13
-One,2,Hydration,Los Angeles Gladiators,Time Alive,14.021383754,841.28302523
-One - Title,2,Choihyobin,San Francisco Shock,Time Alive,0.024616667,1.477000044
-Four,1,MekO,New York Excelsior,Time Played,3.6651693,219.910157982
-One,1,Hydration,Los Angeles Gladiators,Solo Kills,0.6,36
-Four,1,Mistakes,Boston Uprising,Time Alive,173.492171887,10409.530313201
-Four - Title,1,KariV,Los Angeles Valiant,Time Played,0.064847869,3.890872121
-One,2,Surefour,Los Angeles Gladiators,Deaths,0.25,15
-Three,2,BUMPER,Vancouver Titans,All Damage Done,263.960737625,15837.6442575
-Three,1,Pine,New York Excelsior,Time Played,227.233141005,13633.988460308
-One - Title,1,Fury,London Spitfire,All Damage Done,1.166666667,70
-Three - Title,2,Haksal,Vancouver Titans,All Damage Done,283.136190548,16988.1714329
-Two - Title,2,Mano,New York Excelsior,Deaths,0.016666667,1
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,Time Played,626.604923035,37596.295382083
-Two - Title,2,Rascal,San Francisco Shock,All Damage Done,24.619462362,1477.1677417
-One - Title,2,Haksal,Vancouver Titans,Eliminations,0.133333333,8
-Two - Title,1,Gesture,London Spitfire,Time Alive,0.050033335,3.002000088
-Four - Title,1,Surefour,Los Angeles Gladiators,Eliminations,1.366666667,82
-Inaugural Championship,1,Birdring,London Spitfire,Time Played,299.859520727,17991.571243623
-Inaugural Championship,1,Agilities,Los Angeles Valiant,Time Played,92.681584619,5560.895077116
-Two,2,Shaz,Los Angeles Gladiators,Time Played,0.308194456,18.49166739
-Two,1,Agilities,Los Angeles Valiant,Solo Kills,0.183333333,11
-Season 2 Championship,2,Rascal,San Francisco Shock,Solo Kills,0.066666667,4
-Three,1,Hydration,Los Angeles Gladiators,Deaths,2.533333333,152
-Three - Title,1,Asher,Los Angeles Gladiators,Time Alive,6.816383538,408.9830123
-Two,2,Hydration,Los Angeles Gladiators,Deaths,0.366666667,22
-Four,1,Gesture,London Spitfire,Time Alive,0.202416673,12.14500036
-One,1,Libero,New York Excelsior,Solo Kills,1.15,69
-One,1,KariV,Los Angeles Valiant,Time Alive,1.210533367,72.63200203
-Three,2,Choihyobin,San Francisco Shock,Time Alive,7.822300236,469.338014171
-Three - Title,2,Adora,Hangzhou Spark,Critical Hits,0.283333333,17
-Three,1,silkthread,Los Angeles Gladiators,Solo Kills,0.1,6
-Three,2,GodsB,Hangzhou Spark,Time Alive,48.478568139,2908.714088332
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,Eliminations,18.583333333,1115
-One,2,Mano,New York Excelsior,Time Played,0.518893657,31.133619427
-Two,2,iDK,Hangzhou Spark,Time Alive,2.750183417,165.01100501
-Three - Title,2,Nenne,New York Excelsior,Eliminations,0.683333333,41
-One - Title,1,Bdosin,London Spitfire,Critical Hits,0.016666667,1
-Two,2,Haksal,Vancouver Titans,Deaths,0.383333333,23
-One,2,STRIKER,San Francisco Shock,All Damage Done,224.783792918,13487.0275751
-Two - Title,1,Birdring,London Spitfire,Critical Hits,2.166666667,130
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,Solo Kills,0.133333333,8
-Two,1,Mano,New York Excelsior,All Damage Done,11.083333333,665
-Three,2,Twilight,Vancouver Titans,Deaths,0.05,3
-Three,2,SeoMinSoo,Vancouver Titans,Time Played,138.031069853,8281.864191204
-Four - Title,1,Agilities,Los Angeles Valiant,Deaths,0.45,27
-Two,1,MekO,New York Excelsior,Time Played,0.518983669,31.13902015
-Four,2,Fl0w3R,New York Excelsior,Critical Hits,2.65,159
-One,1,STRIKER,Boston Uprising,Time Played,543.205405558,32592.324333507
-Four,1,NUS,London Spitfire,Deaths,0.016666667,1
-Inaugural Championship,1,Profit,London Spitfire,Deaths,1.8,108
-One,1,Neko,Boston Uprising,Critical Hits,0.283333333,17
-Four - Title,1,Libero,New York Excelsior,Eliminations,2.2,132
-Four,2,Stitch,Vancouver Titans,Time Played,193.494085718,11609.645143086
-One,2,Adora,Hangzhou Spark,Eliminations,0.033333333,2
-Three,1,Mano,New York Excelsior,Deaths,0.016666667,1
-Two,1,Gesture,London Spitfire,Time Played,4.445738805,266.744328315
-Inaugural Championship,1,Bdosin,London Spitfire,Critical Hits,3.05,183
-Three,1,MekO,New York Excelsior,Time Alive,0.280683342,16.84100051
-Three,1,JJonak,New York Excelsior,Time Played,14.790846233,887.450773957
-Two,1,SoOn,Los Angeles Valiant,All Damage Done,9604.69237929,576281.5427574
-One,1,Mano,New York Excelsior,Critical Hits,0.05,3
-Four - Title,1,MekO,New York Excelsior,Deaths,0.016666667,1
-Three,2,Stitch,Vancouver Titans,All Damage Done,804.89074725,48293.444835
-Four,1,Bunny,Los Angeles Valiant,All Damage Done,847.104195348,50826.25172087
-Inaugural Championship,1,Fury,London Spitfire,Eliminations,0.083333333,5
-Three - Title,1,JJonak,New York Excelsior,Time Alive,0.074416669,4.465000135
-Three - Title,2,Choihyobin,San Francisco Shock,Time Played,1.849019701,110.94118208
-Three - Title,2,Ria,Hangzhou Spark,Eliminations,0.016666667,1
-Four,1,Surefour,Los Angeles Gladiators,Time Alive,213.703023144,12822.181388656
-One - Title,2,sinatraa,San Francisco Shock,All Damage Done,6.947910308,416.8746185
-Three - Title,1,Surefour,Los Angeles Gladiators,Eliminations,0.583333333,35
-One,2,moth,San Francisco Shock,Time Played,0.389225802,23.35354811
-Three - Title,2,Viol2t,San Francisco Shock,Time Alive,0.039666668,2.380000073
-Three - Title,2,Architect,San Francisco Shock,Critical Hits,0.05,3
-One,1,NotE,Boston Uprising,Time Alive,0.569400015,34.164000929
-One,1,STRIKER,Boston Uprising,All Damage Done,9877.109249983,592626.554999
-Three - Title,2,JJonak,New York Excelsior,All Damage Done,0.7,42
-One,2,Viol2t,San Francisco Shock,Time Alive,0.018783334,1.127000035
-One - Title,1,Pine,New York Excelsior,Time Played,15.967574157,958.0544494
-Four,2,Surefour,Los Angeles Gladiators,Time Played,401.57080786,24094.24847158
-Inaugural Championship,1,Agilities,Los Angeles Valiant,Critical Hits,0.983333333,59
-Three,2,Haksal,Vancouver Titans,Eliminations,1.5,90
-Three,1,KariV,Los Angeles Valiant,Time Alive,1.632966716,97.978002962
-Inaugural Championship,1,Fury,London Spitfire,Deaths,0.016666667,1
-Inaugural Championship,1,Mano,New York Excelsior,Time Alive,0.424283346,25.457000765
-One,2,MekO,New York Excelsior,Time Alive,43.151701309,2589.102078518
-Two,2,Shaz,Los Angeles Gladiators,All Damage Done,0.75,45
-Four,1,Profit,London Spitfire,Time Played,324.026763464,19441.605807815
-Three,1,Mano,New York Excelsior,All Damage Done,2.5,150
-Three - Title,2,Mano,New York Excelsior,Time Played,0.665128862,39.907731714
-Three - Title,1,SoOn,Los Angeles Valiant,Solo Kills,0.066666667,4
-Two,2,Krystal,Hangzhou Spark,Deaths,0.483333333,29
-Three,1,Agilities,Los Angeles Valiant,Time Played,361.211063265,21672.663795922
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,Critical Hits,34.116666667,2047
-Two,1,KariV,Los Angeles Valiant,All Damage Done,5892.099891917,353525.993515
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,Critical Hits,14.183333333,851
-One - Title,2,Haksal,Vancouver Titans,Time Played,2.806455287,168.387317243
-One,1,Neko,Boston Uprising,Deaths,0.25,15
-Three - Title,1,KariV,Los Angeles Valiant,Time Played,3.308475488,198.5085293
-Two,1,uNKOE,Los Angeles Valiant,Critical Hits,0.016666667,1
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,Time Alive,134.246487388,8054.7892433
-Three,1,Hooreg,London Spitfire,Time Played,367.270413707,22036.224822419
-One,2,STRIKER,San Francisco Shock,Deaths,0.133333333,8
-Two,2,Stitch,Vancouver Titans,Time Alive,16.732967176,1003.97803054
-Two,2,SASIN,Hangzhou Spark,Time Played,9.31129523,558.6777138
-Four,2,Hooreg,Vancouver Titans,All Damage Done,2808.581257499,168514.87544992
-Three - Title,1,KariV,Los Angeles Valiant,Eliminations,0.1,6
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,All Damage Done,15610.904649369,936654.27896214
-One,1,Birdring,London Spitfire,Solo Kills,1.216666667,73
-Two - Title,2,BUMPER,Vancouver Titans,Time Alive,5.931783513,355.90701075
-One,2,Nevix,San Francisco Shock,Deaths,0.016666667,1
-One,2,Haksal,Vancouver Titans,Time Alive,22.523467346,1351.408040749
-Three,2,Fl0w3R,New York Excelsior,Eliminations,0.333333333,20
-Season 2 Championship,2,Decay,Los Angeles Gladiators,Critical Hits,0.283333333,17
-Inaugural Championship,1,Profit,London Spitfire,Time Alive,206.303739583,12378.224374973
-One,2,Void,Los Angeles Gladiators,Critical Hits,0.433333333,26
-One - Title,1,Profit,London Spitfire,Eliminations,3.266666667,196
-One,2,Architect,San Francisco Shock,Time Alive,21.506767312,1290.406038731
-One,2,Surefour,Los Angeles Gladiators,Time Played,44.951030055,2697.06180331
-Two,2,JJonak,New York Excelsior,Deaths,0.05,3
-Three,2,SeoMinSoo,Vancouver Titans,Deaths,0.75,45
-Two,2,sinatraa,San Francisco Shock,All Damage Done,1676.068345468,100564.1007281
-Three,1,Libero,New York Excelsior,Time Played,369.835268464,22190.116107832
-Inaugural Championship,1,Agilities,Los Angeles Valiant,Time Alive,74.653018912,4479.181134707
-One,1,MekO,New York Excelsior,Time Alive,0.291000008,17.46000046
-Four,1,Void,Los Angeles Gladiators,Time Alive,0.346966677,20.818000614
-Two,2,Anamo,New York Excelsior,Time Alive,0.0154,0.924000028
-One,2,BEBE,Hangzhou Spark,Time Alive,5.4984835,329.909010015
-Three,2,Stitch,Vancouver Titans,Solo Kills,0.033333333,2
-Three,1,Custa,Los Angeles Valiant,Time Played,0.064936425,3.896185517
-One,2,Haksal,Vancouver Titans,Time Played,24.998705706,1499.922342374
-Two,1,Bdosin,London Spitfire,Time Played,3.730567475,223.834048484
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,Critical Hits,6.966666667,418
-Four,1,Fissure,Los Angeles Gladiators,All Damage Done,1.681467438,100.8880463
-Two,1,Mano,New York Excelsior,Time Played,2.1091074,126.546443998
-Two,2,Nenne,New York Excelsior,Time Played,36.677176331,2200.630579848
-Season 2 Championship,2,STRIKER,San Francisco Shock,Critical Hits,48.683333333,2921
-Four - Title,1,Surefour,Los Angeles Gladiators,Solo Kills,0.2,12
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,Time Alive,613.240768554,36794.446113255
-Two,1,STRIKER,Boston Uprising,Time Alive,249.113574195,14946.814451675
-Three,1,Gesture,London Spitfire,All Damage Done,5.091458257,305.4874954
-Two,2,JJANU,Vancouver Titans,Time Alive,0.074666669,4.480000136
-Two,2,Hooreg,Vancouver Titans,Eliminations,0.216666667,13
-One - Title,1,SAEBYEOLBE,New York Excelsior,Solo Kills,0.1,6
-Three,1,Surefour,Los Angeles Gladiators,Time Alive,196.250755968,11775.045358084
-Three,1,Gesture,London Spitfire,Time Played,0.470313895,28.218833683
-Two - Title,2,iDK,Hangzhou Spark,Time Alive,0.092983336,5.579000168
-Three,1,STRIKER,Boston Uprising,Eliminations,18.666666667,1120
-Two,2,Architect,San Francisco Shock,Time Alive,0.11456667,6.874000208
-Two,2,Fl0w3R,New York Excelsior,Time Alive,10.322300313,619.338018783
-Four - Title,1,Agilities,Los Angeles Valiant,Eliminations,1.6,96
-Two,1,Hydration,Los Angeles Gladiators,Deaths,3.1,186
-Three,2,Ria,Hangzhou Spark,Eliminations,0.3,18
-Two,2,moth,San Francisco Shock,Time Alive,0.094500003,5.670000171
-Three,2,BUMPER,Vancouver Titans,Time Played,12.798836076,767.93016456
-Inaugural Championship,1,Pine,New York Excelsior,All Damage Done,1206.51071945,72390.643167
-Three,2,BUMPER,Vancouver Titans,Solo Kills,0.033333333,2
-Three - Title,1,Pine,New York Excelsior,Eliminations,1.2,72
-Three - Title,2,Guxue,Hangzhou Spark,Time Played,0.162209373,9.732562363
-Two,1,Hooreg,London Spitfire,Solo Kills,0.266666667,16
-One,1,Libero,New York Excelsior,Deaths,4.9,294
-Two - Title,2,Twilight,Vancouver Titans,Time Played,6.197556956,371.853417355
-One,2,Choihyobin,San Francisco Shock,Time Played,12.944116144,776.64696864
-Three,1,Bunny,Los Angeles Valiant,Eliminations,9.7,582
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,Solo Kills,0.15,9
-Four,2,Stitch,Vancouver Titans,Solo Kills,0.366666667,22
-Three,1,Asher,Los Angeles Gladiators,All Damage Done,4993.255513733,299595.330824
-Inaugural Championship,1,Agilities,Los Angeles Valiant,Deaths,1.016666667,61
-Four,2,SAEBYEOLBE,New York Excelsior,Deaths,0.55,33
-Three - Title,2,Choihyobin,San Francisco Shock,Critical Hits,0.366666667,22
-Four,2,Surefour,Los Angeles Gladiators,Eliminations,11.033333333,662
-One,1,silkthread,Los Angeles Valiant,Time Alive,153.660537659,9219.63225954
-Season 2 Championship,2,STRIKER,San Francisco Shock,Time Alive,247.968724148,14878.123448877
-Season 2 Championship,2,GodsB,Hangzhou Spark,Time Alive,244.456624068,14667.397444062
-One - Title,2,Haksal,Vancouver Titans,All Damage Done,112.829478022,6769.7686813
-One,2,MekO,New York Excelsior,All Damage Done,869.667575738,52180.0545443
-Four,1,SAEBYEOLBE,New York Excelsior,Eliminations,10.633333333,638
-Four,1,NUS,London Spitfire,Time Played,1.589774105,95.386446307
-Three,2,Nenne,New York Excelsior,Time Played,70.676911328,4240.614679684
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,Critical Hits,7.216666667,433
-Four,2,Stitch,Vancouver Titans,Critical Hits,12.266666667,736
-Three,1,Birdring,London Spitfire,Time Alive,80.175419092,4810.525145524
-Four,1,STRIKER,Boston Uprising,All Damage Done,9299.138350486,557948.301029172
-Two,2,BEBE,Hangzhou Spark,Critical Hits,0.166666667,10
-Four,1,STRIKER,Boston Uprising,Time Alive,211.441506382,12686.490382897
-Season 2 Championship,2,Architect,San Francisco Shock,Critical Hits,4.366666667,262
-Three - Title,2,Nenne,New York Excelsior,Deaths,0.233333333,14
-One - Title,2,sinatraa,San Francisco Shock,Time Played,0.551789716,33.107382955
-One,1,Asher,Los Angeles Gladiators,Deaths,3,180
-One,2,Adora,Hangzhou Spark,All Damage Done,12.296228822,737.7737293
-One - Title,1,Bdosin,London Spitfire,Time Played,4.76992876,286.19572559
-Two,2,Twilight,Vancouver Titans,Time Played,5.695189848,341.711390851
-Four,1,Surefour,Los Angeles Gladiators,Eliminations,12.383333333,743
-One,1,NotE,Boston Uprising,Time Played,0.568028851,34.081731082
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,Solo Kills,0.8,48
-Two,1,Fury,London Spitfire,Time Played,0.016215123,0.972907364
-Three,1,Pine,New York Excelsior,Time Alive,107.836136563,6470.168193802
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,Time Played,126.889723149,7613.383388928
-Four,1,Libero,New York Excelsior,Critical Hits,6.7,402
-Three,1,Surefour,Los Angeles Gladiators,Solo Kills,1.383333333,83
-Three,2,Twilight,Vancouver Titans,Solo Kills,0.016666667,1
-Two,2,Ria,Hangzhou Spark,Solo Kills,0.016666667,1
-Two,1,Kellex,Boston Uprising,Critical Hits,0.95,57
-Four,2,SAEBYEOLBE,New York Excelsior,Time Alive,47.35355143,2841.21308583
-Three,2,Viol2t,San Francisco Shock,Deaths,0.016666667,1
-One,1,Agilities,Los Angeles Valiant,Time Played,329.42314474,19765.388684371
-Two,2,Hydration,Los Angeles Gladiators,All Damage Done,1345.916347067,80754.980824
-Three - Title,1,Mistakes,Boston Uprising,Time Played,94.934444357,5696.066661417
-Four,1,Agilities,Los Angeles Valiant,Eliminations,8.983333333,539
-One,2,BigG00se,Los Angeles Gladiators,Time Alive,0.12261667,7.357000224
-One - Title,1,Rascal,London Spitfire,Eliminations,0.316666667,19
-Three,2,GodsB,Hangzhou Spark,Deaths,0.25,15
-Four,2,Bazzi,Hangzhou Spark,Time Played,14.943335001,896.60010003
-Three,2,Hydration,Los Angeles Gladiators,All Damage Done,1139.468224035,68368.09344207
-One - Title,1,Libero,New York Excelsior,Time Played,72.576866996,4354.612019756
-One,2,Ria,Hangzhou Spark,Time Alive,8.307366918,498.442015096
-Four,1,STRIKER,Boston Uprising,Critical Hits,21.633333333,1298
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,Eliminations,15.55,933
-Four,2,SeoMinSoo,Vancouver Titans,Solo Kills,0.15,9
-Two - Title,2,JJANU,Vancouver Titans,Time Alive,0.12401667,7.441000227
-Three - Title,2,MekO,New York Excelsior,Time Played,0.22694626,13.61677563
-Two,1,Hydration,Los Angeles Gladiators,Critical Hits,3.783333333,227
-One,1,SAEBYEOLBE,New York Excelsior,Solo Kills,1.083333333,65
-One,2,Nenne,New York Excelsior,Eliminations,0.416666667,25
-Inaugural Championship,1,Birdring,London Spitfire,Time Alive,246.58972411,14795.383446603
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,All Damage Done,12486.690185756,749201.411145374
-Four,2,Adora,Hangzhou Spark,Time Alive,349.11306054,20946.783632419
-Three - Title,1,JJonak,New York Excelsior,All Damage Done,4.90469141,294.2814846
-One,1,Rascal,London Spitfire,All Damage Done,1048.780523567,62926.831414
-One,2,ArK,New York Excelsior,Time Alive,0.069183335,4.151000126
-Two,1,Surefour,Los Angeles Gladiators,Critical Hits,19.833333333,1190
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,Eliminations,18.7,1122
-One,2,Nevix,San Francisco Shock,Time Played,0.243291744,14.59750462
-Three,2,Surefour,Los Angeles Gladiators,Critical Hits,7.65,459
-Three,2,SAEBYEOLBE,New York Excelsior,Time Played,313.556644613,18813.398676779
-Inaugural Championship,1,MekO,New York Excelsior,Time Alive,0.094816669,5.689000169
-Three,2,Libero,New York Excelsior,All Damage Done,1424.290555525,85457.4333315
-Two,1,BigG00se,Los Angeles Gladiators,Critical Hits,0.016666667,1
-Three - Title,1,SoOn,Los Angeles Valiant,Eliminations,0.233333333,14
-Three - Title,2,Adora,Hangzhou Spark,Time Alive,5.37866683,322.72000982
-Two,2,Krystal,Hangzhou Spark,Eliminations,1.133333333,68
-Four - Title,1,SoOn,Los Angeles Valiant,Eliminations,2.5,150
-One,2,SAEBYEOLBE,New York Excelsior,Time Alive,0.075133336,4.508000135
-Four,1,Mistakes,Boston Uprising,Eliminations,9.833333333,590
-Three - Title,1,SoOn,Los Angeles Valiant,Critical Hits,0.516666667,31
-One,1,DreamKazper,Boston Uprising,Eliminations,18.15,1089
-Three,2,SAEBYEOLBE,New York Excelsior,Solo Kills,0.266666667,16
-One,1,silkthread,Los Angeles Valiant,Solo Kills,0.35,21
-Two,1,Hooreg,London Spitfire,All Damage Done,2507.848228187,150470.8936912
-Three,2,Libero,New York Excelsior,Time Played,58.799785928,3527.987155687
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,Deaths,5.183333333,311
-Three,2,Shaz,Los Angeles Gladiators,Time Played,0.438019524,26.281171445
-Four,1,silkthread,Los Angeles Gladiators,Eliminations,1.616666667,97
-Three,2,GodsB,Hangzhou Spark,Solo Kills,0.033333333,2
-One,2,JJonak,New York Excelsior,Eliminations,0.05,3
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,Eliminations,9.15,549
-Three - Title,1,Bunny,Los Angeles Valiant,Eliminations,0.216666667,13
-Two,2,Haksal,Vancouver Titans,All Damage Done,775.428567917,46525.714075
-Four - Title,1,SAEBYEOLBE,New York Excelsior,Critical Hits,2.483333333,149
-One,1,Bdosin,London Spitfire,Eliminations,0.333333333,20
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,All Damage Done,313.287518725,18797.2511235
-Two,1,Asher,Los Angeles Gladiators,All Damage Done,5769.846258382,346190.7755029
-One,1,Shaz,Los Angeles Gladiators,Critical Hits,0.533333333,32
-Three,2,Haksal,Vancouver Titans,Deaths,0.483333333,29
-OWL 2020 Regular Season,3,ChipSa,Philadelphia Fusion,Deaths,0.1,6
-Three,1,Hooreg,London Spitfire,Solo Kills,0.816666667,49
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,Eliminations,3.416666667,205
-Two - Title,2,Haksal,Vancouver Titans,All Damage Done,264.693896912,15881.6338147
-Two,1,Asher,Los Angeles Gladiators,Eliminations,11.9,714
-One - Title,2,SeoMinSoo,Vancouver Titans,Time Alive,6.320350191,379.221011432
-Two,2,Twilight,Vancouver Titans,Eliminations,0.083333333,5
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,All Damage Done,15070.107926981,904206.47561884
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,Eliminations,23.166666667,1390
-Three,2,iDK,Hangzhou Spark,All Damage Done,8.890002695,533.4001617
-Two,1,Hydration,Los Angeles Gladiators,Solo Kills,0.55,33
-Season 2 Championship,2,STRIKER,San Francisco Shock,Solo Kills,0.133333333,8
-One,2,Stitch,Vancouver Titans,Critical Hits,0.35,21
-Three,2,SASIN,Hangzhou Spark,Eliminations,0.216666667,13
-Two - Title,2,Libero,New York Excelsior,Time Alive,2.010133394,120.608003622
-Two,2,GodsB,Hangzhou Spark,Solo Kills,0.166666667,10
-Two - Title,2,Viol2t,San Francisco Shock,Eliminations,0.066666667,4
-Two - Title,2,JJonak,New York Excelsior,All Damage Done,13.72655834,823.5935004
-Three - Title,2,BUMPER,Vancouver Titans,Deaths,0.033333333,2
-Three - Title,2,Ria,Hangzhou Spark,Time Played,1.67060502,100.2363012
-Two,2,Ria,Hangzhou Spark,Time Alive,17.889050542,1073.343032527
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,Critical Hits,12.216666667,733
-Four,1,STRIKER,Boston Uprising,Deaths,4.783333333,287
-Four - Title,1,MekO,New York Excelsior,All Damage Done,20.338198935,1220.29193608
-Two,2,Stitch,Vancouver Titans,Deaths,0.083333333,5
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,Time Played,782.265334576,46935.920074539
-One - Title,2,JJonak,New York Excelsior,Time Alive,0.32945001,19.767000597
-Three - Title,1,Pine,New York Excelsior,Time Alive,15.704567138,942.27402827
-Four,1,Gesture,London Spitfire,All Damage Done,9.410750993,564.6450596
-Four,1,Fate,Los Angeles Valiant,Time Played,0.032480368,1.948822081
-One,2,iDK,Hangzhou Spark,Eliminations,0.016666667,1
-Four,2,Libero,New York Excelsior,Solo Kills,0.166666667,10
-Four,1,Shaz,Los Angeles Gladiators,Deaths,0.116666667,7
-Four,2,Haksal,Vancouver Titans,All Damage Done,6803.685179615,408221.1107769
-One - Title,2,moth,San Francisco Shock,Time Alive,0.44426668,26.65600081
-Two,1,Kellex,Boston Uprising,Eliminations,0.466666667,28
-Three,2,Hydration,Los Angeles Gladiators,Time Alive,43.644451315,2618.667078893
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,Solo Kills,1.35,81
-Two,1,BigG00se,Los Angeles Gladiators,Time Played,20.082630279,1204.95781672
-One - Title,2,Libero,New York Excelsior,Eliminations,0.016666667,1
-Three - Title,1,STRIKER,Boston Uprising,Deaths,0.666666667,40
-One - Title,1,Rascal,London Spitfire,Critical Hits,0.25,15
-Three,1,Hydration,Los Angeles Gladiators,Eliminations,6.716666667,403
-Two,2,Hydration,Los Angeles Gladiators,Time Played,55.736305382,3344.178322935
-Inaugural Championship,1,JJonak,New York Excelsior,Time Played,3.666120177,219.967210606
-Three - Title,1,Shaz,Los Angeles Gladiators,Deaths,0.016666667,1
-Three,1,Profit,London Spitfire,Time Alive,250.47739094,15028.643456386
-Three,2,Adora,Hangzhou Spark,All Damage Done,377.671949463,22660.3169678
-One,1,Agilities,Los Angeles Valiant,Eliminations,10.716666667,643
-One - Title,2,Twilight,Vancouver Titans,Time Alive,1.537750046,92.265002787
-One,2,Libero,New York Excelsior,Solo Kills,0.016666667,1
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,Time Alive,112.920303395,6775.21820372
-Four,2,Decay,Los Angeles Gladiators,All Damage Done,7519.653824311,451179.22945863
-Two - Title,2,sinatraa,San Francisco Shock,Critical Hits,0.316666667,19
-One,2,Architect,San Francisco Shock,Eliminations,0.533333333,32
-One,2,Libero,New York Excelsior,Eliminations,0.15,9
-Three,1,BigG00se,Los Angeles Gladiators,All Damage Done,4.456573228,267.39439368
-Three - Title,2,Mano,New York Excelsior,All Damage Done,4.14068318,248.4409908
-One,1,Hooreg,London Spitfire,Deaths,0.716666667,43
-Four,1,BigG00se,Los Angeles Gladiators,Deaths,0.066666667,4
-Season 2 Championship,2,Bazzi,Hangzhou Spark,Critical Hits,0.583333333,35
-Four - Title,1,SoOn,Los Angeles Valiant,All Damage Done,1561.230446272,93673.82677633
-Four,1,SAEBYEOLBE,New York Excelsior,Solo Kills,1.416666667,85
-Three,2,Haksal,Vancouver Titans,All Damage Done,1300.730412528,78043.8247517
-Three,2,Surefour,Los Angeles Gladiators,Time Alive,104.449486504,6266.969190231
-Three - Title,2,Libero,New York Excelsior,All Damage Done,13.21377322,792.8263932
-Four,2,Stitch,Vancouver Titans,Deaths,2.083333333,125
-One,1,KariV,Los Angeles Valiant,Deaths,0.333333333,20
-Three - Title,1,Bunny,Los Angeles Valiant,Critical Hits,3.2,192
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,Eliminations,15.533333333,932
-One,2,Architect,San Francisco Shock,Critical Hits,1.116666667,67
-Four,1,SAEBYEOLBE,New York Excelsior,Time Alive,212.25352308,12735.211384791
-One,1,Fissure,London Spitfire,Time Alive,0.077350002,4.641000139
-Three,2,Guxue,Hangzhou Spark,All Damage Done,1.189800008,71.38800049
-Three - Title,2,Adora,Hangzhou Spark,Eliminations,0.1,6
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,All Damage Done,12466.602394042,747996.14364254
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,Deaths,1,60
-Two - Title,2,MekO,New York Excelsior,Time Played,2.514718601,150.883116056
-Three - Title,2,sinatraa,San Francisco Shock,All Damage Done,1238.108539117,74286.51234703
-Inaugural Championship,1,KariV,Los Angeles Valiant,Critical Hits,1.533333333,92
-One,2,sinatraa,San Francisco Shock,All Damage Done,242.567142035,14554.0285221
-Season 2 Championship,2,Haksal,Vancouver Titans,Deaths,3.283333333,197
-Four,1,Void,Los Angeles Gladiators,All Damage Done,6.049470762,362.9682457
-Season 2 Championship,2,GodsB,Hangzhou Spark,Eliminations,11.05,663
-Four,1,Shaz,Los Angeles Gladiators,Time Played,13.886652335,833.199140129
-Two - Title,2,Twilight,Vancouver Titans,Deaths,0.016666667,1
-Two - Title,2,JJonak,New York Excelsior,Time Played,0.324383875,19.46303248
-One,2,Void,Los Angeles Gladiators,Time Played,2.969237404,178.15424425
-Two,2,moth,San Francisco Shock,Time Played,0.081178087,4.87068522
-Inaugural Championship,1,Birdring,London Spitfire,All Damage Done,4181.398158748,250883.8895249
-Two,1,Kalios,Boston Uprising,Deaths,0.033333333,2
-Four,2,Hooreg,Vancouver Titans,Critical Hits,8.116666667,487
-One - Title,2,Twilight,Vancouver Titans,All Damage Done,54.7739211,3286.435266
-Four,1,Pine,New York Excelsior,All Damage Done,2522.817523807,151369.0514284
-Four,2,Decay,Los Angeles Gladiators,Eliminations,11.133333333,668
-Inaugural Championship,1,STRIKER,Boston Uprising,All Damage Done,2334.84846399,140090.90783941
-Inaugural Championship,1,SoOn,Los Angeles Valiant,Eliminations,1.7,102
-Two - Title,2,Twilight,Vancouver Titans,Eliminations,0.2,12
-Three,2,Choihyobin,San Francisco Shock,Critical Hits,0.416666667,25
-Three - Title,1,SAEBYEOLBE,New York Excelsior,Deaths,0.483333333,29
-Two,2,Libero,New York Excelsior,Eliminations,0.5,30
-Two,2,iDK,Hangzhou Spark,Time Played,2.497652877,149.85917264
-Two - Title,1,SAEBYEOLBE,New York Excelsior,Time Played,50.241596469,3014.49578815
-Four,1,Neko,Boston Uprising,Time Played,9.181777035,550.90662212
-Two,1,Birdring,London Spitfire,Eliminations,10.016666667,601
-Inaugural Championship,1,KariV,Los Angeles Valiant,All Damage Done,174.786770487,10487.2062292
-Three,2,GodsB,Hangzhou Spark,Eliminations,1.166666667,70
-Two,1,Profit,London Spitfire,Time Played,481.219499479,28873.169968748
-Four - Title,1,Hydration,Los Angeles Gladiators,Deaths,0.55,33
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,Critical Hits,0.133333333,8
-Two,1,WooHyaL,London Spitfire,Time Played,0.227333615,13.64001691
-One,1,Agilities,Los Angeles Valiant,All Damage Done,6798.75810253,407925.4861518
-Three,1,Hydration,Los Angeles Gladiators,Time Played,264.373624646,15862.41747874
-One,1,HaGoPeun,London Spitfire,Time Played,1.996841876,119.810512543
-Four - Title,1,Janus,New York Excelsior,Time Alive,0.030800001,1.848000056
-Three - Title,2,Libero,New York Excelsior,Eliminations,0.016666667,1
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,Critical Hits,3.15,189
-Two - Title,2,Krystal,Hangzhou Spark,All Damage Done,83.061945317,4983.716719
-Two - Title,1,SAEBYEOLBE,New York Excelsior,Time Alive,13.314417071,798.86502423
-Season 2 Championship,2,Decay,Los Angeles Gladiators,Eliminations,1.916666667,115
-Two,2,JJonak,New York Excelsior,Time Alive,2.529000076,151.74000457
-One,2,Ria,Hangzhou Spark,Eliminations,0.15,9
-One,1,Rascal,London Spitfire,Eliminations,1.45,87
-Two,1,Hooreg,London Spitfire,Critical Hits,5.816666667,349
-Two,2,Viol2t,San Francisco Shock,Time Alive,0.095200003,5.712000173
-Season 2 Championship,2,Fl0w3R,New York Excelsior,Deaths,0.366666667,22
-Four,1,Libero,New York Excelsior,All Damage Done,8265.286207101,495917.172426086
-One,1,Bdosin,London Spitfire,Solo Kills,0.016666667,1
-Inaugural Championship,1,iRemiix,Los Angeles Gladiators,Time Alive,0.152483338,9.149000275
-Season 2 Championship,2,Bazzi,Hangzhou Spark,Solo Kills,0.233333333,14
-One,2,Ria,Hangzhou Spark,All Damage Done,167.133922217,10028.035333
-Two,2,Shaz,Los Angeles Gladiators,Time Alive,0.33915001,20.349000619
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,Time Alive,601.384468037,36083.068082222
-Inaugural Championship,1,SoOn,Los Angeles Valiant,Solo Kills,0.25,15
-Three,2,BUMPER,Vancouver Titans,Eliminations,0.283333333,17
-Four,1,AimGod,Boston Uprising,Deaths,0.1,6
-One,2,Adora,Hangzhou Spark,Time Played,0.876150842,52.569050491
-Three,1,STRIKER,Boston Uprising,Time Played,560.487499892,33629.24999352
-One,1,Birdring,London Spitfire,Time Played,468.279597641,28096.775858464
-Two - Title,2,BUMPER,Vancouver Titans,All Damage Done,199.789792333,11987.38754
-Three,2,Ria,Hangzhou Spark,Critical Hits,0.633333333,38
-One,2,Haksal,Vancouver Titans,Critical Hits,0.4,24
-Two,1,STRIKER,Boston Uprising,Solo Kills,1.15,69
-Two,2,Surefour,Los Angeles Gladiators,Time Played,57.360262141,3441.61572847
-One - Title,2,Mano,New York Excelsior,Time Alive,0.148050004,8.883000269
-Two,2,Twilight,Vancouver Titans,All Damage Done,79.170103857,4750.2062314
-Three,2,Ria,Hangzhou Spark,All Damage Done,129.7022006,7782.132036
-Two - Title,2,Decay,Los Angeles Gladiators,Time Alive,0.723400022,43.404001306
-Three,1,Libero,New York Excelsior,Eliminations,9.116666667,547
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,Eliminations,15.7,942
-Three - Title,2,GodsB,Hangzhou Spark,Deaths,0.15,9
-Four,2,Hydration,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Inaugural Championship,1,Libero,New York Excelsior,Eliminations,1.483333333,89
-Inaugural Championship,1,KariV,Los Angeles Valiant,Deaths,0.2,12
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,Eliminations,23.75,1425
-Three,2,Stitch,Vancouver Titans,Eliminations,1.733333333,104
-Two,2,GodsB,Hangzhou Spark,Time Alive,122.93358706,7376.01522361
-Two,1,SoOn,Los Angeles Valiant,Eliminations,16.316666667,979
-Three,1,DreamKazper,Boston Uprising,Time Played,111.991122267,6719.46733604
-Three,1,silkthread,Los Angeles Gladiators,Deaths,0.866666667,52
-Four,1,Hydration,Los Angeles Gladiators,Deaths,3.366666667,202
-Three - Title,1,JJonak,New York Excelsior,Critical Hits,0.016666667,1
-Inaugural Championship,1,Neko,Boston Uprising,Critical Hits,0.583333333,35
-Three - Title,2,Libero,New York Excelsior,Critical Hits,0.133333333,8
-Four,1,SoOn,Los Angeles Valiant,Time Played,464.28643036,27857.185821616
-Four,1,Neko,Boston Uprising,Deaths,0.066666667,4
-Two,1,Hooreg,London Spitfire,Time Alive,49.394201494,2963.652089654
-One,2,Shaz,Los Angeles Gladiators,Time Played,0.275869884,16.552193045
-Four,2,Adora,Hangzhou Spark,Solo Kills,0.316666667,19
-Four - Title,1,Libero,New York Excelsior,Deaths,0.833333333,50
-Three,1,DreamKazper,Boston Uprising,Time Alive,50.797868193,3047.8720916
-One,1,Envy,Los Angeles Valiant,Deaths,0.216666667,13
-Three - Title,2,STRIKER,San Francisco Shock,Critical Hits,0.466666667,28
-Two,2,sinatraa,San Francisco Shock,Solo Kills,0.016666667,1
-Three - Title,2,BUMPER,Vancouver Titans,All Damage Done,6.808333333,408.5
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,All Damage Done,14457.435112984,867446.106779043
-One,1,Hydration,Los Angeles Gladiators,Critical Hits,4.316666667,259
-Four,1,Mano,New York Excelsior,Time Played,0.956889806,57.41338837
-Four,2,Libero,New York Excelsior,All Damage Done,6175.839387197,370550.36323182
-Four,1,Shaz,Los Angeles Gladiators,Eliminations,0.55,33
-Three,1,SoOn,Los Angeles Valiant,All Damage Done,7120.727401088,427243.64406529
-One,1,DreamKazper,Boston Uprising,Deaths,6.35,381
-Two,2,MekO,New York Excelsior,Deaths,0.05,3
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,Time Alive,744.295555661,44657.73333969
-One,1,Birdring,London Spitfire,All Damage Done,7920.385056017,475223.103361
-Three - Title,1,KariV,Los Angeles Valiant,All Damage Done,120.9623723,7257.742338
-Four,1,KSF,Los Angeles Valiant,Solo Kills,0.1,6
-One,2,BEBE,Hangzhou Spark,Deaths,0.066666667,4
-One,2,Haksal,Vancouver Titans,All Damage Done,416.766902282,25006.0141369
-Three - Title,1,NotE,Boston Uprising,Time Played,0.016210765,0.972645879
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,Time Alive,35.94021775,2156.413064977
-One,2,Revenge,Hangzhou Spark,Deaths,0.033333333,2
-One,2,SeoMinSoo,Vancouver Titans,Deaths,0.233333333,14
-Three - Title,1,Pine,New York Excelsior,Solo Kills,0.366666667,22
-One,1,STRIKER,Boston Uprising,Deaths,4.9,294
-Two,2,Ria,Hangzhou Spark,Deaths,0.25,15
-Three,2,Surefour,Los Angeles Gladiators,All Damage Done,1916.357373754,114981.44242526
-Season 2 Championship,2,Rascal,San Francisco Shock,Critical Hits,3.4,204
-Three,2,Fl0w3R,New York Excelsior,Time Alive,12.76683372,766.0100232
-Four,1,BigG00se,Los Angeles Gladiators,All Damage Done,13.980236689,838.81420131
-Inaugural Championship,1,MekO,New York Excelsior,Time Played,0.097278589,5.83671534
-One,1,STRIKER,Boston Uprising,Critical Hits,91.5,5490
-Two,1,Pine,New York Excelsior,Critical Hits,1.633333333,98
-Four,1,Mistakes,Boston Uprising,Time Played,397.384587604,23843.075256262
-Four,1,Surefour,Los Angeles Gladiators,Solo Kills,1.8,108
-One,1,Fissure,London Spitfire,All Damage Done,2.083333333,125
-Four,1,SAEBYEOLBE,New York Excelsior,Critical Hits,27.516666667,1651
-Inaugural Championship,1,Pine,New York Excelsior,Time Played,76.09785398,4565.871238822
-Inaugural Championship,1,Fury,London Spitfire,Time Alive,2.900383422,174.02300532
-One,2,Surefour,Los Angeles Gladiators,Critical Hits,4.033333333,242
-One,1,Neko,Boston Uprising,All Damage Done,703.76613416,42225.9680496
-Three - Title,1,STRIKER,Boston Uprising,Solo Kills,0.2,12
-Three - Title,2,STRIKER,San Francisco Shock,All Damage Done,245.853767057,14751.2260234
-Four,1,STRIKER,Boston Uprising,Eliminations,11.383333333,683
-Four,2,Architect,San Francisco Shock,Eliminations,9.183333333,551
-Two,1,Bischu,Los Angeles Gladiators,Time Alive,0.033816668,2.029000059
-Two,2,Libero,New York Excelsior,Deaths,0.133333333,8
-Three,1,Asher,Los Angeles Gladiators,Eliminations,9.9,594
-Two,1,Bdosin,London Spitfire,Eliminations,0.066666667,4
-Four,1,Bdosin,London Spitfire,Critical Hits,1.633333333,98
-Four,2,GodsB,Hangzhou Spark,All Damage Done,8102.09013414,486125.40804843
-Four,1,AimGod,Boston Uprising,All Damage Done,196.396341047,11783.7804628
-Two - Title,2,Hydration,Los Angeles Gladiators,Deaths,0.016666667,1
-Four - Title,1,Libero,New York Excelsior,Solo Kills,0.216666667,13
-Four,1,Custa,Los Angeles Valiant,Time Alive,0.425650013,25.53900077
-One,1,Envy,Los Angeles Valiant,Eliminations,0.716666667,43
-One,1,Pine,New York Excelsior,Time Played,193.049668166,11582.980089968
-Two,1,Shaz,Los Angeles Gladiators,Eliminations,0.95,57
-Season 2 Championship,2,Adora,Hangzhou Spark,Critical Hits,2.183333333,131
-Three,1,Shaz,Los Angeles Gladiators,Critical Hits,0.133333333,8
-Inaugural Championship,1,SoOn,Los Angeles Valiant,Time Played,106.782809338,6406.968560307
-Two,1,Pine,New York Excelsior,Solo Kills,0.15,9
-One,1,Pine,New York Excelsior,Eliminations,6.5,390
-Three - Title,1,Libero,New York Excelsior,Time Played,62.281434244,3736.88605461
-Two,2,Stitch,Vancouver Titans,Time Played,17.616364649,1056.98187895
-Four,2,STRIKER,San Francisco Shock,Deaths,0.6,36
-One - Title,2,Twilight,Vancouver Titans,Deaths,0.016666667,1
-Two - Title,2,Haksal,Vancouver Titans,Time Alive,6.960183541,417.611012435
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,Time Played,567.367071762,34042.024305719
-Four,1,silkthread,Los Angeles Gladiators,Deaths,0.316666667,19
-Four - Title,1,Agilities,Los Angeles Valiant,Solo Kills,0.183333333,11
-One,2,JJonak,New York Excelsior,Critical Hits,1.616666667,97
-Two,2,BigG00se,Los Angeles Gladiators,Time Played,0.194585546,11.675132752
-Four,1,Bunny,Los Angeles Valiant,Time Played,49.665582363,2979.934941772
-Two,1,Neko,Boston Uprising,Time Played,11.96722572,718.033543211
-One,1,uNKOE,Los Angeles Valiant,All Damage Done,4.921613113,295.2967868
-Inaugural Championship,1,Birdring,London Spitfire,Critical Hits,7.083333333,425
-Four,1,Bdosin,London Spitfire,Time Alive,1.139216701,68.353002069
-Season 2 Championship,2,Bazzi,Hangzhou Spark,Deaths,3.1,186
-One,2,BigG00se,Los Angeles Gladiators,Time Played,0.081045423,4.862725377
-Two,1,Janus,New York Excelsior,Time Alive,0.174416672,10.46500031
-One - Title,2,Rascal,San Francisco Shock,All Damage Done,12.159004568,729.5402741
-Two,1,Mistakes,Boston Uprising,Time Played,73.714522523,4422.87135141
-Two - Title,2,Rascal,San Francisco Shock,Time Played,0.940627307,56.4376384
-Four,1,Bunny,Los Angeles Valiant,Critical Hits,3.216666667,193
-One,2,Bazzi,Hangzhou Spark,Eliminations,0.983333333,59
-One,2,Libero,New York Excelsior,Time Alive,10.814266992,648.856019516
-Inaugural Championship,1,JJonak,New York Excelsior,Critical Hits,0.45,27
-One,1,Asher,Los Angeles Gladiators,Time Alive,149.246320816,8954.779248962
-Four,2,Rascal,San Francisco Shock,Solo Kills,0.283333333,17
-One,1,MekO,New York Excelsior,Critical Hits,0.05,3
-One - Title,2,Twilight,Vancouver Titans,Eliminations,0.066666667,4
-Four,2,SeoMinSoo,Vancouver Titans,All Damage Done,2176.423499097,130585.4099458
-One,2,sinatraa,San Francisco Shock,Eliminations,0.45,27
-One,1,Envy,Los Angeles Valiant,Time Alive,1.84690005,110.814003003
-Three,1,Shaz,Los Angeles Gladiators,Deaths,0.216666667,13
-Four - Title,1,Surefour,Los Angeles Gladiators,Time Played,58.312722413,3498.763344795
-Three - Title,2,Nenne,New York Excelsior,Time Played,27.465551032,1647.93306191
-One,2,Nenne,New York Excelsior,All Damage Done,351.549806063,21092.98836375
-Inaugural Championship,1,SoOn,Los Angeles Valiant,Deaths,1.166666667,70
-One - Title,2,BUMPER,Vancouver Titans,Critical Hits,0.05,3
-Two,1,KariV,Los Angeles Valiant,Time Played,308.143699779,18488.621986765
-One,1,DreamKazper,Boston Uprising,Time Played,533.392614672,32003.556880312
-One - Title,2,Rascal,San Francisco Shock,Deaths,0.016666667,1
-Three - Title,2,Libero,New York Excelsior,Deaths,0.05,3
-Three,2,iDK,Hangzhou Spark,Time Alive,0.750033356,45.002001363
-Three - Title,2,GodsB,Hangzhou Spark,Critical Hits,4.15,249
-One,2,Hydration,Los Angeles Gladiators,Critical Hits,0.466666667,28
-Two,1,Fissure,Los Angeles Gladiators,All Damage Done,1.2,72
-Four,2,Adora,Hangzhou Spark,Critical Hits,8,480
-One,1,Hydration,Los Angeles Gladiators,All Damage Done,6849.771264922,410986.2758953
-Season 2 Championship,2,Haksal,Vancouver Titans,Critical Hits,0.516666667,31
-Two,2,Ria,Hangzhou Spark,Eliminations,0.7,42
-Two,2,Nenne,New York Excelsior,Time Alive,33.942734362,2036.564061719
-Two,1,Pine,New York Excelsior,All Damage Done,967.622457333,58057.34744
-Four,2,Libero,New York Excelsior,Deaths,3.2,192
-Four,1,Birdring,London Spitfire,Critical Hits,14.133333333,848
-Two,2,Rascal,San Francisco Shock,Time Alive,3.145866761,188.752005677
-One - Title,2,Nenne,New York Excelsior,Critical Hits,0.066666667,4
-Two - Title,2,Nenne,New York Excelsior,Time Played,1.297774454,77.86646724
-Four,2,Decay,Los Angeles Gladiators,Solo Kills,0.45,27
-Two,2,Stitch,Vancouver Titans,Eliminations,0.533333333,32
-Three,1,Asher,Los Angeles Gladiators,Critical Hits,52.616666667,3157
-One,2,Rascal,San Francisco Shock,Deaths,0.05,3
-Four,1,KariV,Los Angeles Valiant,Solo Kills,0.05,3
-One,1,NotE,Boston Uprising,Eliminations,0.033333333,2
-Three,1,Bdosin,London Spitfire,Critical Hits,0.066666667,4
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,Time Played,223.064394907,13383.863694416
-Four,1,Pine,New York Excelsior,Time Played,174.442555225,10466.553313515
-Two,1,Shaz,Los Angeles Gladiators,Deaths,0.3,18
-One,1,silkthread,Los Angeles Valiant,All Damage Done,4351.266399768,261075.9839861
-Season 2 Championship,2,sinatraa,San Francisco Shock,Deaths,3.05,183
-Three - Title,1,Surefour,Los Angeles Gladiators,Time Played,29.931768589,1795.90611531
-One - Title,2,SLIME,Vancouver Titans,Critical Hits,0.016666667,1
-Two - Title,2,Krystal,Hangzhou Spark,Critical Hits,0.016666667,1
-Four,1,Birdring,London Spitfire,Eliminations,12.116666667,727
-Three - Title,1,Mistakes,Boston Uprising,All Damage Done,1614.924356513,96895.4613908
-Four,2,Nenne,New York Excelsior,Eliminations,4.866666667,292
-Three,2,Adora,Hangzhou Spark,Deaths,0.183333333,11
-Three - Title,1,Bunny,Los Angeles Valiant,Time Played,17.573387647,1054.4032588
-Three - Title,2,JJonak,New York Excelsior,Time Played,0.243290605,14.59743631
-Three - Title,2,iDK,Hangzhou Spark,Time Alive,0.334833343,20.090000608
-Two,1,STRIKER,Boston Uprising,Deaths,4.45,267
-Three - Title,2,Adora,Hangzhou Spark,Time Played,6.067691208,364.06147245
-Three - Title,2,super,San Francisco Shock,Time Played,0.4702084,28.21250397
-Two,1,Libero,New York Excelsior,Critical Hits,10.166666667,610
-Four,1,Gesture,London Spitfire,Eliminations,0.033333333,2
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,Deaths,4.4,264
-Three,2,Libero,New York Excelsior,Critical Hits,0.633333333,38
-Two,2,Nenne,New York Excelsior,All Damage Done,513.899923711,30833.99542267
-One,2,Revenge,Hangzhou Spark,Critical Hits,0.433333333,26
-One,1,BigG00se,Los Angeles Gladiators,Deaths,0.066666667,4
-Three,1,NUS,London Spitfire,Time Played,0.162071188,9.724271297
-One,1,Surefour,Los Angeles Gladiators,Eliminations,9.766666667,586
-One - Title,2,Nenne,New York Excelsior,Eliminations,0.05,3
-Four,1,KSF,Los Angeles Valiant,Eliminations,0.916666667,55
-Three - Title,1,Neko,Boston Uprising,All Damage Done,83.506824583,5010.409475
-One,2,Decay,Los Angeles Gladiators,Time Alive,7.115600214,426.936012838
-Four,1,Shaz,Los Angeles Gladiators,Time Alive,0.181166672,10.87000033
-Two,1,Surefour,Los Angeles Gladiators,Eliminations,9.95,597
-One,2,Ria,Hangzhou Spark,Deaths,0.066666667,4
-One,2,Surefour,Los Angeles Gladiators,Eliminations,1.066666667,64
-Two,2,Nenne,New York Excelsior,Eliminations,0.85,51
-Season 2 Championship,2,Decay,Los Angeles Gladiators,Time Alive,60.071601815,3604.296108921
-One,2,BUMPER,Vancouver Titans,Time Alive,1.21228337,72.737002201
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,Solo Kills,0.4,24
-One,1,Pine,New York Excelsior,Time Alive,109.816169765,6588.970185881
-Three - Title,2,JJonak,New York Excelsior,Time Alive,0.230750007,13.84500042
-Two,1,MekO,New York Excelsior,Eliminations,0.033333333,2
-Two,1,Surefour,Los Angeles Gladiators,Time Alive,103.018286455,6181.097187315
-One,2,Decay,Los Angeles Gladiators,All Damage Done,147.398081685,8843.88490112
-Two,1,Libero,New York Excelsior,Eliminations,14.116666667,847
-Two - Title,2,GodsB,Hangzhou Spark,Time Played,2.140955108,128.45730649
-One,1,Profit,London Spitfire,All Damage Done,7720.203381103,463212.2028662
-OWL 2020 Regular Season,3,SP9RK1E,Paris Eternal,Time Alive,123.068553713,7384.11322276
-One - Title,2,Choihyobin,San Francisco Shock,Time Played,0.032413734,1.94482404
-Three - Title,1,Asher,Los Angeles Gladiators,Eliminations,0.183333333,11
-One,1,KariV,Los Angeles Valiant,Solo Kills,0.2,12
-Two,1,Birdring,London Spitfire,Critical Hits,17.35,1041
-Three,2,Mano,New York Excelsior,Time Alive,0.744566689,44.674001368
-One,2,iDK,Hangzhou Spark,All Damage Done,32.940583217,1976.434993
-Season 2 Championship,2,Haksal,Vancouver Titans,All Damage Done,6665.137190955,399908.23145731
-Inaugural Championship,1,Mistakes,Boston Uprising,Time Played,151.590179833,9095.410789962
-Three,2,Haksal,Vancouver Titans,Solo Kills,0.033333333,2
-One - Title,1,Bdosin,London Spitfire,All Damage Done,61.291610147,3677.4966088
-Two - Title,1,SAEBYEOLBE,New York Excelsior,Eliminations,1.5,90
-Inaugural Championship,1,Bdosin,London Spitfire,Time Alive,17.192133854,1031.528031252
-Three,2,Rascal,San Francisco Shock,Time Alive,6.499500196,389.970011733
-Two - Title,2,JJonak,New York Excelsior,Time Alive,0.32690001,19.61400059
-Three,2,super,San Francisco Shock,All Damage Done,0.366666667,22
-Three,2,Rascal,San Francisco Shock,Eliminations,0.266666667,16
-Four,1,Asher,Los Angeles Gladiators,Critical Hits,1.266666667,76
-One,1,Shaz,Los Angeles Gladiators,Eliminations,0.366666667,22
-Inaugural Championship,1,Mano,New York Excelsior,Time Played,0.421697759,25.301865519
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,Critical Hits,3.85,231
-Inaugural Championship,1,silkthread,Los Angeles Gladiators,Critical Hits,1.666666667,100
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,Time Alive,64.648051936,3878.883116159
-Two,1,JJonak,New York Excelsior,Deaths,0.066666667,4
-Four,1,SAEBYEOLBE,New York Excelsior,Deaths,3.016666667,181
-Two,2,Surefour,Los Angeles Gladiators,Critical Hits,3.166666667,190
-Three,1,ArK,New York Excelsior,Time Alive,0.192850006,11.571000352
-Three,2,Void,Los Angeles Gladiators,Time Alive,0.011083334,0.66500002
-Three,1,Birdring,London Spitfire,All Damage Done,2722.1734434,163330.406604
-Four - Title,1,Pine,New York Excelsior,Deaths,0.6,36
-One,2,Choihyobin,San Francisco Shock,All Damage Done,224.8553135,13491.31881
-Four,1,Agilities,Los Angeles Valiant,All Damage Done,8652.360647464,519141.63884782
-One - Title,2,Nenne,New York Excelsior,Deaths,0.033333333,2
-Four,2,SAEBYEOLBE,New York Excelsior,Time Played,52.693243594,3161.59461561
-Two,1,STRIKER,Boston Uprising,Critical Hits,89.283333333,5357
-Two,1,Surefour,Los Angeles Gladiators,Time Played,371.482447724,22288.946863425
-Two,2,Libero,New York Excelsior,Time Played,17.95613293,1077.367975785
-Three - Title,2,GodsB,Hangzhou Spark,Solo Kills,0.033333333,2
-One - Title,1,Birdring,London Spitfire,Time Played,111.626410832,6697.58464993
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,Deaths,0.966666667,58
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,Time Played,328.809590812,19728.5754487
-Three,2,SeoMinSoo,Vancouver Titans,Solo Kills,0.05,3
-Three,1,KSF,Los Angeles Valiant,Time Alive,4.417783464,265.06700785
-One - Title,1,Profit,London Spitfire,All Damage Done,1936.201524533,116172.091472
-Season 2 Championship,2,Bazzi,Hangzhou Spark,All Damage Done,5991.419745183,359485.184711
-Four - Title,1,MekO,New York Excelsior,Eliminations,0.05,3
-Four,1,Bunny,Los Angeles Valiant,Eliminations,1.216666667,73
-Inaugural Championship,1,STRIKER,Boston Uprising,Critical Hits,7.733333333,464
-Three - Title,2,sinatraa,San Francisco Shock,Eliminations,2.283333333,137
-OWL 2020 Regular Season,3,ChipSa,Philadelphia Fusion,Eliminations,0.35,21
-Three - Title,1,Bunny,Los Angeles Valiant,All Damage Done,224.8188887,13489.133322
-Two,1,Pine,New York Excelsior,Time Played,67.546311047,4052.778662809
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,Eliminations,9.583333333,575
-Four - Title,1,MekO,New York Excelsior,Time Alive,0.419716679,25.183000759
-Four,1,MekO,New York Excelsior,Critical Hits,0.533333333,32
-Three - Title,1,Pine,New York Excelsior,All Damage Done,645.92366965,38755.420179
-One,2,Nevix,San Francisco Shock,Critical Hits,0.066666667,4
-Three,2,Adora,Hangzhou Spark,Critical Hits,1.25,75
-Three - Title,2,BUMPER,Vancouver Titans,Time Alive,0.598383351,35.903001088
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,All Damage Done,15306.644624596,918398.677475773
-Three - Title,2,Choihyobin,San Francisco Shock,Time Alive,1.714700051,102.882003088
-Two,2,Decay,Los Angeles Gladiators,Time Played,114.561546557,6873.692793397
-One,2,sinatraa,San Francisco Shock,Time Alive,12.128450368,727.707022059
-Two,2,BUMPER,Vancouver Titans,Time Alive,4.876300147,292.578008807
-Four,2,Hooreg,Vancouver Titans,Solo Kills,0.316666667,19
-Three,2,iDK,Hangzhou Spark,Time Played,0.713665634,42.819938061
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,All Damage Done,3182.98652138,190979.1912828
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,Critical Hits,4.266666667,256
-Inaugural Championship,1,Neko,Boston Uprising,All Damage Done,1010.963341268,60657.8004761
-One - Title,2,Haksal,Vancouver Titans,Deaths,0.033333333,2
-Three,1,JJonak,New York Excelsior,Critical Hits,0.433333333,26
-One,1,Hooreg,London Spitfire,All Damage Done,1333.560590137,80013.6354082
-Two,2,BigG00se,Los Angeles Gladiators,Time Alive,0.22353334,13.412000408
-Two,2,Adora,Hangzhou Spark,Eliminations,0.883333333,53
-One - Title,2,Twilight,Vancouver Titans,Critical Hits,0.116666667,7
-Inaugural Championship,1,JJonak,New York Excelsior,Eliminations,0.033333333,2
-Two,1,Profit,London Spitfire,Critical Hits,71,4260
-Three,1,Birdring,London Spitfire,Solo Kills,0.383333333,23
-Three - Title,2,Ria,Hangzhou Spark,Critical Hits,0.366666667,22
-One,2,Revenge,Hangzhou Spark,Time Alive,7.567816894,454.06901365
-Inaugural Championship,1,Libero,New York Excelsior,Deaths,0.783333333,47
-One,1,HaGoPeun,London Spitfire,Eliminations,0.033333333,2
-Three - Title,2,Architect,San Francisco Shock,Time Played,12.619812448,757.1887469
-Inaugural Championship,1,Pine,New York Excelsior,Deaths,0.933333333,56
-Two,2,BUMPER,Vancouver Titans,Deaths,0.083333333,5
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,Time Alive,440.121096483,26407.265789002
-Four,2,STRIKER,San Francisco Shock,Solo Kills,0.183333333,11
-Three - Title,2,Choihyobin,San Francisco Shock,Solo Kills,0.016666667,1
-One,1,SAEBYEOLBE,New York Excelsior,Critical Hits,50.766666667,3046
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,Eliminations,5.266666667,316
-One,1,Hydration,Los Angeles Gladiators,Time Alive,125.750270187,7545.01621123
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,Time Played,657.479916439,39448.794986368
-Three - Title,2,Nenne,New York Excelsior,All Damage Done,267.746167978,16064.7700787
-Three - Title,2,Viol2t,San Francisco Shock,Time Played,0.016185347,0.971120834
-Four,2,SeoMinSoo,Vancouver Titans,Critical Hits,14.616666667,877
-Three - Title,1,Mistakes,Boston Uprising,Solo Kills,0.2,12
-Four,2,Bazzi,Hangzhou Spark,Eliminations,0.333333333,20
-Two,1,Agilities,Los Angeles Valiant,All Damage Done,3693.894112377,221633.6467426
-Three,1,STRIKER,Boston Uprising,Time Alive,264.982624683,15898.957481
-Three,2,Ria,Hangzhou Spark,Time Played,7.657055203,459.42331217
-Three - Title,2,STRIKER,San Francisco Shock,Deaths,0.183333333,11
-One,1,KariV,Los Angeles Valiant,Critical Hits,0.866666667,52
-Two - Title,2,GodsB,Hangzhou Spark,Time Alive,1.980416727,118.8250036
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,Critical Hits,58.75,3525
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,Solo Kills,0.15,9
-Two - Title,2,sinatraa,San Francisco Shock,Time Played,4.088512311,245.31073867
-Three,1,Profit,London Spitfire,Eliminations,16.1,966
-Season 2 Championship,2,sinatraa,San Francisco Shock,Critical Hits,3.666666667,220
-Two,1,Agilities,Los Angeles Valiant,Time Alive,91.636286084,5498.177165023
-Two,1,Mistakes,Boston Uprising,All Damage Done,1164.795287343,69887.7172406
-Two - Title,2,Viol2t,San Francisco Shock,Time Played,0.438011007,26.28066039
-One - Title,2,JJonak,New York Excelsior,All Damage Done,6.902990405,414.1794243
-Three,1,Pine,New York Excelsior,Solo Kills,0.733333333,44
-Three - Title,2,Haksal,Vancouver Titans,Time Played,15.736698528,944.20191169
-One,1,STRIKER,Boston Uprising,Solo Kills,0.866666667,52
-Three,2,Decay,Los Angeles Gladiators,All Damage Done,1406.187436349,84371.246180932
-Three,2,SeoMinSoo,Vancouver Titans,Time Alive,130.713770623,7842.82623739
-One,2,BUMPER,Vancouver Titans,Deaths,0.016666667,1
-One,2,GodsB,Hangzhou Spark,All Damage Done,1276.998134,76619.88804
-Inaugural Championship,1,Agilities,Los Angeles Valiant,Eliminations,2.2,132
-Four - Title,1,Hydration,Los Angeles Gladiators,Time Played,41.300668406,2478.040104363
-Two,1,STRIKER,Boston Uprising,Eliminations,17.95,1077
-Two,1,Kalios,Boston Uprising,All Damage Done,16.170024172,970.2014503
-Four,1,SoOn,Los Angeles Valiant,Deaths,4.916666667,295
-One,2,Hydration,Los Angeles Gladiators,Eliminations,0.166666667,10
-Three,1,Bunny,Los Angeles Valiant,Time Played,310.314925987,18618.8955592
-Four,2,Bazzi,Hangzhou Spark,All Damage Done,387.731191333,23263.87148
-Four - Title,1,Surefour,Los Angeles Gladiators,Critical Hits,1.483333333,89
-Two,1,Mistakes,Boston Uprising,Time Alive,29.102117543,1746.12705256
-Four,2,Haksal,Vancouver Titans,Eliminations,10.483333333,629
-Three,2,SASIN,Hangzhou Spark,Solo Kills,0.016666667,1
-One,2,iDK,Hangzhou Spark,Time Alive,1.780083387,106.805003226
-One,1,Surefour,Los Angeles Gladiators,Time Played,331.187833019,19871.269981166
-Two - Title,2,Libero,New York Excelsior,Deaths,0.016666667,1
-Season 2 Championship,2,GodsB,Hangzhou Spark,Deaths,2.65,159
-Inaugural Championship,1,Custa,Los Angeles Valiant,Time Alive,0.289216675,17.353000527
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,Time Alive,697.252537662,41835.152259693
-One,1,Bdosin,London Spitfire,Time Played,10.188010094,611.280605653
-One,1,Libero,New York Excelsior,Eliminations,15.033333333,902
-Four,1,Fury,London Spitfire,Deaths,0.016666667,1
-One,1,SoOn,Los Angeles Valiant,All Damage Done,10529.276594182,631756.5956509
-Three,1,Libero,New York Excelsior,Deaths,3.483333333,209
-Four,2,Decay,Los Angeles Gladiators,Deaths,3.333333333,200
-Two,2,Viol2t,San Francisco Shock,Time Played,0.064929515,3.895770907
-Three,2,sinatraa,San Francisco Shock,Critical Hits,6.866666667,412
-Inaugural Championship,1,Mistakes,Boston Uprising,Deaths,1.666666667,100
-Inaugural Championship,1,Neko,Boston Uprising,Solo Kills,0.033333333,2
-Three,1,Shaz,Los Angeles Gladiators,Time Alive,1.421833376,85.310002571
-Three - Title,1,STRIKER,Boston Uprising,Time Played,94.934444343,5696.0666606
-Three,2,SAEBYEOLBE,New York Excelsior,Eliminations,9.6,576
-Season 2 Championship,2,Architect,San Francisco Shock,Eliminations,3.95,237
-Four,1,silkthread,Los Angeles Gladiators,All Damage Done,1016.952676882,61017.1606129
-Three - Title,1,SoOn,Los Angeles Valiant,All Damage Done,192.151462983,11529.087779
-Four,1,Agilities,Los Angeles Valiant,Solo Kills,0.783333333,47
-Two - Title,2,GodsB,Hangzhou Spark,Critical Hits,0.2,12
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,Eliminations,2.216666667,133
-Two - Title,2,Rascal,San Francisco Shock,Time Alive,0.748533356,44.91200135
-Four,2,Haksal,Vancouver Titans,Solo Kills,0.183333333,11
-One - Title,1,Pine,New York Excelsior,Solo Kills,0.083333333,5
-Two,1,DreamKazper,Boston Uprising,Time Played,464.427841459,27865.670487564
-Three,1,Mistakes,Boston Uprising,Solo Kills,0.766666667,46
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,Critical Hits,56.833333333,3410
-Two,1,Asher,Los Angeles Gladiators,Solo Kills,0.583333333,35
-One - Title,1,SAEBYEOLBE,New York Excelsior,Deaths,0.633333333,38
-Two,2,Krystal,Hangzhou Spark,All Damage Done,753.0979082,45185.874492
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,Time Alive,501.256965152,30075.417909093
-Four - Title,1,Surefour,Los Angeles Gladiators,Deaths,0.683333333,41
-Four - Title,1,JJonak,New York Excelsior,Deaths,0.016666667,1
-Two,1,Bischu,Los Angeles Gladiators,Time Played,0.11357806,6.814683616
-Three,2,Hydration,Los Angeles Gladiators,Solo Kills,0.05,3
-Three - Title,1,Hydration,Los Angeles Gladiators,Time Played,14.746365054,884.781903234
-One - Title,1,SAEBYEOLBE,New York Excelsior,Eliminations,1.583333333,95
-Inaugural Championship,1,Gesture,London Spitfire,Time Played,0.129789636,7.787378133
-One,2,sinatraa,San Francisco Shock,Solo Kills,0.016666667,1
-Three,2,sinatraa,San Francisco Shock,Time Alive,54.957418323,3297.445099358
-Three - Title,1,Hydration,Los Angeles Gladiators,All Damage Done,304.504501215,18270.27007293
-Four,1,BigG00se,Los Angeles Gladiators,Eliminations,0.033333333,2
-Three,1,MekO,New York Excelsior,All Damage Done,16.960683282,1017.64099693
-One,2,Revenge,Hangzhou Spark,All Damage Done,242.836948061,14570.21688365
-Four - Title,1,Libero,New York Excelsior,Critical Hits,0.583333333,35
-Four,1,Fate,Los Angeles Valiant,Time Alive,0.044683335,2.681000081
-Two,2,Nenne,New York Excelsior,Solo Kills,0.083333333,5
-Four,1,Bunny,Los Angeles Valiant,Time Alive,12.356050373,741.363022379
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,Solo Kills,0.166666667,10
-Three,1,JJonak,New York Excelsior,All Damage Done,429.221308645,25753.2785187
-One,1,silkthread,Los Angeles Valiant,Deaths,2.183333333,131
-Two - Title,2,Krystal,Hangzhou Spark,Time Played,2.05980404,123.588242414
-Four - Title,1,Pine,New York Excelsior,Critical Hits,1.633333333,98
-One - Title,2,Nenne,New York Excelsior,Time Played,1.119003113,67.14018678
-Three,1,Fate,Los Angeles Valiant,Time Played,0.048654723,2.91928339
-Four,2,Nenne,New York Excelsior,Time Alive,171.550955187,10293.057311225
-One - Title,1,Rascal,London Spitfire,Time Alive,10.552650294,633.15901766
-Three,2,Haksal,Vancouver Titans,Time Alive,43.143117963,2588.587077773
-Three - Title,2,BUMPER,Vancouver Titans,Time Played,0.811072502,48.66435009
-Two,2,BEBE,Hangzhou Spark,Deaths,0.05,3
-One,2,Void,Los Angeles Gladiators,All Damage Done,65.537486717,3932.249203
-Two - Title,2,Guxue,Hangzhou Spark,Time Played,0.016188981,0.971338868
-Three - Title,2,Architect,San Francisco Shock,Deaths,0.15,9
-Three,1,Pine,New York Excelsior,All Damage Done,3411.07514016,204664.5084096
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,Eliminations,7.95,477
-Three,1,Mano,New York Excelsior,Time Played,0.552029721,33.12178326
-One,1,JJonak,New York Excelsior,Eliminations,0.3,18
-Inaugural Championship,1,Void,Los Angeles Gladiators,Time Played,0.11350914,6.810548425
-Three - Title,1,SAEBYEOLBE,New York Excelsior,Eliminations,3.183333333,191
-Three,2,Libero,New York Excelsior,Deaths,0.65,39
-Two,1,Shaz,Los Angeles Gladiators,Solo Kills,0.05,3
-Four,1,Fury,London Spitfire,All Damage Done,2.977569718,178.6541831
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,Eliminations,16.35,981
-Four - Title,1,Agilities,Los Angeles Valiant,Time Played,57.332871688,3439.972301275
-One,1,KariV,Los Angeles Valiant,Time Played,31.59625188,1895.775112784
-Three,1,silkthread,Los Angeles Gladiators,All Damage Done,1552.293306753,93137.5984052
-Two - Title,1,Libero,New York Excelsior,Eliminations,1.433333333,86
-Four,1,JJonak,New York Excelsior,Eliminations,0.1,6
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,Deaths,3.3,198
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,Time Alive,374.941194626,22496.471677554
-Four,1,SAEBYEOLBE,New York Excelsior,All Damage Done,6460.182415831,387610.94494987
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,All Damage Done,1012.474795528,60748.4877317
-Two,1,NUS,London Spitfire,Time Played,0.145934544,8.75607264
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,Time Alive,295.736308918,17744.178535078
-Two,1,DreamKazper,Boston Uprising,Deaths,5,300
-Three - Title,2,SeoMinSoo,Vancouver Titans,All Damage Done,255.81036231,15348.621738586
-One,2,GodsB,Hangzhou Spark,Critical Hits,3.55,213
-Two - Title,2,GodsB,Hangzhou Spark,Deaths,0.033333333,2
-Two,1,Libero,New York Excelsior,All Damage Done,8816.178641509,528970.71849051
-One - Title,1,Pine,New York Excelsior,All Damage Done,216.246686899,12974.80121392
-Inaugural Championship,1,Kellex,Boston Uprising,Critical Hits,0.016666667,1
-One,2,Twilight,Vancouver Titans,Time Alive,0.76586669,45.952001393
-Three,2,Haksal,Vancouver Titans,Critical Hits,0.283333333,17
-Three - Title,2,GodsB,Hangzhou Spark,Eliminations,1.233333333,74
-Season 2 Championship,2,Bazzi,Hangzhou Spark,Time Played,283.381222159,17002.873329567
-Two,1,Fate,Los Angeles Valiant,Time Played,0.243403295,14.604197681
-One,1,SoOn,Los Angeles Valiant,Solo Kills,1.366666667,82
-Two,1,Mistakes,Boston Uprising,Solo Kills,0.016666667,1
-Four,1,Fissure,Los Angeles Gladiators,Time Played,0.454109212,27.24655271
-One,2,Adora,Hangzhou Spark,Deaths,0.016666667,1
-Three,1,SoOn,Los Angeles Valiant,Solo Kills,0.983333333,59
-Four,1,Asher,Los Angeles Gladiators,All Damage Done,106.8620275,6411.72165
-Three,2,Stitch,Vancouver Titans,Time Played,44.351686426,2661.101185556
-Three - Title,2,Nenne,New York Excelsior,Solo Kills,0.033333333,2
-Season 2 Championship,2,STRIKER,San Francisco Shock,All Damage Done,9299.858949858,557991.5369915
-Season 2 Championship,2,Libero,New York Excelsior,Eliminations,9.416666667,565
-Two,1,Agilities,Los Angeles Valiant,Eliminations,5.266666667,316
-Two,1,Libero,New York Excelsior,Solo Kills,0.583333333,35
-Three,2,SASIN,Hangzhou Spark,All Damage Done,148.10435515,8886.261309
-Two,2,Mano,New York Excelsior,Time Alive,4.630483473,277.829008373
-Four,2,SeoMinSoo,Vancouver Titans,Deaths,1.133333333,68
-Four,1,AimGod,Boston Uprising,Time Alive,1.602450048,96.147002897
-OWL 2020 Regular Season,3,nero,Guangzhou Charge,Solo Kills,0.4,24
-Four,2,SeoMinSoo,Vancouver Titans,Time Played,93.467947453,5608.076847174
-One,1,Hydration,Los Angeles Gladiators,Eliminations,9.933333333,596
-Four,1,KSF,Los Angeles Valiant,Deaths,0.316666667,19
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,Deaths,4.783333333,287
-Two,1,Gamsu,Boston Uprising,Time Played,0.032464885,1.947893083
-Two,1,Profit,London Spitfire,Eliminations,16.933333333,1016
-Season 2 Championship,2,GodsB,Hangzhou Spark,All Damage Done,10903.13898827,654188.3392962
-One,1,Profit,London Spitfire,Critical Hits,35.466666667,2128
-Inaugural Championship,1,Birdring,London Spitfire,Eliminations,6.85,411
-Two,1,HaGoPeun,London Spitfire,Deaths,0.133333333,8
-Two,1,Fissure,Los Angeles Gladiators,Time Alive,0.205900006,12.35400037
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,Time Played,155.25213655,9315.128192971
-Four,2,Decay,Los Angeles Gladiators,Critical Hits,15.433333333,926
-Three,2,Adora,Hangzhou Spark,Time Played,19.127471306,1147.648278363
-Four,2,Haksal,Vancouver Titans,Time Played,323.024365161,19381.461909681
-Two,1,Agilities,Los Angeles Valiant,Critical Hits,5.183333333,311
-Two,2,Surefour,Los Angeles Gladiators,Eliminations,1.316666667,79
-One,2,Hydration,Los Angeles Gladiators,All Damage Done,547.648686755,32858.921205318
-One,2,Stitch,Vancouver Titans,Deaths,0.15,9
-Three,1,Pine,New York Excelsior,Deaths,2.416666667,145
-Four,1,NUS,London Spitfire,Critical Hits,0.1,6
-Two - Title,1,NUS,London Spitfire,Time Played,0.064895228,3.893713653
-Two,1,Birdring,London Spitfire,Time Alive,163.685321597,9821.119295818
-One,2,Bazzi,Hangzhou Spark,Time Alive,41.692317929,2501.539075731
-One,1,Asher,Los Angeles Gladiators,Eliminations,8.983333333,539
-Four,1,Birdring,London Spitfire,Time Alive,225.022990135,13501.379408116
-Two,1,Fissure,Los Angeles Gladiators,Deaths,0.016666667,1
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,Time Played,272.296745933,16337.804755964
-One,1,DreamKazper,Boston Uprising,Solo Kills,0.816666667,49
-Three,1,Agilities,Los Angeles Valiant,Eliminations,9.733333333,584
-Three,2,Adora,Hangzhou Spark,Eliminations,0.45,27
-Three,2,Fl0w3R,New York Excelsior,Deaths,0.083333333,5
-One,2,BEBE,Hangzhou Spark,Time Played,6.180769102,370.846146123
-Four,2,Hooreg,Vancouver Titans,Time Alive,145.429104389,8725.746263331
-Four,1,Neko,Boston Uprising,Eliminations,0.3,18
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,All Damage Done,14980.465530695,898827.931841715
-Three - Title,1,Surefour,Los Angeles Gladiators,Critical Hits,1.116666667,67
-Three,1,KSF,Los Angeles Valiant,Time Played,5.288010384,317.28062306
-Four,1,JJonak,New York Excelsior,Solo Kills,0.016666667,1
-One,2,Viol2t,San Francisco Shock,Time Played,0.016183831,0.971029878
-Two - Title,2,SeoMinSoo,Vancouver Titans,All Damage Done,123.936598197,7436.19589181
-Two,2,GodsB,Hangzhou Spark,Time Played,132.080014557,7924.800873414
-One,1,Birdring,London Spitfire,Time Alive,195.24512214,11714.707328399
-Three,2,Decay,Los Angeles Gladiators,Eliminations,2.9,174
-Three - Title,2,sinatraa,San Francisco Shock,Deaths,0.433333333,26
-Season 2 Championship,2,GodsB,Hangzhou Spark,Solo Kills,0.133333333,8
-One,1,MekO,New York Excelsior,Eliminations,0.033333333,2
-Three,2,Shaz,Los Angeles Gladiators,Time Alive,0.510283349,30.617000929
-Four,1,Shaz,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Four,1,Surefour,Los Angeles Gladiators,Critical Hits,18.333333333,1100
-Two - Title,1,Gesture,London Spitfire,Time Played,0.04869935,2.92196101
-Two,1,Birdring,London Spitfire,All Damage Done,5373.689985808,322421.39914849
-One,2,Anamo,New York Excelsior,Time Alive,0.143966671,8.638000262
-One,1,BigG00se,Los Angeles Gladiators,All Damage Done,25.18457272,1511.07436321
-Three - Title,2,Rascal,San Francisco Shock,Deaths,0.383333333,23
-Three,1,DreamKazper,Boston Uprising,Solo Kills,0.216666667,13
-Four - Title,1,JJonak,New York Excelsior,Time Played,0.941265118,56.475907091
-One,1,Shaz,Los Angeles Gladiators,Time Alive,1.856666718,111.400003074
-Two,2,Haksal,Vancouver Titans,Critical Hits,0.766666667,46
-Four,2,Hooreg,Vancouver Titans,Time Played,160.251881222,9615.112873292
-Inaugural Championship,1,KariV,Los Angeles Valiant,Solo Kills,0.033333333,2
-Three,1,Surefour,Los Angeles Gladiators,Eliminations,12.733333333,764
-Two - Title,1,Libero,New York Excelsior,Deaths,0.6,36
-One,2,Nevix,San Francisco Shock,Time Alive,0.206850006,12.41100037
-One,1,Bdosin,London Spitfire,Critical Hits,0.166666667,10
-One - Title,1,Profit,London Spitfire,Critical Hits,8.983333333,539
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,Time Alive,86.522819288,5191.369157276
-Four,1,Shaz,Los Angeles Gladiators,All Damage Done,136.970511427,8218.2306856
-Three,2,Choihyobin,San Francisco Shock,Solo Kills,0.016666667,1
-Two - Title,2,Haksal,Vancouver Titans,Solo Kills,0.033333333,2
-Two,1,KariV,Los Angeles Valiant,Deaths,2.583333333,155
-Season 2 Championship,2,Libero,New York Excelsior,Solo Kills,0.283333333,17
-One - Title,1,JJonak,New York Excelsior,Time Played,0.210950095,12.65700573
-Two,1,Gesture,London Spitfire,Critical Hits,0.1,6
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,Critical Hits,27.666666667,1660
-Three,2,JJonak,New York Excelsior,Time Played,0.600428556,36.025713388
-Two,2,SLIME,Vancouver Titans,Time Played,0.113690795,6.82144773
-One,2,Nenne,New York Excelsior,Time Played,21.137380889,1268.242853348
-Four,1,Hydration,Los Angeles Gladiators,All Damage Done,7156.165243176,429369.91459053
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,Time Alive,294.602125578,17676.127534702
-Two,1,Mistakes,Boston Uprising,Eliminations,2.533333333,152
-Three,1,Libero,New York Excelsior,All Damage Done,6963.378629237,417802.71775422
-Three - Title,1,Agilities,Los Angeles Valiant,Deaths,0.366666667,22
-Four,1,Libero,New York Excelsior,Solo Kills,1.183333333,71
-Three,1,Asher,Los Angeles Gladiators,Time Alive,165.656805008,9939.40830048
-Four,2,Stitch,Vancouver Titans,Time Alive,172.651105214,10359.066312853
-One,2,Decay,Los Angeles Gladiators,Time Played,7.608282777,456.496966643
-Four - Title,1,MekO,New York Excelsior,Critical Hits,0.016666667,1
-Inaugural Championship,1,Mano,New York Excelsior,All Damage Done,14.097960258,845.8776155
-Two,2,Haksal,Vancouver Titans,Time Alive,28.356550852,1701.393051125
-Two,2,Hooreg,Vancouver Titans,Time Alive,7.618916899,457.13501392
-Two,1,Hydration,Los Angeles Gladiators,Time Alive,205.074356172,12304.461370297
-Inaugural Championship,1,Pine,New York Excelsior,Critical Hits,2.65,159
-Four,1,Bdosin,London Spitfire,All Damage Done,205.391416253,12323.4849752
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,Critical Hits,10.366666667,622
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,Deaths,0.55,33
-One,2,Rascal,San Francisco Shock,Time Alive,6.639600199,398.37601193
-Two,2,Rascal,San Francisco Shock,Time Played,3.471570184,208.294211024
-Three,2,Decay,Los Angeles Gladiators,Time Alive,97.364719602,5841.883176128
-Four,2,GodsB,Hangzhou Spark,Critical Hits,24.4,1464
-Two - Title,2,sinatraa,San Francisco Shock,All Damage Done,91.735663828,5504.1398297
-One - Title,2,SeoMinSoo,Vancouver Titans,Eliminations,0.15,9
-Four,1,Hydration,Los Angeles Gladiators,Eliminations,9.4,564
-OWL 2020 Regular Season,3,Eileen,Guangzhou Charge,Eliminations,17.116666667,1027
-Four,1,Libero,New York Excelsior,Time Played,408.684749922,24521.084995323
-Three,1,ArK,New York Excelsior,Time Played,0.19456658,11.67399478
-Two,1,Kalios,Boston Uprising,Time Played,1.460059733,87.603583998
-Two,2,Rascal,San Francisco Shock,Deaths,0.033333333,2
-Three,1,silkthread,Los Angeles Gladiators,Critical Hits,5.783333333,347
-Two - Title,2,BUMPER,Vancouver Titans,Critical Hits,0.116666667,7
-Two - Title,2,SeoMinSoo,Vancouver Titans,Deaths,0.05,3
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,All Damage Done,956.31099842,57378.6599052
-Three,2,super,San Francisco Shock,Deaths,0.016666667,1
-Two,2,Twilight,Vancouver Titans,Time Alive,4.996633485,299.798009075
-Three,1,Mistakes,Boston Uprising,Time Played,450.800499957,27048.029997391
-Three,2,Rascal,San Francisco Shock,Critical Hits,0.366666667,22
-Three,2,SLIME,Vancouver Titans,Time Alive,0.095083336,5.705000175
-Two,2,Stitch,Vancouver Titans,All Damage Done,335.854997978,20151.2998787
-Four - Title,1,BigG00se,Los Angeles Gladiators,Deaths,0.016666667,1
-Two,2,Hooreg,Vancouver Titans,Time Played,8.014743775,480.8846265
-Two,1,NUS,London Spitfire,Time Alive,0.044100001,2.646000081
-Four,2,Libero,New York Excelsior,Critical Hits,7,420
-Two,2,Haksal,Vancouver Titans,Time Played,31.683887912,1901.033274736
-One,2,Stitch,Vancouver Titans,Time Alive,12.694250385,761.65502308
-Four,2,GodsB,Hangzhou Spark,Time Played,359.729870682,21583.792240947
-Season 2 Championship,2,Fl0w3R,New York Excelsior,Time Alive,28.994934211,1739.69605268
-Season 2 Championship,2,Fl0w3R,New York Excelsior,Time Played,32.427522074,1945.65132446
-Two,2,Fl0w3R,New York Excelsior,Eliminations,0.3,18
-One,2,MekO,New York Excelsior,Eliminations,1.533333333,92
-Four,1,Hydration,Los Angeles Gladiators,Critical Hits,3.066666667,184
-Three,2,BigG00se,Los Angeles Gladiators,Time Alive,0.062883335,3.773000114
-Two,1,uNKOE,Los Angeles Valiant,All Damage Done,262.350489937,15741.0293962
-Three,1,Birdring,London Spitfire,Deaths,2,120
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,Deaths,1.016666667,61
-One,2,STRIKER,San Francisco Shock,Critical Hits,0.6,36
-One,2,MekO,New York Excelsior,Deaths,0.266666667,16
-Inaugural Championship,1,SoOn,Los Angeles Valiant,Critical Hits,3.733333333,224
-Two - Title,2,SeoMinSoo,Vancouver Titans,Time Alive,6.113083519,366.785011146
-Three,1,BigG00se,Los Angeles Gladiators,Deaths,0.05,3
-Two - Title,2,Ria,Hangzhou Spark,Time Played,0.227338249,13.64029497
-Four,1,Void,Los Angeles Gladiators,Eliminations,0.016666667,1
-One,1,Envy,Los Angeles Valiant,Critical Hits,1.233333333,74
-One,2,Libero,New York Excelsior,All Damage Done,388.322330712,23299.3398427
-One,2,JJonak,New York Excelsior,Time Played,7.461882842,447.712970522
-Season 2 Championship,2,Adora,Hangzhou Spark,Solo Kills,0.016666667,1
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,Time Played,288.752935143,17325.176108606
-Two,1,Asher,Los Angeles Gladiators,Time Alive,128.779203888,7726.75223329
-One,1,Hooreg,London Spitfire,Solo Kills,0.166666667,10
-Three,1,Bdosin,London Spitfire,Time Played,10.863310345,651.798620721
-One,1,SAEBYEOLBE,New York Excelsior,Time Alive,157.967954468,9478.07726807
-Three,1,KSF,Los Angeles Valiant,Deaths,0.1,6
-One - Title,2,Twilight,Vancouver Titans,Time Played,1.719546691,103.172801433
-One,1,MekO,New York Excelsior,All Damage Done,7.936174075,476.1704445
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,Critical Hits,73.466666667,4408
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,Deaths,6.016666667,361
-Three,2,SLIME,Vancouver Titans,Time Played,0.081320913,4.879254758
-One,2,Revenge,Hangzhou Spark,Time Played,7.78705591,467.22335459
-One - Title,2,SLIME,Vancouver Titans,Time Alive,0.139183338,8.351000253
-Four,1,Bdosin,London Spitfire,Deaths,0.2,12
-Inaugural Championship,1,Void,Los Angeles Gladiators,Time Alive,0.114083337,6.845000208
-Season 2 Championship,2,sinatraa,San Francisco Shock,Solo Kills,0.283333333,17
-Three,1,BigG00se,Los Angeles Gladiators,Time Played,1.216793289,73.007597329
-Two,1,SoOn,Los Angeles Valiant,Critical Hits,78.75,4725
-Four - Title,1,Pine,New York Excelsior,Eliminations,1.2,72
-Three,1,HaGoPeun,London Spitfire,Time Alive,0.157716671,9.463000285
-Three,2,Haksal,Vancouver Titans,Time Played,47.676603169,2860.596190132
-Three,2,Nenne,New York Excelsior,All Damage Done,920.911638051,55254.69828304
-Two - Title,2,MekO,New York Excelsior,Eliminations,0.05,3
-Two,2,Void,Los Angeles Gladiators,Eliminations,0.266666667,16
-Four - Title,1,MekO,New York Excelsior,Time Played,0.875795686,52.547741178
-Four,2,Stitch,Vancouver Titans,All Damage Done,4411.1764975,264670.58985001
-Three,1,JJonak,New York Excelsior,Deaths,0.2,12
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,Deaths,5.7,342
-Four,1,Birdring,London Spitfire,Deaths,4.6,276
-Three,1,Neko,Boston Uprising,Critical Hits,0.183333333,11
-Two,2,Libero,New York Excelsior,All Damage Done,418.881116444,25132.86698667
-One,1,Profit,London Spitfire,Deaths,3.65,219
-Three,1,DreamKazper,Boston Uprising,Critical Hits,2.766666667,166
-Three,1,HaGoPeun,London Spitfire,Time Played,0.145919884,8.755193055
-One - Title,1,Pine,New York Excelsior,Eliminations,0.516666667,31
-One - Title,1,Rascal,London Spitfire,Time Played,11.601475817,696.088549
-Three - Title,2,Libero,New York Excelsior,Time Played,2.157972077,129.478324596
-Two,1,Hydration,Los Angeles Gladiators,All Damage Done,5672.886169609,340373.17017652
-Three - Title,1,SAEBYEOLBE,New York Excelsior,Time Alive,38.519317833,2311.15907
-One,1,Surefour,Los Angeles Gladiators,Solo Kills,0.816666667,49
-Four,2,Nenne,New York Excelsior,Critical Hits,20.833333333,1250
-One,1,Rascal,London Spitfire,Solo Kills,0.133333333,8
-Two,1,MekO,New York Excelsior,All Damage Done,6.3,378
-Season 2 Championship,2,Decay,Los Angeles Gladiators,All Damage Done,1484.459509533,89067.570572
-Two,2,rOar,Los Angeles Gladiators,Time Played,0.227175109,13.630506515
-Two,1,Hooreg,London Spitfire,Deaths,1.45,87
-Three,1,Asher,Los Angeles Gladiators,Time Played,330.454171661,19827.25029964
-Two,2,BUMPER,Vancouver Titans,Critical Hits,0.066666667,4
-Four - Title,1,Pine,New York Excelsior,All Damage Done,652.453749008,39147.2249405
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,Time Played,95.762403287,5745.744197233
-Two,1,Surefour,Los Angeles Gladiators,All Damage Done,5974.243575608,358454.6145365
-Season 2 Championship,2,Fl0w3R,New York Excelsior,Critical Hits,0.166666667,10
-One,1,Envy,Los Angeles Valiant,Solo Kills,0.083333333,5
-Four,2,SAEBYEOLBE,New York Excelsior,Eliminations,1.25,75
-Four,2,Fl0w3R,New York Excelsior,Solo Kills,0.266666667,16
-Two - Title,1,Libero,New York Excelsior,Time Played,61.660727061,3699.643623652
-Four,2,Fl0w3R,New York Excelsior,Deaths,1.083333333,65
-Four - Title,1,Hydration,Los Angeles Gladiators,Critical Hits,0.066666667,4
-Three,2,Rascal,San Francisco Shock,All Damage Done,222.565081183,13353.904871
-Four - Title,1,SoOn,Los Angeles Valiant,Critical Hits,4.016666667,241
-One,2,Rascal,San Francisco Shock,All Damage Done,141.933236528,8515.9941917
-One,1,Libero,New York Excelsior,All Damage Done,9580.763752162,574845.8251297
-Four,1,KSF,Los Angeles Valiant,Time Alive,12.500467042,750.02802251
-Two,2,Void,Los Angeles Gladiators,Time Played,7.884847842,473.09087052
-Inaugural Championship,1,STRIKER,Boston Uprising,Time Alive,96.843969587,5810.638175202
-One,2,STRIKER,San Francisco Shock,Eliminations,0.3,18
-Two,2,MekO,New York Excelsior,Critical Hits,0.083333333,5
-One,1,NUS,London Spitfire,Time Played,0.194529796,11.671787739
-Two - Title,1,Profit,London Spitfire,Time Played,44.694237734,2681.654264018
-Two,2,Fl0w3R,New York Excelsior,Critical Hits,0.083333333,5
-Four,2,sinatraa,San Francisco Shock,Eliminations,3.016666667,181
-Four,2,Rascal,San Francisco Shock,Critical Hits,7.516666667,451
-Three - Title,1,NotE,Boston Uprising,Time Alive,0.031500001,1.890000057
-One,1,Surefour,Los Angeles Gladiators,All Damage Done,6263.142439297,375788.54635784
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,Eliminations,0.3,18
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,Deaths,1.433333333,86
-Three - Title,1,STRIKER,Boston Uprising,Eliminations,3.033333333,182
-Four,1,AimGod,Boston Uprising,Critical Hits,2.133333333,128
-Four,2,Rascal,San Francisco Shock,Time Played,271.011614707,16260.696882442
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,Solo Kills,1.05,63
-Season 2 Championship,2,Haksal,Vancouver Titans,Eliminations,11.25,675
-Four - Title,1,SoOn,Los Angeles Valiant,Time Alive,37.616451128,2256.987067676
-One,2,Hydration,Los Angeles Gladiators,Time Played,14.601048867,876.062932019
-One,2,Architect,San Francisco Shock,All Damage Done,454.91871929,27295.1231574
-One,2,Hydration,Los Angeles Gladiators,Deaths,0.083333333,5
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,Deaths,2.8,168
-Four,1,Kellex,Boston Uprising,Time Played,0.112694709,6.76168251
-Three,1,KSF,Los Angeles Valiant,All Damage Done,56.448062667,3386.88376
-One - Title,1,Libero,New York Excelsior,Solo Kills,0.116666667,7
-One,1,Libero,New York Excelsior,Time Played,500.965938553,30057.956313206
-Two - Title,1,JJonak,New York Excelsior,Time Played,0.081102446,4.866146743
-Three - Title,2,sinatraa,San Francisco Shock,Time Alive,74.781152251,4486.869135072
-Three,1,MekO,New York Excelsior,Deaths,0.033333333,2
-One - Title,2,Nenne,New York Excelsior,Time Alive,0.791433357,47.486001431
-Two,1,Neko,Boston Uprising,Critical Hits,0.016666667,1
-Three,1,MekO,New York Excelsior,Eliminations,0.016666667,1
-One - Title,2,Haksal,Vancouver Titans,Time Alive,2.77226675,166.336004975
-Two,1,Kellex,Boston Uprising,Time Played,15.268342893,916.100573575
-Season 2 Championship,2,Architect,San Francisco Shock,Deaths,0.8,48
-Four,1,MekO,New York Excelsior,All Damage Done,62.586018917,3755.161135
-Three,2,Choihyobin,San Francisco Shock,Time Played,8.191044367,491.462661992
-Four,1,Mistakes,Boston Uprising,All Damage Done,8542.325358084,512539.52148502
-One,1,MekO,New York Excelsior,Time Played,0.892226376,53.53358257
-Two,1,Gesture,London Spitfire,All Damage Done,57.120336467,3427.22018802
-Two,2,BEBE,Hangzhou Spark,Time Played,6.684286788,401.057207301
-Two,1,JJonak,New York Excelsior,Critical Hits,0.016666667,1
-Two,2,JJonak,New York Excelsior,Critical Hits,0.716666667,43
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,Time Alive,255.269874387,15316.192463217
-Inaugural Championship,1,Libero,New York Excelsior,Time Alive,51.354418205,3081.265092308
-Two,1,BigG00se,Los Angeles Gladiators,Deaths,0.2,12
-Three - Title,2,Twilight,Vancouver Titans,Time Alive,0.099150003,5.949000178
-Three,1,Hooreg,London Spitfire,Critical Hits,14.716666667,883
-Two,1,SAEBYEOLBE,New York Excelsior,Solo Kills,1.066666667,64
-Inaugural Championship,1,Mistakes,Boston Uprising,Critical Hits,6.783333333,407
-One,1,NotE,Boston Uprising,Critical Hits,0.033333333,2
-Four,1,Bdosin,London Spitfire,Solo Kills,0.016666667,1
-Two - Title,2,Nenne,New York Excelsior,All Damage Done,27.107290517,1626.437431
-Three,1,Neko,Boston Uprising,Eliminations,0.133333333,8
-Three,1,Bdosin,London Spitfire,Deaths,0.1,6
-Three - Title,2,Choihyobin,San Francisco Shock,All Damage Done,33.194965818,1991.6979491
-One,2,Libero,New York Excelsior,Critical Hits,0.083333333,5
-Three,1,JJonak,New York Excelsior,Solo Kills,0.05,3
-Three,1,BigG00se,Los Angeles Gladiators,Time Alive,0.21193334,12.716000383
-Three,1,Bdosin,London Spitfire,All Damage Done,298.0587297,17883.523782
-Three - Title,2,Architect,San Francisco Shock,Time Alive,11.259717002,675.58302013
-One - Title,2,JJonak,New York Excelsior,Time Played,0.308209951,18.49259704
-Three,2,Viol2t,San Francisco Shock,Critical Hits,0.216666667,13
-One,2,MekO,New York Excelsior,Critical Hits,5.433333333,326
-Inaugural Championship,1,Profit,London Spitfire,Time Played,245.573894369,14734.433662116
-Three,2,Guxue,Hangzhou Spark,Time Alive,0.132050004,7.923000238
-Two,2,SASIN,Hangzhou Spark,Eliminations,0.116666667,7
-Two,1,SAEBYEOLBE,New York Excelsior,Critical Hits,84.933333333,5096
-Two,2,sinatraa,San Francisco Shock,Critical Hits,7.533333333,452
-Four,1,Anamo,New York Excelsior,Time Played,0.059941132,3.596467912
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,Time Played,540.505848779,32430.350926734
-Two,1,Gesture,London Spitfire,Deaths,0.05,3
-Two,1,Surefour,Los Angeles Gladiators,Solo Kills,0.6,36
-Two,2,JJonak,New York Excelsior,All Damage Done,33.76883552,2026.13013121
-One,1,Neko,Boston Uprising,Time Alive,0.250450007,15.02700043
-Three,2,super,San Francisco Shock,Time Played,0.583894527,35.033671613
-Two - Title,2,Libero,New York Excelsior,Time Played,2.173224927,130.393495624
-Two,1,STRIKER,Boston Uprising,Time Played,549.837730176,32990.263810573
-Four,2,Surefour,Los Angeles Gladiators,Solo Kills,1.05,63
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,Eliminations,26.2,1572
-Three - Title,2,SLIME,Vancouver Titans,Time Alive,0.161116672,9.667000294
-Four,1,SoOn,Los Angeles Valiant,Critical Hits,22.566666667,1354
-Inaugural Championship,1,Mistakes,Boston Uprising,Eliminations,3.5,210
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,Solo Kills,0.1,6
-One,2,BEBE,Hangzhou Spark,Critical Hits,0.066666667,4
-Three,2,Guxue,Hangzhou Spark,Eliminations,0.016666667,1
-Three,1,SAEBYEOLBE,New York Excelsior,All Damage Done,7596.534164565,455792.0498739
-Three - Title,1,Hydration,Los Angeles Gladiators,Critical Hits,0.066666667,4
-Four,2,Haksal,Vancouver Titans,Time Alive,292.162925478,17529.775528678
-Three - Title,2,Stitch,Vancouver Titans,Deaths,0.433333333,26
-Two,2,Krystal,Hangzhou Spark,Critical Hits,0.75,45
-Two,2,Mano,New York Excelsior,All Damage Done,26.896899343,1613.81396059
-Three,1,Agilities,Los Angeles Valiant,Critical Hits,6.016666667,361
-One,1,Neko,Boston Uprising,Time Played,22.817126619,1369.027597139
-Two,1,Birdring,London Spitfire,Time Played,347.449612066,20846.976723939
-One - Title,2,moth,San Francisco Shock,All Damage Done,29.657007817,1779.420469
-Four,1,Bunny,Los Angeles Valiant,Deaths,0.416666667,25
-Four,2,Hooreg,Vancouver Titans,Deaths,1.583333333,95
-Two,2,Hydration,Los Angeles Gladiators,Solo Kills,0.066666667,4
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,Time Played,58.090511191,3485.43067143
-Two,1,DreamKazper,Boston Uprising,Eliminations,13.55,813
-One,2,Decay,Los Angeles Gladiators,Eliminations,0.266666667,16
-One - Title,1,SAEBYEOLBE,New York Excelsior,Critical Hits,7.05,423
-Three,1,Anamo,New York Excelsior,Time Played,0.129758823,7.785529375
-Two,2,Void,Los Angeles Gladiators,Time Alive,7.225866885,433.55201307
-One,2,BUMPER,Vancouver Titans,Eliminations,0.016666667,1
-One - Title,1,NUS,London Spitfire,Time Played,0.308203995,18.49223971
-Three,2,BUMPER,Vancouver Titans,Deaths,0.216666667,13
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,Time Alive,257.953807809,15477.228468515
-One,1,Rascal,London Spitfire,Time Alive,14.295533732,857.7320239
-Three,2,Choihyobin,San Francisco Shock,All Damage Done,176.493146417,10589.588785
-Three - Title,2,Mano,New York Excelsior,Critical Hits,0.016666667,1
-Two - Title,2,Guxue,Hangzhou Spark,Time Alive,0.039083335,2.345000072
-Three - Title,2,Choihyobin,San Francisco Shock,Deaths,0.033333333,2
-Two,1,SoOn,Los Angeles Valiant,Time Alive,226.9824902,13618.949411978
-Three - Title,1,Libero,New York Excelsior,Deaths,0.583333333,35
-Three,2,Surefour,Los Angeles Gladiators,Eliminations,2.916666667,175
-One,2,Decay,Los Angeles Gladiators,Solo Kills,0.016666667,1
-Two,2,SeoMinSoo,Vancouver Titans,Eliminations,0.633333333,38
-Four,1,Pine,New York Excelsior,Solo Kills,0.933333333,56
-One,2,Choihyobin,San Francisco Shock,Time Alive,12.42018371,745.21102259
-Three - Title,2,Ria,Hangzhou Spark,Deaths,0.033333333,2
-Four,1,silkthread,Los Angeles Gladiators,Time Played,46.942147474,2816.528848429
-OWL 2020 Regular Season,3,eqo,Philadelphia Fusion,All Damage Done,3472.12135841,208327.28150461
-Three,2,Libero,New York Excelsior,Eliminations,1.766666667,106
-Season 2 Championship,2,Architect,San Francisco Shock,Solo Kills,0.033333333,2
-One - Title,2,BUMPER,Vancouver Titans,Deaths,0.016666667,1
-OWL 2020 Regular Season,3,Xzi,Paris Eternal,Critical Hits,17.2,1032
-One,1,Surefour,Los Angeles Gladiators,Deaths,3.483333333,209
-One,1,silkthread,Los Angeles Valiant,Critical Hits,10.2,612
-Three,1,ArK,New York Excelsior,All Damage Done,0.002333323,0.13999939
-Two - Title,2,Viol2t,San Francisco Shock,Solo Kills,0.033333333,2
-Two,2,Rascal,San Francisco Shock,Eliminations,0.2,12
-Two,2,JJANU,Vancouver Titans,Time Played,0.064909164,3.894549847
-OWL 2020 Regular Season,3,carpe,Philadelphia Fusion,Solo Kills,1.6,96
-One,2,Choihyobin,San Francisco Shock,Deaths,0.066666667,4
-Two,2,Void,Los Angeles Gladiators,Critical Hits,0.7,42
-Four,2,Surefour,Los Angeles Gladiators,All Damage Done,9569.602819268,574176.1691561
-One,1,SAEBYEOLBE,New York Excelsior,Deaths,3.75,225
-Four - Title,1,Janus,New York Excelsior,Time Played,0.032453375,1.947202504
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,All Damage Done,7015.014187782,420900.8512669
-Three,1,KariV,Los Angeles Valiant,Critical Hits,0.816666667,49
-Two,2,GodsB,Hangzhou Spark,Deaths,1.033333333,62
-Two,1,Kellex,Boston Uprising,All Damage Done,299.4729734,17968.378404
-Four,1,Custa,Los Angeles Valiant,All Damage Done,5.366185188,321.9711113
-Three,1,Shaz,Los Angeles Gladiators,All Damage Done,539.981213815,32398.8728289
-One - Title,1,Pine,New York Excelsior,Deaths,0.2,12
-One,2,Revenge,Hangzhou Spark,Eliminations,0.3,18
-Inaugural Championship,1,STRIKER,Boston Uprising,Deaths,1.6,96
-Three,1,Birdring,London Spitfire,Eliminations,3.95,237
-Four,1,AimGod,Boston Uprising,Time Played,13.741940818,824.516449078
-Three - Title,1,Pine,New York Excelsior,Critical Hits,1.15,69
-One,1,Profit,London Spitfire,Time Played,398.689804167,23921.388250003
-Two,2,Decay,Los Angeles Gladiators,Solo Kills,0.25,15
-Two,2,BEBE,Hangzhou Spark,All Damage Done,163.355695725,9801.34174353
-Inaugural Championship,1,Mistakes,Boston Uprising,Solo Kills,0.283333333,17
-One,1,SoOn,Los Angeles Valiant,Critical Hits,78.416666667,4705
-One,2,Anamo,New York Excelsior,Time Played,0.097294879,5.837692737
-Three - Title,2,BUMPER,Vancouver Titans,Critical Hits,0.016666667,1
-Two,1,SAEBYEOLBE,New York Excelsior,Time Alive,246.461890802,14787.71344811
-Four - Title,1,Agilities,Los Angeles Valiant,Critical Hits,0.183333333,11
-Three,2,GodsB,Hangzhou Spark,All Damage Done,861.20152072,51672.0912432
-Three,1,Agilities,Los Angeles Valiant,All Damage Done,7729.201744433,463752.10466597
-Three,1,Hooreg,London Spitfire,Eliminations,9.1,546
-Two,1,Shaz,Los Angeles Gladiators,All Damage Done,363.481681318,21808.9008791
-Three,2,JJonak,New York Excelsior,Time Alive,0.656133353,39.368001192
-Four,1,Profit,London Spitfire,Solo Kills,0.816666667,49
-Two,1,Asher,Los Angeles Gladiators,Deaths,3.633333333,218
-Two - Title,2,Libero,New York Excelsior,Eliminations,0.033333333,2
-Four,2,Rascal,San Francisco Shock,Deaths,2.266666667,136
-Four,1,NUS,London Spitfire,All Damage Done,31.113855792,1866.8313475
-Four,2,Surefour,Los Angeles Gladiators,Critical Hits,36.483333333,2189
-Two - Title,2,SeoMinSoo,Vancouver Titans,Time Played,6.505644658,390.338679492
-One,1,NUS,London Spitfire,All Damage Done,1.613235378,96.7941227
-Four,1,Pine,New York Excelsior,Critical Hits,4.033333333,242
-One,2,Choihyobin,San Francisco Shock,Critical Hits,1.616666667,97
-Season 2 Championship,2,Adora,Hangzhou Spark,Time Played,12.668322235,760.0993341
-Inaugural Championship,1,Mano,New York Excelsior,Eliminations,0.033333333,2
-Three - Title,1,STRIKER,Boston Uprising,Critical Hits,15.866666667,952
-Two,1,Mistakes,Boston Uprising,Deaths,0.583333333,35
-One,2,Void,Los Angeles Gladiators,Time Alive,2.656733413,159.404004771
-Two,1,SoOn,Los Angeles Valiant,Time Played,553.63374382,33218.024629224
-OWL 2020 Regular Season,3,sinatraa,San Francisco Shock,All Damage Done,1245.08980112,74705.3880672
-Four,1,Shaz,Los Angeles Gladiators,Critical Hits,2.116666667,127
-Four,1,Bunny,Los Angeles Valiant,Solo Kills,0.2,12
-One,1,Agilities,Los Angeles Valiant,Deaths,3.883333333,233
-Two,1,JJonak,New York Excelsior,Time Alive,0.155166671,9.310000277
-Two - Title,1,Profit,London Spitfire,Time Alive,8.515266924,510.916015422
-One,2,SeoMinSoo,Vancouver Titans,Time Alive,35.160784398,2109.64706391
-Inaugural Championship,1,Neko,Boston Uprising,Deaths,0.383333333,23
-Four,1,Libero,New York Excelsior,Eliminations,10.166666667,610
-Four,2,Hydration,Los Angeles Gladiators,All Damage Done,249.622343428,14977.3406057
-Two,1,Shaz,Los Angeles Gladiators,Time Alive,10.887400329,653.24401972
-Two,1,Kalios,Boston Uprising,Critical Hits,0.033333333,2
-Two,2,Guxue,Hangzhou Spark,Time Alive,0.018666667,1.120000034
-Three,2,sinatraa,San Francisco Shock,All Damage Done,1018.502302732,61110.1381639
-Three - Title,2,GodsB,Hangzhou Spark,Time Alive,29.505084227,1770.305053639
-Two,2,Ria,Hangzhou Spark,All Damage Done,257.277884425,15436.6730655
-One,1,SAEBYEOLBE,New York Excelsior,All Damage Done,6157.728991175,369463.7394705
-Two - Title,2,MekO,New York Excelsior,All Damage Done,30.7550324,1845.301944
-Inaugural Championship,1,Profit,London Spitfire,Critical Hits,7.683333333,461
-One,1,Libero,New York Excelsior,Critical Hits,8.583333333,515
-Two,1,uNKOE,Los Angeles Valiant,Eliminations,0.616666667,37
-Two,2,Twilight,Vancouver Titans,Deaths,0.083333333,5
-Inaugural Championship,1,Pine,New York Excelsior,Solo Kills,0.4,24
-Three - Title,2,Rascal,San Francisco Shock,Solo Kills,0.016666667,1
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,Solo Kills,0.366666667,22
-Two - Title,2,MekO,New York Excelsior,Time Alive,2.546366745,152.782004673
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,Solo Kills,0.833333333,50
-Two - Title,1,Birdring,London Spitfire,Solo Kills,0.133333333,8
-One,1,Asher,Los Angeles Gladiators,Solo Kills,0.85,51
-Three,1,Bunny,Los Angeles Valiant,All Damage Done,5322.796616867,319367.797012
-Two,1,Libero,New York Excelsior,Time Played,498.173147845,29890.388870695
-Two - Title,1,Birdring,London Spitfire,Eliminations,1.2,72
-Two,1,Verbo,Los Angeles Valiant,Time Played,0.048694295,2.921657681
-Two - Title,2,Decay,Los Angeles Gladiators,Critical Hits,0.25,15
-Three,1,SoOn,Los Angeles Valiant,Eliminations,11.116666667,667
-Two,2,MekO,New York Excelsior,All Damage Done,172.32957969,10339.7747814
-One,2,Ria,Hangzhou Spark,Solo Kills,0.016666667,1
-One,1,Profit,London Spitfire,Eliminations,14.3,858
-One - Title,1,Birdring,London Spitfire,Solo Kills,0.35,21
-One,2,Haksal,Vancouver Titans,Eliminations,0.683333333,41
-Four - Title,1,Agilities,Los Angeles Valiant,All Damage Done,1449.77391891,86986.4351346
-Three,1,Profit,London Spitfire,Deaths,3.966666667,238
-Two,2,Decay,Los Angeles Gladiators,Eliminations,3.716666667,223
-Four,1,NUS,London Spitfire,Time Alive,1.268583371,76.115002289
-Three,1,Profit,London Spitfire,All Damage Done,8532.636938646,511958.21631877
-Inaugural Championship,1,Neko,Boston Uprising,Time Alive,20.440533953,1226.43203715
-Two,1,HaGoPeun,London Spitfire,All Damage Done,173.88635919,10433.1815514
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,Critical Hits,34.25,2055
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,Time Alive,41.481717918,2488.9030751
-Three,1,Agilities,Los Angeles Valiant,Time Alive,204.697972811,12281.878368685
-Four,2,Adora,Hangzhou Spark,Deaths,2.683333333,161
-Three - Title,1,Asher,Los Angeles Gladiators,Critical Hits,1.066666667,64
-Four,2,Libero,New York Excelsior,Time Alive,308.270225936,18496.213556169
-Two - Title,2,sinatraa,San Francisco Shock,Time Alive,4.09856679,245.91400739
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,Eliminations,1.366666667,82
-Three,1,Asher,Los Angeles Gladiators,Solo Kills,0.55,33
-Two - Title,2,Haksal,Vancouver Titans,Eliminations,0.233333333,14
-Four,2,Nenne,New York Excelsior,Time Played,188.321570361,11299.294221672
-Two - Title,2,BigG00se,Los Angeles Gladiators,Time Played,0.048622072,2.917324305
-Two - Title,1,SAEBYEOLBE,New York Excelsior,Critical Hits,8.05,483
-Two,1,uNKOE,Los Angeles Valiant,Time Played,24.457521934,1467.451316014
-Four,2,SAEBYEOLBE,New York Excelsior,All Damage Done,739.702348795,44382.1409277
-Three - Title,1,JJonak,New York Excelsior,Deaths,0.016666667,1
-Four,2,Decay,Los Angeles Gladiators,Time Played,392.810523268,23568.631396061
-Three,1,silkthread,Los Angeles Gladiators,Time Played,93.227331554,5593.639893215
-One,2,Stitch,Vancouver Titans,Eliminations,0.25,15
-Three,1,SAEBYEOLBE,New York Excelsior,Time Played,499.961156923,29997.66941539
-Three - Title,2,Adora,Hangzhou Spark,Deaths,0.066666667,4
-Four,1,Asher,Los Angeles Gladiators,Time Played,9.105060452,546.3036271
-One,2,Shaz,Los Angeles Gladiators,All Damage Done,2.083333333,125
-Two,1,Pine,New York Excelsior,Time Alive,8.42761692,505.6570152
-Season 2 Championship,2,Adora,Hangzhou Spark,Time Alive,11.342100343,680.5260206
-Two - Title,2,Nenne,New York Excelsior,Eliminations,0.016666667,1
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,Deaths,2.633333333,158
-Two - Title,2,Hydration,Los Angeles Gladiators,Time Played,0.178445614,10.70673686
-OWL 2020 Regular Season,3,diem,Shanghai Dragons,Time Alive,116.717853524,7003.07121144
-Three,1,Profit,London Spitfire,Time Played,520.84996161,31250.997696572
-Season 2 Championship,2,Architect,San Francisco Shock,All Damage Done,5643.942537813,338636.5522688
-One - Title,2,BUMPER,Vancouver Titans,All Damage Done,35.544107268,2132.6464361
-Two,2,Mano,New York Excelsior,Deaths,0.05,3
-Inaugural Championship,1,iRemiix,Los Angeles Gladiators,Time Played,0.162116815,9.727008879
-Three - Title,2,MekO,New York Excelsior,Time Alive,0.241500007,14.490000441
-Three,2,BUMPER,Vancouver Titans,Time Alive,10.743033657,644.5820194
-Three,2,Rascal,San Francisco Shock,Deaths,0.033333333,2
-Two,1,Mano,New York Excelsior,Deaths,0.066666667,4
-Inaugural Championship,1,silkthread,Los Angeles Gladiators,Time Alive,35.201901062,2112.114063721
-Four,1,Asher,Los Angeles Gladiators,Deaths,0.1,6
-One,1,Gamsu,Boston Uprising,Time Played,0.097270361,5.836221635
-Two,2,SeoMinSoo,Vancouver Titans,Time Played,22.094068169,1325.644090162
-Three,2,BigG00se,Los Angeles Gladiators,Time Played,0.048675667,2.920540035
-Two,1,MekO,New York Excelsior,Critical Hits,0.016666667,1
-Inaugural Championship,1,SAEBYEOLBE,New York Excelsior,Solo Kills,0.1,6
-One,2,Choihyobin,San Francisco Shock,Eliminations,0.35,21
-One,1,Birdring,London Spitfire,Critical Hits,47.016666667,2821
-Two - Title,1,SAEBYEOLBE,New York Excelsior,Solo Kills,0.016666667,1
-Season 2 Championship,2,Libero,New York Excelsior,All Damage Done,5251.856719913,315111.4031948
-Two,1,Mistakes,Boston Uprising,Critical Hits,1.033333333,62
-Three,2,Nenne,New York Excelsior,Eliminations,2.05,123
-One,1,HaGoPeun,London Spitfire,All Damage Done,27.388151767,1643.289106
-Two - Title,2,Decay,Los Angeles Gladiators,All Damage Done,18.680533333,1120.832
-Three - Title,1,Agilities,Los Angeles Valiant,Eliminations,0.5,30
-Season 2 Championship,2,sinatraa,San Francisco Shock,Eliminations,11.233333333,674
-Three,1,SAEBYEOLBE,New York Excelsior,Solo Kills,0.95,57
-Three,1,Libero,New York Excelsior,Critical Hits,3.6,216
-One,2,Surefour,Los Angeles Gladiators,Time Alive,42.504751288,2550.28507728
-Two,1,Shaz,Los Angeles Gladiators,Time Played,28.304605565,1698.276333884
-One,2,JJonak,New York Excelsior,Time Alive,6.932166876,415.930012553
-One,2,Nenne,New York Excelsior,Solo Kills,0.016666667,1
-Three,1,Hydration,Los Angeles Gladiators,Critical Hits,0.85,51
-Four,2,GodsB,Hangzhou Spark,Solo Kills,1.333333333,80
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,Time Played,41.270667894,2476.24007364
-One,2,Decay,Los Angeles Gladiators,Deaths,0.083333333,5
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,Time Alive,197.012205973,11820.73235838
-Three,1,Hydration,Los Angeles Gladiators,All Damage Done,4965.599708522,297935.9825113
-Four,2,Hydration,Los Angeles Gladiators,Eliminations,0.133333333,8
-Two,1,Agilities,Los Angeles Valiant,Time Played,207.820433089,12469.22598534
-Three - Title,2,sinatraa,San Francisco Shock,Critical Hits,10.9,654
-Two - Title,1,SAEBYEOLBE,New York Excelsior,Deaths,0.4,24
-One,2,ArK,New York Excelsior,Time Played,0.064931362,3.895881712
-One,1,BigG00se,Los Angeles Gladiators,Time Played,2.141077693,128.46466159
-Three,2,BEBE,Hangzhou Spark,Time Alive,0.00045,0.027
-Four,2,Architect,San Francisco Shock,Solo Kills,0.65,39
-Two,2,Libero,New York Excelsior,Solo Kills,0.016666667,1
-Inaugural Championship,1,Shaz,Los Angeles Gladiators,Time Played,9.311480339,558.688820362
-One,2,SeoMinSoo,Vancouver Titans,Critical Hits,2.1,126
-Season 2 Championship,2,SAEBYEOLBE,New York Excelsior,Deaths,3.116666667,187
-Two,1,Gesture,London Spitfire,Time Alive,0.710900021,42.654001282
-Four,1,Profit,London Spitfire,Time Alive,156.184938065,9371.096283923
-Two,1,Pine,New York Excelsior,Deaths,0.783333333,47
-Four,1,Agilities,Los Angeles Valiant,Critical Hits,2.983333333,179
-Three - Title,2,Stitch,Vancouver Titans,Critical Hits,5,300
-Three - Title,2,Rascal,San Francisco Shock,All Damage Done,599.966262835,35997.97577009
-Three,2,GodsB,Hangzhou Spark,Critical Hits,4.35,261
-Two,2,GodsB,Hangzhou Spark,All Damage Done,2133.739744268,128024.3846561
-OWL 2020 Regular Season,3,Fleta,Shanghai Dragons,All Damage Done,22538.169368072,1352290.1620843
-Four,2,Haksal,Vancouver Titans,Deaths,3.166666667,190
-Two,2,MekO,New York Excelsior,Time Played,6.083358085,365.001485102
-One,2,Libero,New York Excelsior,Deaths,0.116666667,7
-Two,2,Hydration,Los Angeles Gladiators,Time Alive,52.129701576,3127.782094568
-Inaugural Championship,1,STRIKER,Boston Uprising,Time Played,141.517098528,8491.025911653
-Four - Title,1,Hydration,Los Angeles Gladiators,Solo Kills,0.066666667,4
-Inaugural Championship,1,Bdosin,London Spitfire,All Damage Done,255.326779773,15319.60678638
-Two - Title,2,Twilight,Vancouver Titans,Time Alive,6.107266851,366.436011066
-Two - Title,2,BigG00se,Los Angeles Gladiators,Time Alive,0.057516668,3.451000106
-One,2,Bazzi,Hangzhou Spark,Deaths,0.416666667,25
-Three - Title,1,Mistakes,Boston Uprising,Time Alive,31.662517625,1899.75105749
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,All Damage Done,9876.205637488,592572.3382493
-Four,1,SoOn,Los Angeles Valiant,Eliminations,10.716666667,643
-Three - Title,1,Surefour,Los Angeles Gladiators,Solo Kills,0.133333333,8
-One - Title,2,Rascal,San Francisco Shock,Time Alive,0.779800024,46.788001413
-Two,1,Envy,Los Angeles Valiant,Critical Hits,0.216666667,13
-Inaugural Championship,1,Kellex,Boston Uprising,Time Alive,0.233316674,13.99900043
-Inaugural Championship,1,Neko,Boston Uprising,Time Played,29.253031157,1755.18186944
-Four,1,Agilities,Los Angeles Valiant,Deaths,3.35,201
-Two,2,Hooreg,Vancouver Titans,Deaths,0.05,3
-Season 2 Championship,2,Hydration,Los Angeles Gladiators,All Damage Done,3616.688638543,217001.3183126
-Three,2,Guxue,Hangzhou Spark,Time Played,0.129754924,7.785295427
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,Time Alive,113.915070099,6834.904205929
-Three,2,Nenne,New York Excelsior,Critical Hits,4.383333333,263
-Two,1,Envy,Los Angeles Valiant,Eliminations,0.25,15
-Four,1,Custa,Los Angeles Valiant,Deaths,0.016666667,1
-One,1,Hooreg,London Spitfire,Time Played,66.688811823,4001.328709384
-Season 2 Championship,2,Adora,Hangzhou Spark,Eliminations,0.433333333,26
-Inaugural Championship,1,Pine,New York Excelsior,Time Alive,67.046435344,4022.78612062
-Two,2,GodsB,Hangzhou Spark,Eliminations,3.233333333,194
-Four,1,Agilities,Los Angeles Valiant,Time Played,339.632948539,20377.976912368
-Four,1,SoOn,Los Angeles Valiant,Solo Kills,2.016666667,121
-One - Title,2,Mano,New York Excelsior,Time Played,0.146092298,8.765537858
-Two,2,Stitch,Vancouver Titans,Critical Hits,1.766666667,106
-Inaugural Championship,1,Bdosin,London Spitfire,Solo Kills,0.116666667,7
-Three,2,Hydration,Los Angeles Gladiators,Time Played,47.485309481,2849.118568887
-Two,2,Fl0w3R,New York Excelsior,All Damage Done,279.670681003,16780.2408602
-One,2,sinatraa,San Francisco Shock,Critical Hits,1.3,78
-Four,1,Gesture,London Spitfire,Time Played,1.006737476,60.404248541
-OWL 2020 Regular Season,3,SoOn,Paris Eternal,Critical Hits,72.966666667,4378
-Two,1,Gesture,London Spitfire,Eliminations,0.166666667,10
-Three - Title,2,Haksal,Vancouver Titans,Eliminations,0.516666667,31
-One,2,Void,Los Angeles Gladiators,Deaths,0.033333333,2
-Three - Title,1,Pine,New York Excelsior,Time Played,48.030126803,2881.80760818
-Two,1,SoOn,Los Angeles Valiant,Deaths,5.25,315
-One,2,moth,San Francisco Shock,Time Alive,0.407400012,24.44400074
-Four,1,JJonak,New York Excelsior,Critical Hits,0.483333333,29
-Two - Title,2,iDK,Hangzhou Spark,Time Played,0.081036992,4.862219512
-Three,2,SeoMinSoo,Vancouver Titans,All Damage Done,3068.853712308,184131.2227385
-Four,2,sinatraa,San Francisco Shock,Critical Hits,2.866666667,172
-Two - Title,2,JJANU,Vancouver Titans,Time Played,0.113706977,6.82241863
-Four,2,Bazzi,Hangzhou Spark,Solo Kills,0.033333333,2
-Four,2,Nenne,New York Excelsior,All Damage Done,3974.828825804,238489.729548236
-Two,2,Krystal,Hangzhou Spark,Time Alive,33.584234347,2015.054060805
-Two,2,Hydration,Los Angeles Gladiators,Critical Hits,0.8,48
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,Eliminations,4.016666667,241
-Three,2,Nenne,New York Excelsior,Solo Kills,0.266666667,16
-Two - Title,1,Libero,New York Excelsior,All Damage Done,1012.108710017,60726.522601
-Three,1,BigG00se,Los Angeles Gladiators,Critical Hits,0.05,3
-Four,1,Bdosin,London Spitfire,Eliminations,0.316666667,19
-Three - Title,2,iDK,Hangzhou Spark,All Damage Done,2,120
-Three,1,Bunny,Los Angeles Valiant,Solo Kills,0.716666667,43
-Season 2 Championship,2,Rascal,San Francisco Shock,Deaths,0.933333333,56
-One - Title,1,Profit,London Spitfire,Time Alive,29.624484175,1777.4690505
-Two,1,Bdosin,London Spitfire,Time Alive,0.308583343,18.515000564
-Inaugural Championship,1,Bdosin,London Spitfire,Deaths,0.166666667,10
-Inaugural Championship,1,SoOn,Los Angeles Valiant,Time Alive,80.503219091,4830.193145454
-Three - Title,2,Rascal,San Francisco Shock,Time Alive,25.183300757,1510.998045407
-Season 2 Championship,2,sinatraa,San Francisco Shock,All Damage Done,6520.628571803,391237.7143082
-One,2,Nenne,New York Excelsior,Critical Hits,1.5,90
-Inaugural Championship,1,Custa,Los Angeles Valiant,Time Played,0.275473079,16.528384746
-Two,1,KariV,Los Angeles Valiant,Critical Hits,13.733333333,824
-One - Title,1,SAEBYEOLBE,New York Excelsior,Time Played,56.60929284,3396.5575704
-Inaugural Championship,1,silkthread,Los Angeles Gladiators,Eliminations,0.516666667,31
-Three,1,Agilities,Los Angeles Valiant,Deaths,3.166666667,190
-Inaugural Championship,1,silkthread,Los Angeles Gladiators,Deaths,0.466666667,28
-Three - Title,2,SeoMinSoo,Vancouver Titans,Critical Hits,1.3,78
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,Critical Hits,3.65,219
-One,1,Surefour,Los Angeles Gladiators,Time Alive,161.945304557,9716.71827341
-Inaugural Championship,1,Kellex,Boston Uprising,Time Played,0.227039505,13.6223703
-Three,2,Ria,Hangzhou Spark,Time Alive,7.389950222,443.39701334
-Two,1,Gamsu,Boston Uprising,Time Alive,0.048183335,2.891000088
-Four,1,Mano,New York Excelsior,Time Alive,0.215716673,12.94300039
-Inaugural Championship,1,Libero,New York Excelsior,Critical Hits,2,120
-Two,2,MekO,New York Excelsior,Eliminations,0.116666667,7
-Two,1,Neko,Boston Uprising,Eliminations,0.133333333,8
-Three - Title,2,Architect,San Francisco Shock,All Damage Done,261.900284333,15714.01706
-Two - Title,2,Twilight,Vancouver Titans,All Damage Done,199.48808164,11969.2848984
-Inaugural Championship,1,Libero,New York Excelsior,All Damage Done,1399.076325232,83944.57951389
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,Time Played,123.247253221,7394.835193276
-Four - Title,1,SAEBYEOLBE,New York Excelsior,All Damage Done,586.654607397,35199.2764438
-Four,1,STRIKER,Boston Uprising,Solo Kills,1.366666667,82
-Two - Title,2,Krystal,Hangzhou Spark,Eliminations,0.05,3
-Two,1,HaGoPeun,London Spitfire,Time Played,20.89188096,1253.512857572
-One,2,MekO,New York Excelsior,Solo Kills,0.016666667,1
-Season 2 Championship,2,STRIKER,San Francisco Shock,Deaths,2.55,153
-Two - Title,1,SAEBYEOLBE,New York Excelsior,All Damage Done,712.72224655,42763.334793
-Two,1,DreamKazper,Boston Uprising,Time Alive,204.937472835,12296.248370078
-Season 2 Championship,2,sinatraa,San Francisco Shock,Time Played,290.22675864,17413.605518419
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,Time Played,280.893137518,16853.588251104
-OWL 2020 Regular Season,3,Happy,Guangzhou Charge,Deaths,4.283333333,257
-Inaugural Championship,1,Hydration,Los Angeles Gladiators,Solo Kills,0.066666667,4
-One,2,SAEBYEOLBE,New York Excelsior,Time Played,0.064858949,3.891536951
-Two,2,SeoMinSoo,Vancouver Titans,Critical Hits,2.083333333,125
-One,1,DreamKazper,Boston Uprising,Time Alive,234.926139927,14095.568395619
-OWL 2020 Regular Season,3,ANS,San Francisco Shock,Solo Kills,1.016666667,61
-One,1,Envy,Los Angeles Valiant,Time Played,20.984715432,1259.08292589
-Three - Title,2,Mano,New York Excelsior,Deaths,0.016666667,1
-Three,2,Twilight,Vancouver Titans,Time Alive,4.917916815,295.075008907
-Four,1,BigG00se,Los Angeles Gladiators,Time Played,2.099001564,125.940093812
-Two,2,SASIN,Hangzhou Spark,All Damage Done,210.871993383,12652.319603
-Three,1,Neko,Boston Uprising,Time Alive,0.049450001,2.967000087
-Three,2,Mano,New York Excelsior,Time Played,0.713274013,42.796440777
-Three - Title,2,Architect,San Francisco Shock,Eliminations,0.266666667,16
-Two - Title,1,Libero,New York Excelsior,Solo Kills,0.166666667,10
-Two,2,sinatraa,San Francisco Shock,Time Played,60.229951142,3613.797068522
-OWL 2020 Regular Season,3,Rascal,San Francisco Shock,Time Played,487.296857636,29237.811458135
-Two,2,Architect,San Francisco Shock,Time Played,0.113465354,6.807921231
-Three,1,Gesture,London Spitfire,Deaths,0.016666667,1
-Four - Title,1,JJonak,New York Excelsior,All Damage Done,2.985349147,179.1209488
-Two,1,KariV,Los Angeles Valiant,Time Alive,103.503353098,6210.201185858
-Season 2 Championship,2,Rascal,San Francisco Shock,Time Alive,94.489819509,5669.389170561
-Three,2,Nenne,New York Excelsior,Deaths,0.6,36
-OWL 2020 Regular Season,3,NiCOgdh,Paris Eternal,Critical Hits,28.7,1722
-Season 2 Championship,2,Surefour,Los Angeles Gladiators,Eliminations,8.516666667,511
-Four,1,KSF,Los Angeles Valiant,All Damage Done,905.224097322,54313.4458393
-Two,2,SLIME,Vancouver Titans,Time Alive,0.183866672,11.032000336
-Three,1,KariV,Los Angeles Valiant,All Damage Done,459.178196991,27550.691819463
-Three,2,Libero,New York Excelsior,Time Alive,53.234318272,3194.059096338
-Three,1,silkthread,Los Angeles Gladiators,Eliminations,2.666666667,160
-Three,1,Mistakes,Boston Uprising,Eliminations,11.566666667,694
-Three,2,Rascal,San Francisco Shock,Time Played,6.763153264,405.789195814
-Two - Title,1,Libero,New York Excelsior,Critical Hits,1,60
-Two,2,Fl0w3R,New York Excelsior,Time Played,11.371532777,682.291966623
-Three,1,Mistakes,Boston Uprising,All Damage Done,7423.606959217,445416.417553
-Two - Title,2,BUMPER,Vancouver Titans,Time Played,6.067741914,364.06451484
-One,1,Hooreg,London Spitfire,Eliminations,1.983333333,119
-Four - Title,1,Hydration,Los Angeles Gladiators,Time Alive,22.009300663,1320.55803979
-OWL 2020 Regular Season,3,STRIKER,San Francisco Shock,Eliminations,15.366666667,922
-Three - Title,1,Agilities,Los Angeles Valiant,Solo Kills,0.133333333,8
-Three,1,DreamKazper,Boston Uprising,All Damage Done,2101.543051283,126092.583077
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,All Damage Done,2581.590930001,154895.45580006
-Two,1,Shaz,Los Angeles Gladiators,Critical Hits,1.816666667,109
-Two,1,Hooreg,London Spitfire,Eliminations,3.85,231
-Four,2,Architect,San Francisco Shock,Time Alive,247.123607404,14827.416444261
-Three,2,SAEBYEOLBE,New York Excelsior,All Damage Done,4879.062597149,292743.75582896
-One,1,DreamKazper,Boston Uprising,Critical Hits,11.6,696
-Inaugural Championship,1,Fury,London Spitfire,Critical Hits,0.2,12
-Two,1,Birdring,London Spitfire,Deaths,3.266666667,196
-Four - Title,1,JJonak,New York Excelsior,Critical Hits,0.216666667,13
-Four,1,Fury,London Spitfire,Critical Hits,0.05,3
-One - Title,1,Libero,New York Excelsior,Time Alive,21.622667275,1297.36003653
-Season 2 Championship,2,Haksal,Vancouver Titans,Solo Kills,0.233333333,14
-Three,2,Stitch,Vancouver Titans,Time Alive,42.363084617,2541.785077003
-Four - Title,1,SoOn,Los Angeles Valiant,Time Played,100.168496944,6010.109816648
-Four,1,KariV,Los Angeles Valiant,Critical Hits,0.416666667,25
-Four,2,Nenne,New York Excelsior,Solo Kills,0.4,24
-Four,2,Stitch,Vancouver Titans,Eliminations,5.533333333,332
-Two,1,Profit,London Spitfire,All Damage Done,8201.79122907,492107.4737442
-Two,2,Hydration,Los Angeles Gladiators,Eliminations,2,120
-Four,2,Surefour,Los Angeles Gladiators,Deaths,3.35,201
-One,1,Rascal,London Spitfire,Time Played,56.270887549,3376.253252922
-OWL 2020 Regular Season,3,ChipSa,Philadelphia Fusion,Time Alive,7.251283552,435.0770131
-Two,2,Rascal,San Francisco Shock,All Damage Done,111.138347945,6668.3008767
-Three,2,SAEBYEOLBE,New York Excelsior,Time Alive,295.976392268,17758.583536054
-Two,1,Envy,Los Angeles Valiant,All Damage Done,95.544648765,5732.6789259
-Inaugural Championship,1,Libero,New York Excelsior,Solo Kills,0.116666667,7
-One,2,Bazzi,Hangzhou Spark,Critical Hits,2.866666667,172
-Season 2 Championship,2,Adora,Hangzhou Spark,Deaths,0.15,9
-OWL 2020 Regular Season,3,ivy,Philadelphia Fusion,Solo Kills,0.35,21
-One,2,MekO,New York Excelsior,Time Played,45.908329435,2754.499766119
-One,1,uNKOE,Los Angeles Valiant,Eliminations,0.016666667,1
-Three,2,SASIN,Hangzhou Spark,Time Alive,5.567450168,334.04701009
-Two,1,Mano,New York Excelsior,Critical Hits,0.016666667,1
-Two - Title,2,Hydration,Los Angeles Gladiators,Time Alive,0.131950004,7.917000238
-Three - Title,2,STRIKER,San Francisco Shock,Time Played,12.619812447,757.188746833
-Four,2,Architect,San Francisco Shock,Critical Hits,20.683333333,1241
-One,2,GodsB,Hangzhou Spark,Deaths,0.566666667,34
-Inaugural Championship,1,Surefour,Los Angeles Gladiators,All Damage Done,1498.988863603,89939.3318162
-OWL 2020 Regular Season,3,DDing,Shanghai Dragons,Deaths,0.983333333,59
-Two,2,Ria,Hangzhou Spark,Critical Hits,1.966666667,118
-Four - Title,1,SAEBYEOLBE,New York Excelsior,Solo Kills,0.166666667,10
-Three - Title,2,SLIME,Vancouver Titans,Time Played,0.129718895,7.783133685
-Four,1,Neko,Boston Uprising,All Damage Done,186.257838733,11175.470324
-Three - Title,1,Agilities,Los Angeles Valiant,All Damage Done,575.654557617,34539.273457
-OWL 2020 Regular Season,3,LIP,Shanghai Dragons,All Damage Done,17603.921254674,1056235.27528042
-Season 2 Championship,2,SeoMinSoo,Vancouver Titans,Critical Hits,37.3,2238
-Two,2,JJonak,New York Excelsior,Time Played,2.692937469,161.576248163
-Three,2,Twilight,Vancouver Titans,Eliminations,0.15,9
-Two - Title,2,Nenne,New York Excelsior,Time Alive,1.284966706,77.09800234
-One,1,BigG00se,Los Angeles Gladiators,Time Alive,0.760216687,45.61300124
-Three,2,Viol2t,San Francisco Shock,All Damage Done,105.063133537,6303.7880122
-Three - Title,2,Stitch,Vancouver Titans,Solo Kills,0.033333333,2
-Three,2,Viol2t,San Francisco Shock,Time Played,5.952691284,357.16147706
-Four,2,GodsB,Hangzhou Spark,Time Alive,330.005893295,19800.353597721
-Two - Title,2,Krystal,Hangzhou Spark,Time Alive,1.42496671,85.498002586
-Two,2,Mano,New York Excelsior,Eliminations,0.1,6
-One,2,Ria,Hangzhou Spark,Time Played,8.987561301,539.253678059
-One - Title,2,Libero,New York Excelsior,Time Played,0.45423854,27.254312401
-Inaugural Championship,1,Birdring,London Spitfire,Solo Kills,0.816666667,49
-Three - Title,1,SAEBYEOLBE,New York Excelsior,Critical Hits,14.583333333,875
-Three,2,Twilight,Vancouver Titans,Time Played,5.369614634,322.176878031
-Inaugural Championship,1,Kellex,Boston Uprising,All Damage Done,2.06680514,124.0083084
-One,1,silkthread,Los Angeles Valiant,Eliminations,6.983333333,419
-Three,1,Asher,Los Angeles Gladiators,Deaths,3.266666667,196
-Four,1,JJonak,New York Excelsior,Time Played,9.112692502,546.761550127
-Three - Title,2,SeoMinSoo,Vancouver Titans,Eliminations,0.466666667,28
-Four,1,MekO,New York Excelsior,Time Alive,0.960883362,57.65300172
-Three,2,GodsB,Hangzhou Spark,Time Played,50.987119133,3059.227147994
-Three,1,Mistakes,Boston Uprising,Time Alive,210.953589704,12657.21538223
-Four,2,Bazzi,Hangzhou Spark,Deaths,0.1,6
-One,2,Shaz,Los Angeles Gladiators,Time Alive,0.32865001,19.719000597
-OWL 2020 Regular Season,3,Heesu,Philadelphia Fusion,All Damage Done,6209.024587023,372541.4752214
-One,2,super,San Francisco Shock,Time Alive,0.000216667,0.013
-One,1,Shaz,Los Angeles Gladiators,Time Played,13.9432765,836.596590014
-Two - Title,2,Libero,New York Excelsior,All Damage Done,38.691509058,2321.4905435
-Four,1,MekO,New York Excelsior,Deaths,0.066666667,4
-Four,1,Profit,London Spitfire,All Damage Done,6640.954440175,398457.26641048
-OWL 2020 Regular Season,3,Architect,San Francisco Shock,Solo Kills,0.183333333,11
-Four,1,Birdring,London Spitfire,Solo Kills,2.15,129
-Two,2,Nenne,New York Excelsior,Deaths,0.3,18
-Four,1,STRIKER,Boston Uprising,Time Played,495.147674583,29708.860475001
+﻿adjusted_stat_amount,Time Played,Time,season,team,stat_name,stat_amount
+4.685746928,162.193992066,12.666666667,3,Hangzhou Spark,Deaths,760
+1.502419299,157.745577566,3.95,3,Boston Uprising,Critical Hit Kills,237
+5.711008439,128.348610906,12.216666667,3,Atlanta Reign,Deaths,733
+1.374051499,160.110447233,3.666666667,3,Toronto Defiant,Critical Hit Kills,220
+6.296763358,159.446995678,16.733333333,3,Los Angeles Valiant,Deaths,1004
+13419.189379092,156.263558982,34948.83818384,3,Washington Justice,All Damage Done,2096930.29103039
+543.383399476,143.407898422,1298.757855937,3,Dallas Fuel,Time Alive,77925.471356199
+8.640005666,141.782314436,20.416666667,3,San Francisco Shock,Final Blows,1225
+6.073072994,156.263558982,15.816666667,3,Washington Justice,Deaths,949
+599.999999999,175.363303457,1753.633034566,3,Philadelphia Fusion,Time Played,105217.982073974
+13033.969068852,157.745577566,34267.516312392,3,Boston Uprising,All Damage Done,2056050.97874351
+15578.701978905,134.384033343,34892.146769565,3,Seoul Dynasty,All Damage Done,2093528.80617388
+0.950672129,179.872739221,2.85,3,Chengdu Hunters,Critical Hit Kills,171
+540.929820003,143.049672011,1289.663888873,3,Los Angeles Gladiators,Time Alive,77379.833332398
+6.346684623,168.591959989,17.833333333,3,Paris Eternal,Deaths,1070
+6.048720916,179.872739221,18.133333333,3,Chengdu Hunters,Final Blows,1088
+555.079806418,162.193992066,1500.510161969,3,Hangzhou Spark,Time Alive,90030.609718164
+6.898801909,166.405705671,19.133333333,3,New York Excelsior,Final Blows,1148
+5.313131197,134.384033343,11.9,3,Seoul Dynasty,Deaths,714
+0.655567072,178.471440982,1.95,3,Shanghai Dragons,Solo Kills,117
+556.151126701,178.471440982,1654.284883102,3,Shanghai Dragons,Time Alive,99257.092986112
+0.826378471,185.145191124,2.55,3,Guangzhou Charge,Solo Kills,153
+1.866597307,130.719142843,4.066666667,3,London Spitfire,Critical Hit Kills,244
+16.757943217,134.384033343,37.533333333,3,Seoul Dynasty,Eliminations,2252
+18.946735165,159.446995678,50.35,3,Los Angeles Valiant,Eliminations,3021
+1.659423329,134.384033343,3.716666667,3,Seoul Dynasty,Critical Hit Kills,223
+600.000000000,128.348610906,1283.486109059,3,Atlanta Reign,Time Played,77009.166543562
+1.026589550,113.969599577,1.95,3,Vancouver Titans,Solo Kills,117
+7.939645650,178.471440982,23.616666667,3,Shanghai Dragons,Final Blows,1417
+554.300889792,130.719142843,1207.628953178,3,London Spitfire,Time Alive,72457.737190658
+12817.796072459,179.872739221,38426.20150549,3,Chengdu Hunters,All Damage Done,2305572.0903294
+4.488113031,178.471440982,13.35,3,Shanghai Dragons,Deaths,801
+6.097041204,130.719142843,13.283333333,3,London Spitfire,Final Blows,797
+1.093225207,141.782314436,2.583333333,3,San Francisco Shock,Solo Kills,155
+558.377835760,185.145191124,1723.016185353,3,Guangzhou Charge,Time Alive,103380.971121166
+548.330355516,166.405705671,1520.754995841,3,New York Excelsior,Time Alive,91245.299750449
+1.617763056,143.407898422,3.866666667,3,Dallas Fuel,Critical Hit Kills,232
+13439.291555289,143.407898422,32121.675970409,3,Dallas Fuel,All Damage Done,1927300.55822455
+6.933025275,171.498004537,19.816666667,3,Houston Outlaws,Final Blows,1189
+540.908916422,171.498004537,1546.079996712,3,Houston Outlaws,Time Alive,92764.799802707
+13609.042237305,185.145191124,41994.145434007,3,Guangzhou Charge,All Damage Done,2519648.72604042
+18.429947228,143.407898422,44.05,3,Dallas Fuel,Eliminations,2643
+7.515825569,175.363303457,21.966666667,3,Philadelphia Fusion,Final Blows,1318
+16.603185756,185.145191124,51.233333333,3,Guangzhou Charge,Eliminations,3074
+0.786937730,175.363303457,2.3,3,Philadelphia Fusion,Solo Kills,138
+0.773397276,157.745577566,2.033333333,3,Boston Uprising,Solo Kills,122
+7.357421207,160.110447233,19.633333333,3,Toronto Defiant,Final Blows,1178
+548.639957341,179.872739221,1644.756199551,3,Chengdu Hunters,Time Alive,98685.371973035
+5.578603303,157.745577566,14.666666667,3,Boston Uprising,Deaths,880
+15021.722670039,166.405705671,41661.672688364,3,New York Excelsior,All Damage Done,2499700.36130183
+1.760829341,128.348610906,3.766666667,3,Atlanta Reign,Critical Hit Kills,226
+14699.456627078,128.348610906,31444.247319307,3,Atlanta Reign,All Damage Done,1886654.8391584
+18.482457925,152.84763593,47.083333333,3,Florida Mayhem,Eliminations,2825
+0.759229562,168.591959989,2.133333333,3,Paris Eternal,Solo Kills,128
+12880.966444480,113.969599577,24467.309797369,3,Vancouver Titans,All Damage Done,1468038.58784212
+600.000000000,162.193992066,1621.93992066,3,Hangzhou Spark,Time Played,97316.395239616
+600.000000001,179.872739221,1798.727392212,3,Chengdu Hunters,Time Played,107923.643532716
+559.098654165,175.363303457,1634.089782545,3,Philadelphia Fusion,Time Alive,98045.38695272
+6.846467690,157.745577566,18,3,Boston Uprising,Final Blows,1080
+6.924295426,185.145191124,21.366666667,3,Guangzhou Charge,Final Blows,1282
+13350.882337085,130.719142843,29086.931588359,3,London Spitfire,All Damage Done,1745215.89530152
+13708.213396074,159.446995678,36428.890701948,3,Los Angeles Valiant,All Damage Done,2185733.44211687
+16.419915411,160.110447233,43.816666667,3,Toronto Defiant,Eliminations,2629
+13356.803521099,162.193992066,36106.554738804,3,Hangzhou Spark,All Damage Done,2166393.28432821
+538.152877887,159.446995678,1430.114326575,3,Los Angeles Valiant,Time Alive,85806.859594524
+0.709027496,162.193992066,1.916666667,3,Hangzhou Spark,Solo Kills,115
+1.280076455,185.145191124,3.95,3,Guangzhou Charge,Critical Hit Kills,237
+1.430205955,113.969599577,2.716666667,3,Vancouver Titans,Critical Hit Kills,163
+5.403820524,179.872739221,16.2,3,Chengdu Hunters,Deaths,972
+1.028554971,159.446995678,2.733333333,3,Los Angeles Valiant,Solo Kills,164
+600.000000000,113.969599577,1139.69599577,3,Vancouver Titans,Time Played,68381.759746182
+600.000000002,166.405705671,1664.057056714,3,New York Excelsior,Time Played,99843.423402852
+14252.004080078,152.84763593,36306.41884841,3,Florida Mayhem,All Damage Done,2178385.13090458
+599.999999999,160.110447233,1601.104472327,3,Toronto Defiant,Time Played,96066.268339606
+15.882868856,166.405705671,44.05,3,New York Excelsior,Eliminations,2643
+0.987911910,152.84763593,2.516666667,3,Florida Mayhem,Solo Kills,151
+6.282377078,113.969599577,11.933333333,3,Vancouver Titans,Deaths,716
+0.841458269,128.348610906,1.8,3,Atlanta Reign,Solo Kills,108
+1.853295379,175.363303457,5.416666667,3,Philadelphia Fusion,Critical Hit Kills,325
+1.439875051,156.263558982,3.75,3,Washington Justice,Critical Hit Kills,225
+6.067822371,143.049672011,14.466666667,3,Los Angeles Gladiators,Deaths,868
+1.831329582,159.446995678,4.866666667,3,Los Angeles Valiant,Critical Hit Kills,292
+15743.663288829,160.110447233,42012.082837669,3,Toronto Defiant,All Damage Done,2520724.97026011
+14.929904420,156.263558982,38.883333333,3,Washington Justice,Eliminations,2333
+6.087534387,171.498004537,17.4,3,Houston Outlaws,Deaths,1044
+4.077249835,175.363303457,11.916666667,3,Philadelphia Fusion,Deaths,715
+19.095492148,178.471440982,56.8,3,Shanghai Dragons,Eliminations,3408
+600.000000001,152.84763593,1528.476359302,3,Florida Mayhem,Time Played,91708.581558149
+15373.767320814,141.782314436,36328.80520576,3,San Francisco Shock,All Damage Done,2179728.3123456
+2.087707491,141.782314436,4.933333333,3,San Francisco Shock,Critical Hit Kills,296
+600.000000001,143.407898422,1434.078984223,3,Dallas Fuel,Time Played,86044.73905336
+13.526229770,179.872739221,40.55,3,Chengdu Hunters,Eliminations,2433
+13677.269420981,143.049672011,32608.815077956,3,Los Angeles Gladiators,All Damage Done,1956528.90467735
+14.865709937,157.745577566,39.083333333,3,Boston Uprising,Eliminations,2345
+5.642452680,141.782314436,13.333333333,3,San Francisco Shock,Deaths,800
+1.310051234,166.405705671,3.633333333,3,New York Excelsior,Critical Hit Kills,218
+600.000000002,130.719142843,1307.191428435,3,London Spitfire,Time Played,78431.485706078
+0.910348687,130.719142843,1.983333333,3,London Spitfire,Solo Kills,119
+599.999999999,185.145191124,1851.451911236,3,Guangzhou Charge,Time Played,111087.11467417
+537.226708400,168.591959989,1509.535062126,3,Paris Eternal,Time Alive,90572.103727544
+599.999999999,171.498004537,1714.980045367,3,Houston Outlaws,Time Played,102898.802722015
+8.880694139,159.446995678,23.6,3,Los Angeles Valiant,Final Blows,1416
+555.118985339,152.84763593,1414.143742815,3,Florida Mayhem,Time Alive,84848.624568877
+0.892558927,143.407898422,2.133333333,3,Dallas Fuel,Solo Kills,128
+599.999999999,156.263558982,1562.635589818,3,Washington Justice,Time Played,93758.135389083
+538.133713536,113.969599577,1022.181397509,3,Vancouver Titans,Time Alive,61330.88385057
+544.736250275,141.782314436,1287.232772019,3,San Francisco Shock,Time Alive,77233.966321137
+8.193412029,143.407898422,19.583333333,3,Dallas Fuel,Final Blows,1175
+16.221763090,171.498004537,46.366666667,3,Houston Outlaws,Eliminations,2782
+18.944468463,143.049672011,45.166666667,3,Los Angeles Gladiators,Eliminations,2710
+6.826381797,113.969599577,12.966666667,3,Vancouver Titans,Final Blows,778
+15530.511537883,178.471440982,46195.879555892,3,Shanghai Dragons,All Damage Done,2771752.77335352
+600.000000000,134.384033343,1343.840333429,3,Seoul Dynasty,Time Played,80630.420005766
+1.469404852,171.498004537,4.2,3,Houston Outlaws,Critical Hit Kills,252
+19.642788391,141.782314436,46.416666667,3,San Francisco Shock,Eliminations,2785
+541.124736793,160.110447233,1443.995393614,3,Toronto Defiant,Time Alive,86639.723616812
+4.559393422,130.719142843,9.933333333,3,London Spitfire,Deaths,596
+14.942581235,113.969599577,28.383333333,3,Vancouver Titans,Eliminations,1703
+545.862818645,157.745577566,1435.124093315,3,Boston Uprising,Time Alive,86107.445598914
+17.706098932,175.363303457,51.75,3,Philadelphia Fusion,Eliminations,3105
+544.546470834,128.348610906,1164.863051755,3,Atlanta Reign,Time Alive,69891.783105327
+7.082188261,168.591959989,19.9,3,Paris Eternal,Final Blows,1194
+12843.602627432,171.498004537,36710.870361181,3,Houston Outlaws,All Damage Done,2202652.22167083
+4.288526184,185.145191124,13.233333333,3,Guangzhou Charge,Deaths,794
+600.000000002,168.591959989,1685.919599894,3,Paris Eternal,Time Played,101155.175993663
+599.999999999,157.745577566,1577.455775658,3,Boston Uprising,Time Played,94647.346539507
+0.699057877,143.049672011,1.666666667,3,Los Angeles Gladiators,Solo Kills,100
+14605.764577646,168.591959989,41040.241288053,3,Paris Eternal,All Damage Done,2462414.47728317
+8.339760471,143.049672011,19.883333333,3,Los Angeles Gladiators,Final Blows,1193
+6.140794658,162.193992066,16.6,3,Hangzhou Spark,Final Blows,996
+18.535455765,128.348610906,39.65,3,Atlanta Reign,Eliminations,2379
+600.000000000,159.446995678,1594.46995678,3,Los Angeles Valiant,Time Played,95668.197406822
+8.348182765,152.84763593,21.266666667,3,Florida Mayhem,Final Blows,1276
+1.283118457,178.471440982,3.816666667,3,Shanghai Dragons,Critical Hit Kills,229
+5.704009396,143.407898422,13.633333333,3,Dallas Fuel,Deaths,818
+0.700495253,179.872739221,2.1,3,Chengdu Hunters,Solo Kills,126
+0.763194985,166.405705671,2.116666667,3,New York Excelsior,Solo Kills,127
+14.236039021,162.193992066,38.483333333,3,Hangzhou Spark,Eliminations,2309
+1.488993278,143.049672011,3.55,3,Los Angeles Gladiators,Critical Hit Kills,213
+1.429486910,168.591959989,4.016666667,3,Paris Eternal,Critical Hit Kills,241
+2.106673080,152.84763593,5.366666667,3,Florida Mayhem,Critical Hit Kills,322
+599.999999998,143.049672011,1430.496720106,3,Los Angeles Gladiators,Time Played,85829.803206334
+6.052072284,160.110447233,16.15,3,Toronto Defiant,Deaths,969
+5.174101432,166.405705671,14.35,3,New York Excelsior,Deaths,861
+4.579724088,152.84763593,11.666666667,3,Florida Mayhem,Deaths,700
+17.141979963,168.591959989,48.166666667,3,Paris Eternal,Eliminations,2890
+547.514837834,134.384033343,1226.287537054,3,Seoul Dynasty,Time Alive,73577.252223215
+0.625074259,134.384033343,1.4,3,Seoul Dynasty,Solo Kills,84
+8.289922209,128.348610906,17.733333333,3,Atlanta Reign,Final Blows,1064
+14.083629681,130.719142843,30.683333333,3,London Spitfire,Eliminations,1841
+0.682223681,171.498004537,1.95,3,Houston Outlaws,Solo Kills,117
+6.668221349,156.263558982,17.366666667,3,Washington Justice,Final Blows,1042
+13957.208037201,175.363303457,40793.035140669,3,Philadelphia Fusion,All Damage Done,2447582.10844013
+600.000000000,178.471440982,1784.714409819,3,Shanghai Dragons,Time Played,107082.864589111
+0.806330029,156.263558982,2.1,3,Washington Justice,Solo Kills,126
+540.187028208,156.263558982,1406.859125727,3,Washington Justice,Time Alive,84411.547543617
+600.000000001,141.782314436,1417.823144363,3,San Francisco Shock,Time Played,85069.388661759
+7.233002134,134.384033343,16.2,3,Seoul Dynasty,Final Blows,972
+1.448882274,162.193992066,3.916666667,3,Hangzhou Spark,Critical Hit Kills,235
+0.687025749,160.110447233,1.833333333,3,Toronto Defiant,Solo Kills,110
+12.521747471,364.725451509,76.116666667,1,Shanghai Dragons,Eliminations,4567
+1.297808894,447.67762254,9.683333333,1,Los Angeles Gladiators,Solo Kills,581
+14.622333193,414.776487437,101.083333333,1,Florida Mayhem,Eliminations,6065
+8.519705486,402.361326406,57.133333333,1,Dallas Fuel,Final Blows,3428
+6.924211200,414.776487437,47.866666667,1,Florida Mayhem,Deaths,2872
+2.071183116,516.612940566,17.833333333,1,New York Excelsior,Critical Hit Kills,1070
+1.115907865,364.725451509,6.783333333,1,Shanghai Dragons,Solo Kills,407
+5.518227748,503.422498434,46.3,1,Philadelphia Fusion,Deaths,2778
+15.769408200,402.361326406,105.75,1,Dallas Fuel,Eliminations,6345
+6.111540676,447.67762254,45.6,1,Los Angeles Gladiators,Deaths,2736
+1.804570202,477.676068826,14.366666667,1,Boston Uprising,Critical Hit Kills,862
+11281.885594604,477.676068826,89818.11266292,1,Boston Uprising,All Damage Done,5389086.75977519
+290.829169931,503.422498434,2440.165789072,1,Philadelphia Fusion,Time Alive,146409.947344343
+1.738419441,404.390323329,11.716666667,1,San Francisco Shock,Critical Hit Kills,703
+1.535766899,414.776487437,10.616666667,1,Florida Mayhem,Solo Kills,637
+11202.180263192,404.390323329,75500.888310369,1,San Francisco Shock,All Damage Done,4530053.29862213
+16.636031159,419.150453217,116.216666667,1,Seoul Dynasty,Eliminations,6973
+9.632068521,503.422498434,80.816666667,1,Philadelphia Fusion,Final Blows,4849
+600.000000001,516.612940566,5166.129405665,1,New York Excelsior,Time Played,309967.764339873
+6.832536610,364.725451509,41.533333333,1,Shanghai Dragons,Final Blows,2492
+261.875720104,404.390323329,1765.000118749,1,San Francisco Shock,Time Alive,105900.007124947
+5.371237957,485.176791771,43.433333333,1,London Spitfire,Deaths,2606
+5.659065812,419.150453217,39.533333333,1,Seoul Dynasty,Deaths,2372
+600.000000000,417.510459409,4175.104594091,1,Houston Outlaws,Time Played,250506.275645474
+16.592296836,447.67762254,123.8,1,Los Angeles Gladiators,Eliminations,7428
+1.552011582,485.176791771,12.55,1,London Spitfire,Solo Kills,753
+1.392468557,503.422498434,11.683333333,1,Philadelphia Fusion,Solo Kills,701
+1.756067745,472.077459662,13.816666667,1,Los Angeles Valiant,Critical Hit Kills,829
+599.999999999,404.390323329,4043.903233286,1,San Francisco Shock,Time Played,242634.193997141
+2.019882271,485.176791771,16.333333333,1,London Spitfire,Critical Hit Kills,980
+600.000000000,477.676068826,4776.760688259,1,Boston Uprising,Time Played,286605.641295522
+600.000000000,472.077459662,4720.774596622,1,Los Angeles Valiant,Time Played,283246.475797332
+276.768691238,447.67762254,2065.052494786,1,Los Angeles Gladiators,Time Alive,123903.149687149
+600.000000000,503.422498434,5034.22498434,1,Philadelphia Fusion,Time Played,302053.499060427
+9.006103259,477.676068826,71.7,1,Boston Uprising,Final Blows,4302
+10183.825381555,516.612940566,87684.932942929,1,New York Excelsior,All Damage Done,5261095.97657574
+8.854504323,485.176791771,71.6,1,London Spitfire,Final Blows,4296
+10258.554330950,485.176791771,82953.541308313,1,London Spitfire,All Damage Done,4977212.47849878
+257.306531251,419.150453217,1797.502486491,1,Seoul Dynasty,Time Alive,107850.149189437
+1.846592301,419.150453217,12.9,1,Seoul Dynasty,Critical Hit Kills,774
+5.754946039,477.676068826,45.816666667,1,Boston Uprising,Deaths,2749
+16.157679042,417.510459409,112.433333333,1,Houston Outlaws,Eliminations,6746
+2.397544726,417.510459409,16.683333333,1,Houston Outlaws,Critical Hit Kills,1001
+10552.035665851,447.67762254,78731.837330759,1,Los Angeles Gladiators,All Damage Done,4723910.23984553
+6.977070716,417.510459409,48.55,1,Houston Outlaws,Deaths,2913
+10846.669794545,419.150453217,75773.109337976,1,Seoul Dynasty,All Damage Done,4546386.56027857
+17.154041845,516.612940566,147.7,1,New York Excelsior,Eliminations,8862
+8.530692194,447.67762254,63.65,1,Los Angeles Gladiators,Final Blows,3819
+274.047188947,477.676068826,2181.763064816,1,Boston Uprising,Time Alive,130905.783888965
+1.659838656,417.510459409,11.55,1,Houston Outlaws,Solo Kills,693
+246.442014740,402.361326406,1652.645598885,1,Dallas Fuel,Time Alive,99158.735933119
+2.322105197,503.422498434,19.483333333,1,Philadelphia Fusion,Critical Hit Kills,1169
+2.067793164,402.361326406,13.866666667,1,Dallas Fuel,Critical Hit Kills,832
+289.102243877,485.176791771,2337.76165297,1,London Spitfire,Time Alive,140265.699178226
+600.000000000,485.176791771,4851.767917706,1,London Spitfire,Time Played,291106.075062368
+5.967241058,472.077459662,46.95,1,Los Angeles Valiant,Deaths,2817
+268.659538476,417.510459409,1869.46945556,1,Houston Outlaws,Time Alive,112168.167333598
+9.111270025,516.612940566,78.45,1,New York Excelsior,Final Blows,4707
+600.000000001,402.361326406,4023.613264065,1,Dallas Fuel,Time Played,241416.795843883
+11384.786717441,472.077459662,89575.019872718,1,Los Angeles Valiant,All Damage Done,5374501.19236308
+1.591133198,516.612940566,13.7,1,New York Excelsior,Solo Kills,822
+255.863870696,364.725451509,1555.334429405,1,Shanghai Dragons,Time Alive,93320.065764319
+17.298848878,485.176791771,139.883333333,1,London Spitfire,Eliminations,8393
+1.542119805,472.077459662,12.133333333,1,Los Angeles Valiant,Solo Kills,728
+10941.265352115,417.510459409,76134.878727954,1,Houston Outlaws,All Damage Done,4568092.72367726
+1.560298921,419.150453217,10.9,1,Seoul Dynasty,Solo Kills,654
+600.000000000,447.67762254,4476.776225403,1,Los Angeles Gladiators,Time Played,268606.573524206
+1.228866251,477.676068826,9.783333333,1,Boston Uprising,Solo Kills,587
+1.989023064,414.776487437,13.75,1,Florida Mayhem,Critical Hit Kills,825
+11407.491780529,402.361326406,76498.892062989,1,Dallas Fuel,All Damage Done,4589933.52377931
+250.170800970,414.776487437,1729.416101425,1,Florida Mayhem,Time Alive,103764.966085497
+16.867367013,404.390323329,113.683333333,1,San Francisco Shock,Eliminations,6821
+8.669841482,404.390323329,58.433333333,1,San Francisco Shock,Final Blows,3506
+6.951463315,402.361326406,46.616666667,1,Dallas Fuel,Deaths,2797
+10467.316869651,414.776487437,72359.948734733,1,Florida Mayhem,All Damage Done,4341596.924084
+600.000000000,419.150453217,4191.50453217,1,Seoul Dynasty,Time Played,251490.271930178
+6.125270208,404.390323329,41.283333333,1,San Francisco Shock,Deaths,2477
+600.000000001,414.776487437,4147.764874374,1,Florida Mayhem,Time Played,248865.892462411
+5.330876917,516.612940566,45.9,1,New York Excelsior,Deaths,2754
+1.182026306,404.390323329,7.966666667,1,San Francisco Shock,Solo Kills,478
+270.233434326,516.612940566,2326.76815244,1,New York Excelsior,Time Alive,139606.089146423
+10186.109861897,364.725451509,61918.891975013,1,Shanghai Dragons,All Damage Done,3715133.51850079
+8.021187557,414.776487437,55.45,1,Florida Mayhem,Final Blows,3327
+600.000000000,364.725451509,3647.254515088,1,Shanghai Dragons,Time Played,218835.270905271
+1.587495464,364.725451509,9.65,1,Shanghai Dragons,Critical Hit Kills,579
+8.882252116,419.150453217,62.05,1,Seoul Dynasty,Final Blows,3723
+7.460406146,364.725451509,45.35,1,Shanghai Dragons,Deaths,2721
+17.498224707,503.422498434,146.816666667,1,Philadelphia Fusion,Eliminations,8809
+17.859383287,477.676068826,142.183333333,1,Boston Uprising,Eliminations,8531
+1.778065197,447.67762254,13.266666667,1,Los Angeles Gladiators,Critical Hit Kills,796
+1.411666487,402.361326406,9.466666667,1,Dallas Fuel,Solo Kills,568
+8.473185741,472.077459662,66.666666667,1,Los Angeles Valiant,Final Blows,4000
+16.700649096,472.077459662,131.4,1,Los Angeles Valiant,Eliminations,7884
+269.335786249,472.077459662,2119.122562807,1,Los Angeles Valiant,Time Alive,127147.353768434
+9.060850848,417.510459409,63.05,1,Houston Outlaws,Final Blows,3783
+10433.672072606,503.422498434,87542.421043873,1,Philadelphia Fusion,All Damage Done,5252545.2626324
+557.233791166,220.516078992,2047.983511831,2,Guangzhou Charge,Time Alive,122879.01070984
+7.059885301,157.792931818,18.566666667,2,Los Angeles Valiant,Final Blows,1114
+16.631897698,158.911511359,44.05,2,Florida Mayhem,Eliminations,2643
+544.022645662,188.436071389,1708.558168252,2,Vancouver Titans,Time Alive,102513.490095117
+1.906710830,158.387939702,5.033333333,2,Paris Eternal,Critical Hit Kills,302
+18.016118124,192.216768131,57.716666667,2,New York Excelsior,Eliminations,3463
+5.950836892,157.792931818,15.65,2,Los Angeles Valiant,Deaths,939
+549.822664064,180.76646069,1656.491616499,2,San Francisco Shock,Time Alive,99389.496989912
+600.000000001,257.961717952,2579.617179524,2,Chengdu Hunters,Time Played,154777.030771453
+545.903426340,146.207333668,1330.251406757,2,Dallas Fuel,Time Alive,79815.084405404
+600.000000000,192.216768131,1922.16768131,2,New York Excelsior,Time Played,115330.060878625
+1.322024197,296.514996462,6.533333333,2,Shanghai Dragons,Critical Hit Kills,392
+600.000000000,154.983305467,1549.833054669,2,Washington Justice,Time Played,92989.983280159
+5.717907433,146.207333668,13.933333333,2,Dallas Fuel,Deaths,836
+1.578802973,202.685202341,5.333333333,2,Houston Outlaws,Critical Hit Kills,320
+18.061459183,182.820223251,55.033333333,2,Hangzhou Spark,Eliminations,3302
+11483.763170905,158.387939702,30314.826477755,2,Paris Eternal,All Damage Done,1818889.58866529
+599.999999999,162.248828986,1622.488289857,2,Atlanta Reign,Time Played,97349.297391411
+540.832215243,167.259518177,1507.655595602,2,Toronto Defiant,Time Alive,90459.335736112
+543.821093718,158.387939702,1435.578376674,2,Paris Eternal,Time Alive,86134.702600443
+599.999999999,182.140012594,1821.400125936,2,Los Angeles Gladiators,Time Played,109284.007556142
+0.884852483,167.259518177,2.466666667,2,Toronto Defiant,Solo Kills,148
+12377.454289984,146.207333668,30161.243155603,2,Dallas Fuel,All Damage Done,1809674.58933617
+17.712994072,220.516078992,65.1,2,Guangzhou Charge,Eliminations,3906
+1.729438774,182.140012594,5.25,2,Los Angeles Gladiators,Critical Hit Kills,315
+7.860180753,182.820223251,23.95,2,Hangzhou Spark,Final Blows,1437
+0.870107762,296.514996462,4.3,2,Shanghai Dragons,Solo Kills,258
+17.016535791,202.685202341,57.483333333,2,Houston Outlaws,Eliminations,3449
+0.836808012,164.912378885,2.3,2,Boston Uprising,Solo Kills,138
+0.702332067,192.216768131,2.25,2,New York Excelsior,Solo Kills,135
+1.186783687,179.476683405,3.55,2,Seoul Dynasty,Critical Hit Kills,213
+15.920967005,257.961717952,68.45,2,Chengdu Hunters,Eliminations,4107
+5.379154576,296.514996462,26.583333333,2,Shanghai Dragons,Deaths,1595
+11484.492522774,164.912378885,31565.58303696,2,Boston Uprising,All Damage Done,1893934.98221759
+5.161355688,180.76646069,15.55,2,San Francisco Shock,Deaths,933
+13725.630607463,179.476683405,41057.17765116,2,Seoul Dynasty,All Damage Done,2463430.6590696
+600.000000001,158.387939702,1583.879397023,2,Paris Eternal,Time Played,95032.763821385
+548.091299563,159.619914983,1458.10477732,2,Philadelphia Fusion,Time Alive,87486.286639209
+600.000000000,182.820223251,1828.20223251,2,Hangzhou Spark,Time Played,109692.133950619
+0.824358153,158.911511359,2.183333333,2,Florida Mayhem,Solo Kills,131
+1.534148023,164.912378885,4.216666667,2,Boston Uprising,Critical Hit Kills,253
+9.869087403,180.76646069,29.733333333,2,San Francisco Shock,Final Blows,1784
+542.910855355,157.792931818,1427.791593039,2,Los Angeles Valiant,Time Alive,85667.495582355
+7.605601888,162.248828986,20.566666667,2,Atlanta Reign,Final Blows,1234
+19.826352632,188.436071389,62.266666667,2,Vancouver Titans,Eliminations,3736
+8.074217536,192.216768131,25.866666667,2,New York Excelsior,Final Blows,1552
+6.749989551,167.259518177,18.816666667,2,Toronto Defiant,Final Blows,1129
+11725.190980215,167.259518177,32685.829898067,2,Toronto Defiant,All Damage Done,1961149.79388402
+2.183605184,158.911511359,5.783333333,2,Florida Mayhem,Critical Hit Kills,347
+5.803081651,164.912378885,15.95,2,Boston Uprising,Deaths,957
+17.209632020,159.619914983,45.783333333,2,Philadelphia Fusion,Eliminations,2747
+17.300979921,296.514996462,85.5,2,Shanghai Dragons,Eliminations,5130
+600.000000000,182.601377966,1826.013779661,2,London Spitfire,Time Played,109560.826779654
+5.272939628,182.820223251,16.066666667,2,Hangzhou Spark,Deaths,964
+11617.113234047,154.983305467,30007.643483284,2,Washington Justice,All Damage Done,1800458.60899706
+8.103655968,182.140012594,24.6,2,Los Angeles Gladiators,Final Blows,1476
+599.999999999,167.259518177,1672.595181767,2,Toronto Defiant,Time Played,100355.710906031
+600.000000000,179.476683405,1794.766834051,2,Seoul Dynasty,Time Played,107686.010043055
+1.883300893,167.259518177,5.25,2,Toronto Defiant,Critical Hit Kills,315
+11921.059365288,159.619914983,31713.974706577,2,Philadelphia Fusion,All Damage Done,1902838.4823946
+0.936466098,182.601377966,2.85,2,London Spitfire,Solo Kills,171
+13021.234735506,257.961717952,55983.001370457,2,Chengdu Hunters,All Damage Done,3358980.08222742
+0.856483964,182.140012594,2.6,2,Los Angeles Gladiators,Solo Kills,156
+600.000000002,157.792931818,1577.929318185,2,Los Angeles Valiant,Time Played,94675.759091078
+5.462830412,182.140012594,16.583333333,2,Los Angeles Gladiators,Deaths,995
+15.431109859,167.259518177,43.016666667,2,Toronto Defiant,Eliminations,2581
+600.000000000,180.76646069,1807.664606901,2,San Francisco Shock,Time Played,108459.876414071
+5.443551473,182.601377966,16.566666667,2,London Spitfire,Deaths,994
+1.510235909,180.76646069,4.55,2,San Francisco Shock,Critical Hit Kills,273
+15.704125473,157.792931818,41.3,2,Los Angeles Valiant,Eliminations,2478
+5.181203211,154.983305467,13.383333333,2,Washington Justice,Deaths,803
+1.608137189,182.820223251,4.9,2,Hangzhou Spark,Critical Hit Kills,294
+13706.199595255,188.436071389,43045.706756721,2,Vancouver Titans,All Damage Done,2582742.40540329
+7.904077128,154.983305467,20.416666667,2,Washington Justice,Final Blows,1225
+547.640205978,182.140012594,1662.453233564,2,Los Angeles Gladiators,Time Alive,99747.194013862
+1.420271512,192.216768131,4.55,2,New York Excelsior,Critical Hit Kills,273
+5.719609847,162.248828986,15.466666667,2,Atlanta Reign,Deaths,928
+7.891675052,296.514996462,39,2,Shanghai Dragons,Final Blows,2340
+7.298998261,179.476683405,21.833333333,2,Seoul Dynasty,Final Blows,1310
+4.448655193,220.516078992,16.35,2,Guangzhou Charge,Deaths,981
+1.372296645,257.961717952,5.9,2,Chengdu Hunters,Critical Hit Kills,354
+549.384615390,182.820223251,1673.976967271,2,Hangzhou Spark,Time Alive,100438.61803628
+11621.741073616,220.516078992,42713.012876902,2,Guangzhou Charge,All Damage Done,2562780.77261414
+0.907811709,202.685202341,3.066666667,2,Houston Outlaws,Solo Kills,184
+1.413055421,154.983305467,3.65,2,Washington Justice,Solo Kills,219
+5.462977474,159.619914983,14.533333333,2,Philadelphia Fusion,Deaths,872
+7.148347494,257.961717952,30.733333333,2,Chengdu Hunters,Final Blows,1844
+14.183289428,164.912378885,38.983333333,2,Boston Uprising,Eliminations,2339
+2.081480870,220.516078992,7.65,2,Guangzhou Charge,Critical Hit Kills,459
+15884.218753993,180.76646069,47855.56674975,2,San Francisco Shock,All Damage Done,2871334.00498502
+7.799884742,220.516078992,28.666666667,2,Guangzhou Charge,Final Blows,1720
+553.811129932,158.911511359,1466.78272775,2,Florida Mayhem,Time Alive,88006.963664986
+1.405248971,162.248828986,3.8,2,Atlanta Reign,Critical Hit Kills,228
+12598.688098818,157.792931818,33133.065536218,2,Los Angeles Valiant,All Damage Done,1987983.9321731
+0.773165177,157.792931818,2.033333333,2,Los Angeles Valiant,Solo Kills,122
+1.703163489,182.601377966,5.183333333,2,London Spitfire,Critical Hit Kills,311
+12966.414328195,182.140012594,39361.714483941,2,Los Angeles Gladiators,All Damage Done,2361702.86903649
+5.588469661,179.476683405,16.716666667,2,Seoul Dynasty,Deaths,1003
+1.780814874,157.792931818,4.683333333,2,Los Angeles Valiant,Critical Hit Kills,281
+0.707612808,179.476683405,2.116666667,2,Seoul Dynasty,Solo Kills,127
+599.999999999,202.685202341,2026.852023408,2,Houston Outlaws,Time Played,121611.121404489
+7.232891119,202.685202341,24.433333333,2,Houston Outlaws,Final Blows,1466
+21.718630685,180.76646069,65.433333333,2,San Francisco Shock,Eliminations,3926
+5.587441774,192.216768131,17.9,2,New York Excelsior,Deaths,1074
+0.658307960,180.76646069,1.983333333,2,San Francisco Shock,Solo Kills,119
+550.721178120,154.983305467,1422.543142928,2,Washington Justice,Time Alive,85352.588575704
+5.818692835,257.961717952,25.016666667,2,Chengdu Hunters,Deaths,1501
+599.999999998,159.619914983,1596.199149826,2,Philadelphia Fusion,Time Played,95771.94898955
+13541.233910358,296.514996462,66919.648750349,2,Shanghai Dragons,All Damage Done,4015178.92502093
+0.684134368,162.248828986,1.85,2,Atlanta Reign,Solo Kills,111
+16.182791351,182.601377966,49.25,2,London Spitfire,Eliminations,2955
+0.562524994,188.436071389,1.766666667,2,Vancouver Titans,Solo Kills,106
+18.152775827,179.476683405,54.3,2,Seoul Dynasty,Eliminations,3258
+16.244923729,158.387939702,42.883333333,2,Paris Eternal,Eliminations,2573
+600.000000001,158.911511359,1589.115113594,2,Florida Mayhem,Time Played,95346.906815634
+5.909540851,158.387939702,15.6,2,Paris Eternal,Deaths,936
+7.634115446,182.601377966,23.233333333,2,London Spitfire,Final Blows,1394
+600.000000000,146.207333668,1462.073336681,2,Dallas Fuel,Time Played,87724.400200839
+0.642922606,146.207333668,1.566666667,2,Dallas Fuel,Solo Kills,94
+0.639629792,257.961717952,2.75,2,Chengdu Hunters,Solo Kills,165
+14.082740916,146.207333668,34.316666667,2,Dallas Fuel,Eliminations,2059
+550.632463365,296.514996462,2721.179715442,2,Shanghai Dragons,Time Alive,163270.782926538
+6.088081482,164.912378885,16.733333333,2,Boston Uprising,Final Blows,1004
+600.000000000,164.912378885,1649.123788849,2,Boston Uprising,Time Played,98947.427330919
+545.448988943,257.961717952,2345.082637384,2,Chengdu Hunters,Time Alive,140704.958243013
+17.848906200,182.140012594,54.183333333,2,Los Angeles Gladiators,Eliminations,3251
+2.424509498,159.619914983,6.45,2,Philadelphia Fusion,Critical Hit Kills,387
+0.921787355,158.387939702,2.433333333,2,Paris Eternal,Solo Kills,146
+599.999999999,188.436071389,1884.360713888,2,Vancouver Titans,Time Played,113061.642833283
+545.454715540,164.912378885,1499.203911896,2,Boston Uprising,Time Alive,89952.234713777
+1.284255176,188.436071389,4.033333333,2,Vancouver Titans,Critical Hit Kills,242
+13703.876645065,162.248828986,37057.298970506,2,Atlanta Reign,All Damage Done,2223437.93823036
+12999.350282602,158.911511359,34429.106668223,2,Florida Mayhem,All Damage Done,2065746.4000934
+12856.977854401,182.601377966,39128.364544866,2,London Spitfire,All Damage Done,2347701.87269195
+600.000000000,296.514996462,2965.14996462,2,Shanghai Dragons,Time Played,177908.997877213
+6.865456068,158.911511359,18.183333333,2,Florida Mayhem,Final Blows,1091
+7.737129794,159.619914983,20.583333333,2,Philadelphia Fusion,Final Blows,1235
+1.723579753,146.207333668,4.2,2,Dallas Fuel,Critical Hit Kills,252
+5.205116051,202.685202341,17.583333333,2,Houston Outlaws,Deaths,1055
+11280.196836910,202.685202341,38105.482972256,2,Houston Outlaws,All Damage Done,2286328.97833539
+5.789761971,188.436071389,18.183333333,2,Vancouver Titans,Deaths,1091
+545.978491828,192.216768131,1749.103686138,2,New York Excelsior,Time Alive,104946.221168294
+544.641056675,162.248828986,1472.789561053,2,Atlanta Reign,Time Alive,88367.373663151
+1.106495277,220.516078992,4.066666667,2,Guangzhou Charge,Solo Kills,244
+0.895878187,159.619914983,2.383333333,2,Philadelphia Fusion,Solo Kills,143
+18.089498817,162.248828986,48.916666667,2,Atlanta Reign,Eliminations,2935
+0.869706847,182.820223251,2.65,2,Hangzhou Spark,Solo Kills,159
+14139.452174162,182.820223251,43082.963385453,2,Hangzhou Spark,All Damage Done,2584977.8031272
+5.444323346,146.207333668,13.266666667,2,Dallas Fuel,Final Blows,796
+547.993126531,182.601377966,1667.738333675,2,London Spitfire,Time Alive,100064.300020529
+550.872802218,202.685202341,1860.896089695,2,Houston Outlaws,Time Alive,111653.765381695
+8.230908173,188.436071389,25.85,2,Vancouver Titans,Final Blows,1551
+15.917843490,154.983305467,41.116666667,2,Washington Justice,Eliminations,2467
+2.722873917,154.983305467,7.033333333,2,Washington Justice,Critical Hit Kills,422
+545.804753560,179.476683405,1632.653782593,2,Seoul Dynasty,Time Alive,97959.22695557
+6.170052451,167.259518177,17.2,2,Toronto Defiant,Deaths,1032
+4.795121470,158.911511359,12.7,2,Florida Mayhem,Deaths,762
+12875.471786739,192.216768131,41248.026250148,2,New York Excelsior,All Damage Done,2474881.57500888
+600.000000000,220.516078992,2205.160789919,2,Guangzhou Charge,Time Played,132309.647395147
+7.172263255,158.387939702,18.933333333,2,Paris Eternal,Final Blows,1136

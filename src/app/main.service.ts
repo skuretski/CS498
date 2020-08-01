@@ -50,4 +50,5 @@ export class MainService {
     this.support_data.stages = Array.from(this.support_data.stages).sort();
     this.support_data.seasons = Array.from(this.support_data.seasons).sort();
   }
+
 }

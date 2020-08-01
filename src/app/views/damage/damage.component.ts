@@ -1,3 +1,4 @@
+import { MainService } from './../../main.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./damage.component.scss']
 })
 export class DamageComponent implements OnInit {
+  title: string = 'Damage Breakdown';
+  damage_stats: any;
 
-  constructor() { }
+  constructor(public ms: MainService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    let my_set = new Set();
+
+    let my_func = (acc, curr) => {
+      acc.add(curr['stat_name']);
+      return acc;
+    }
+    this.damage_stats = [...this.ms.dps.reduce(my_func,my_set)];
   }
+
 
 }

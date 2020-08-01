@@ -84,8 +84,6 @@ export class MapStatsComponent implements OnInit {
     return new_data;
   }
 
-
-
   match_by_stage = (v) => {
     if(this.active_filters.stage == null) return true;
 
@@ -134,11 +132,13 @@ export class MapStatsComponent implements OnInit {
           if(x[1] > max_loss) {
             max_loss = x[1];
             max_loss_team = x.data.team;
+            offset = x.data.wins + x.data.losses;
           }
         });
         this.max_losses = {
           count: max_loss,
-          team: max_loss_team
+          team: max_loss_team,
+          offset
         }
       } 
       else if (i === 1) {
@@ -146,7 +146,7 @@ export class MapStatsComponent implements OnInit {
           if((x[1] - x[0]) > max_win) {
             max_win = x[1] - x[0];
             max_win_team = x.data.team;
-            offset = x.data.wins + x.data.losses - this.margin.top - this.margin.bottom;
+            offset = x.data.wins + x.data.losses;
           }
         });
         this.max_wins = {
@@ -162,7 +162,7 @@ export class MapStatsComponent implements OnInit {
     this.y = d3.scaleLinear()
       .range([this.height, 0])
       //@ts-ignore
-      .domain([0, parseInt(d3.max(this.stacked_data, d => d3.max(d, d => d[1])))])
+      .domain([0, d3.max(this.stacked_data, d => d3.max(d, d => parseInt(d[1])))])
 
     // y axis
     this.y_axis = d3.axisLeft(this.y)
@@ -252,20 +252,22 @@ export class MapStatsComponent implements OnInit {
           })
 
         this.svg
-        .append("text")
-        .attr("x", this.x(this.max_wins.team) + this.margin.left + this.margin.right)
-        .attr("y", this.max_wins.offset)
-        .attr("width", 40)
-        .text(`Most wins: ${this.max_wins.team}`)
-        .attr("fill", "#000000")
+          .append("text")
+          .attr("x", this.x(this.max_wins.team) + this.margin.left)
+          .attr("y", this.y(this.max_wins.offset) + 24)
+          .attr("width", 20)
+          .text(`Most wins: ${this.max_wins.team}`)
+          .attr("fill", "#000000")
+          .attr("font-size", "12px")
 
         this.svg
-        .append("text")
-        .attr("x", this.x(this.max_losses.team) + this.margin.left + this.margin.right)
-        .attr("y", this.max_losses.count + this.margin.top + this.margin.bottom)
-        .attr("width", 40)
-        .text(`Most losses: ${this.max_losses.team}`)
-        .attr("fill", "#000000")
+          .append("text")
+          .attr("x", this.x(this.max_losses.team) + this.margin.left)
+          .attr("y", this.y(this.max_losses.offset) + 24)
+          .attr("width", 20)
+          .text(`Most losses: ${this.max_losses.team}`)
+          .attr("fill", "#000000")
+          .attr("font-size", "12px")
   }
 
   filterData(d: any, key_name, value) {
