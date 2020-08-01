@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./maps.component.scss']
 })
 export class MapsComponent implements OnInit {
-  title: string = 'Map Breakdown';
+  title: string = 'Team Win/Loss Records';
 
   constructor(public ms: MainService) { }
 

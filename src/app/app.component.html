@@ -2,24 +2,24 @@
   <div class="row">
     <div class="col-12">
       <div class="sticky-top header">
-        <div class="bg-ow-gray py-4">
+        <div class="bg-ow-gray py-3">
           <div class="d-flex align-items-center">
             <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
             <h1 class="text-white">A Breakdown of the Overwatch League&trade;</h1>
           </div>
         </div>
         <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue p-2" [(activeId)]="active">
-          <li ngbNavItem="maps">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'maps'}" ngbNavLink [routerLink]="'.'" [fragment]="'maps'">Maps</a>
+          <li ngbNavItem="records">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'records'}" ngbNavLink [routerLink]="['/records']">Records</a>
           </li>
-          <li class="" ngbNavItem="tanks">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'tanks'}" ngbNavLink [routerLink]="'.'" [fragment]="'tanks'">Tanks</a>
+          <li ngbNavItem="tanks">
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'tanks'}" ngbNavLink [routerLink]="['/tanks']">Tanks</a>
           </li>
           <li ngbNavItem="support">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'support'}" ngbNavLink [routerLink]="'.'" [fragment]="'support'">Support</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'support'}" ngbNavLink [routerLink]="['/support']">Support</a>
           </li>
           <li ngbNavItem="damage">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'damage'}" ngbNavLink [routerLink]="'.'" [fragment]="'damage'">Damage</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'damage'}" ngbNavLink [routerLink]="['/damage']">Damage</a>
           </li>
         </ul>
       </div>
@@ -32,13 +32,22 @@
           a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
           playing different heroes and roles.
           <hr/>
-          Over three seasons, the Overwatch League has collected statistics on maps, teams, and players. Let's begin
-          by looking at the map breakdown over the past few seasons. And then we'll break down hero roles.
+          Over three seasons, the Overwatch League has collected statistics on teams, players, and roles. Let's begin
+          by looking at team win-loss records.
         </div>
-        <div>
-          <app-maps></app-maps>
+        <div class="row">
+          <div class="col-1 d-flex align-items-center">
+            <i class="material-icons">keyboard_arrow_left</i>
+          </div>
+          <div class="col-10">
+            <router-outlet *ngIf="ms?.records"></router-outlet>
+          </div>
+          <div class="col-1 d-flex align-items-center">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </div>
         </div>
-        <div [attr.id]="'tanks'">
+        <!-- <div [attr.id]="'tanks'">
+          <app-maps *ngIf="ms?.records"></app-maps>
           <app-tanks *ngIf="ms?.tanks"></app-tanks>
         </div>
         <div [attr.id]="'support'">
@@ -46,7 +55,7 @@
         </div>
         <div [attr.id]="'damage'">
 
-        </div>
+        </div> -->
       </div>
       <footer class="py-4 text-center">
         <span class="font-italic">

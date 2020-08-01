@@ -1,4 +1,8 @@
 <div class="h-100 pb-4 container">
-	<app-map-stats *ngIf="ms?.map_data" [title]="title" [data]="ms?.map_data"></app-map-stats>
+	<div class="row justify-content-center">
+		<div class="col-12">
+			<app-map-stats *ngIf="ms?.records" [title]="title" [data]="ms?.records"></app-map-stats>
+		</div>
+	</div>
 </div>
 

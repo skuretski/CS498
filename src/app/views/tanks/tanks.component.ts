@@ -12,7 +12,7 @@ export class TanksComponent implements OnInit {
   constructor(public ms: MainService) { }
 
   async ngOnInit() {
-    console.log(this.ms.tanks[0])
+    console.log(this.ms.tanks)
 
   }
 

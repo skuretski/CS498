@@ -1,10 +1,8 @@
-export class MapData {
-	map_name: string;
-	map_winner: string;
-	map_loser: string;
+export class RecordData {
+	match_winner: string;
+	match_loser: string;
 	season: string;
 	stage: string;
-	match_count: number;
-	map_type: string;
+	match_id: number;
 	constructor () {}
 } 

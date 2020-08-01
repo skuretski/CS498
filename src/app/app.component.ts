@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   providers: [ MainService ]
 })
 export class AppComponent implements OnInit {
-  active = 'maps';
+  active = 'records';
 
   constructor(public ms: MainService) {}
 

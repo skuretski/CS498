@@ -3,3 +3,11 @@
 	height: 300px;
 	overflow-y: auto;
 }
+
+.page-item {
+	cursor: pointer;
+}
+
+.disabled {
+	cursor: not-allowed;
+}

@@ -3,72 +3,29 @@
 		{{ title }}
 		{{ active_filters.team ? ' of ' + active_filters.team : ''}}
 		{{ active_filters.season ? ' in Season ' + active_filters.season : '' }}
-		{{ active_filters.stage ? ' Stage ' + active_filters.stage : ''}}
-		{{ active_filters.map_type ? ' on ' +  active_filters.map_type : '' }}
+		{{ active_filters.season == undefined ? 'in All Seasons' : ''}}
 
 	</h4>
 	<!-- Filters -->
 	<div class="py-2">
-		<button class="btn btn-outline-ow-light-blue d-inline-block mr-2" (click)="update(null, null)">Clear filters</button>
-
-		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
-			<button class="btn"
-				[ngClass]="{
-					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.team, 
-					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.team
-				}" 
-				ngbDropdownToggle>Filter by Team
-			</button>
-			<div ngbDropdownMenu aria-labelledby="team filter dropdown">
-				<button *ngFor="let t of ms?.support_data?.teams" ngbDropdownItem (click)="update('team', t)">
-					{{ t }}
-				</button>
-			</div>
-		</div>
-
-		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
-			<button class="btn"
-				[ngClass]="{
-					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.season, 
-					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.season
-				}" 
-				ngbDropdownToggle>Filter by Season
-			</button>
-			<div ngbDropdownMenu aria-labelledby="season filter dropdown">
-				<button *ngFor="let t of ms?.support_data?.seasons" ngbDropdownItem (click)="update('season', t)">
-					{{ t == 1 ? 'One' : (t == 2 ? 'Two' : (t == 3 ? 'Three' : '')) }}
-				</button>
-			</div>
-		</div>
-
-		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
-			<button class="btn"
-				[ngClass]="{
-					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.stage, 
-					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.stage
-				}" 
-				ngbDropdownToggle>Filter by Stage
-			</button>
-			<div ngbDropdownMenu aria-labelledby="stage filter dropdown">
-				<button *ngFor="let t of ms?.support_data?.stages" ngbDropdownItem (click)="update('stage', t)">
-					{{ t }}
-				</button>
-			</div>
-		</div>
-
-		<div ngbDropdown placement="bottom-left" class="d-inline-block mr-2">
-			<button class="btn"
-				[ngClass]="{
-					'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.map_type, 
-					'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.map_type
-				}" 
-				ngbDropdownToggle>Filter by Map Type
-			</button>
-			<div ngbDropdownMenu aria-labelledby="map type filter dropdown">
-				<button *ngFor="let t of ms?.support_data?.map_types" ngbDropdownItem (click)="update('map_type', t)">
-					{{ t }}
-				</button>
-			</div>
+		<h5 class="font-weight-bold p-2">Season</h5>
+		<div class="d-flex">
+			<nav aria-label="season navigation">
+				<ul class="pagination mb-0">
+					<li [ngClass]="{'disabled': active_filters.season - 1 <= 0}"
+						class="page-item">
+						<button [disabled]="active_filters.season - 1 <= 0" class="page-link" (click)="update('season', active_filters.season - 1)">Previous</button>
+					</li>
+					<li [ngClass]="{'active': active_filters.season == 1}"class="page-item" (click)="update('season', 1)"><a class="page-link">1</a></li>
+					<li [ngClass]="{'active': active_filters.season == 2}"class="page-item" (click)="update('season', 2)"><a class="page-link">2</a></li>
+					<li [ngClass]="{'active': active_filters.season == 3}"class="page-item" (click)="update('season', 3)"><a class="page-link">3</a></li>
+					<li [ngClass]="{'disabled': active_filters.season + 1 > 3}" 
+						class="page-item">
+						<button [disabled]="active_filters.season + 1 > 3" class="page-link"(click)="update('season', active_filters.season + 1)">Next</button>
+					</li>
+				</ul>
+			</nav>
+			<button [ngClass]="{'active': active_filters.season == undefined}"class="ml-4 btn btn-outline-ow-light-blue d-inline-block mr-2" (click)="update(null, null)">All Seasons</button>
 		</div>
 
 	</div>
