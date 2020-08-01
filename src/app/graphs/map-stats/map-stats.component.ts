@@ -127,7 +127,7 @@ export class MapStatsComponent implements OnInit {
       .padding(0.2)
       .domain(this.groups);
 
-    d3.max(this.stacked_data, (d, i) => {
+    d3.max(this.stacked_data, (d:any,i:any) => {
       let max_win = 0, max_loss = 0, max_win_team = null, max_loss_team = null, offset = 0;
       if(i === 0) {
         d.map(x => {
@@ -155,12 +155,14 @@ export class MapStatsComponent implements OnInit {
           offset
         }
       }
+      return '';
     })
 
     // y scale
     this.y = d3.scaleLinear()
       .range([this.height, 0])
-      .domain([0, d3.max(this.stacked_data, d => parseInt(d3.max(d, d => d[1])))])
+      //@ts-ignore
+      .domain([0, parseInt(d3.max(this.stacked_data, d => d3.max(d, d => d[1])))])
 
     // y axis
     this.y_axis = d3.axisLeft(this.y)

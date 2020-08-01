@@ -19,6 +19,7 @@ export class HeroStatsComponent implements OnInit {
       }
     }
   _data:any;
+  @Input() stats: string[];
 
   original_data: any;
   svg: any;
