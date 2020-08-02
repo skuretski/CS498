@@ -266,7 +266,7 @@ export class MapStatsComponent implements OnInit {
           .text(`Most losses: ${this.max_losses.team}`)
           .attr("fill", "#000000")
           .attr("font-size", "12px")
-          .attr("font-weight", "bold")
+          .attr("font-weight", "bold");
   }
 
   filterData(d: any, key_name, value) {

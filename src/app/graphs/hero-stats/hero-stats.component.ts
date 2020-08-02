@@ -206,6 +206,7 @@ export class HeroStatsComponent implements OnInit {
           return this.x.bandwidth()
         }
       })
+      .style("fill-opacity", "0.8")
       .style("fill", (d) => {
         if(d['stat_name'] != 'Time Played') {
           if(this.active_filters.season == 1) {
@@ -236,17 +237,6 @@ export class HeroStatsComponent implements OnInit {
         }
       });
 
-      this.svg
-        .append("text")
-        .attr("x", this.margin.left + 6)
-        .attr("y", this.margin.top - 4)
-        .attr("width", 20)
-        .text(`Teams in green have the best records for the season. Teams in red have the worst.`)
-        .attr("fill", "#000000")
-        .attr("font-size", "12px")
-    //    .style("font-family",)
-        .attr("font-weight", "bold");
-
       if(this.active_filters.stat_name == 'Solo Kills') {
         this.svg
           .append("text")
@@ -270,7 +260,8 @@ export class HeroStatsComponent implements OnInit {
           if(d['stat_name'] != 'Time Played') {
             return this.height - this.y(d['adjusted_stat_amount'])
           }
-        })
+        });
+        
   }
 
 }
