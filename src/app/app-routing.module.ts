@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'tanks', component: TanksComponent },
   { path: 'damage', component: DamageComponent }, 
   { path: 'support', component: SupportComponent },
+  { path: '', redirectTo: '/records', pathMatch: 'full'},
   { path: '**', component: MapsComponent }
 ];
 

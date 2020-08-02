@@ -37,6 +37,8 @@ export class AppComponent implements OnInit {
     } else if(route === '/support') {
       this.ms.finished_slideshow = true
       this.router.navigate(['/damage']);
+    } else if(route === '/') {
+      this.router.navigate(['/tanks']);
     }
   }
 
