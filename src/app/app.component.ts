@@ -21,7 +21,6 @@ export class AppComponent implements OnInit {
         if(this.active === '/damage') {
           this.ms.finished_slideshow = true;
         }
-        console.log(this.active);
       }
     })
   }

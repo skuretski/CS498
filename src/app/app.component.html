@@ -10,16 +10,16 @@
         </div>
         <ul [hidden]="!ms.finished_slideshow" ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue p-2" [(activeId)]="active">
           <li ngbNavItem="records">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/records'}" ngbNavLink [routerLink]="['/records']">Records</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/records' || active === 'records'}" ngbNavLink [routerLink]="['/records']">Records</a>
           </li>
           <li ngbNavItem="tanks">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/tanks'}" ngbNavLink [routerLink]="['/tanks']">Tanks</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/tanks' || active === 'tanks'}" ngbNavLink [routerLink]="['/tanks']">Tanks</a>
           </li>
           <li ngbNavItem="support">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/support'}" ngbNavLink [routerLink]="['/support']">Support</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/support' || active === 'support'}" ngbNavLink [routerLink]="['/support']">Support</a>
           </li>
           <li ngbNavItem="damage">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/damage'}" ngbNavLink [routerLink]="['/damage']">Damage</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/damage' || active === 'damage'}" ngbNavLink [routerLink]="['/damage']">Damage</a>
           </li>
         </ul>
       </div>
@@ -32,20 +32,20 @@
           a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
           playing different heroes and roles.
           <hr/>
-          <div class="pb-2" *ngIf="active === '/records'">Over three seasons, the Overwatch League has collected statistics on teams, players, and roles. Let's begin by looking at team win-loss records.</div>
-          <div class="pb-2" *ngIf="active === '/tanks'">Tanks are an important role in a team. They can create space for damage players, change the tempo of the match, or protect the team with shields and barriers.</div>
-          <div class="pb-2" *ngIf="active === '/support'">Support heroes keep the team alive and assist in making offensive plays. Often times, they are protecting their own lives while trying to keep their team alive.</div>
-          <div class="pb-2" *ngIf="active === '/damage'">Damage players, or DPS, have burst damage, require consistent aim, and can make key eliminations to give their team a player advantage on an objective.</div>
+          <div class="pb-2" *ngIf="active === '/records' || active === 'records'">Over three seasons, the Overwatch League has collected statistics on teams, players, and roles. Let's begin by looking at team win-loss records.</div>
+          <div class="pb-2" *ngIf="active === '/tanks' || active === 'tanks'">Tanks are an important role in a team. They can create space for damage players, change the tempo of the match, or protect the team with shields and barriers.</div>
+          <div class="pb-2" *ngIf="active === '/support' || active === 'support'">Support heroes keep the team alive and assist in making offensive plays. Often times, they are protecting their own lives while trying to keep their team alive.</div>
+          <div class="pb-2" *ngIf="active === '/damage' || active === 'damage'">Damage players, or DPS, have burst damage, require consistent aim, and can make key eliminations to give their team a player advantage on an objective.</div>
         </div>
         <div class="row">
           <div class="col-1 d-flex align-items-center">
-            <i *ngIf="active !== '/records' && active !== '/'" class="material-icons" (click)="back(active)">keyboard_arrow_left</i>
+            <i *ngIf="active !== '/records' && active !== '/' && active !== 'records' && active !== ''" class="material-icons" (click)="back(active)">keyboard_arrow_left</i>
           </div>
           <div class="col-10">
             <router-outlet *ngIf="ms.init_done" [ngbNavOutlet]="nav"></router-outlet>
           </div>
           <div class="col-1 d-flex align-items-center">
-            <i *ngIf="active !== '/damage'"class="material-icons" (click)="next(active)">keyboard_arrow_right</i>
+            <i *ngIf="active !== '/damage' && active !== 'damage'"class="material-icons" (click)="next(active)">keyboard_arrow_right</i>
           </div>
         </div>
       </div>
