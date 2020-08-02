@@ -30,11 +30,11 @@ export class AppComponent implements OnInit {
   }
 
   next(route: string) {
-    if(route === '/records') {
+    if(route === '/records' || route === 'records') {
       this.router.navigate(['/tanks'])
-    } else if(route === '/tanks') {
+    } else if(route === '/tanks' || route === 'tanks') {
       this.router.navigate(['support'])
-    } else if(route === '/support') {
+    } else if(route === '/support' || route === 'support') {
       this.ms.finished_slideshow = true
       this.router.navigate(['/damage']);
     } else if(route === '/') {
@@ -43,11 +43,11 @@ export class AppComponent implements OnInit {
   }
 
   back(route: string) {
-    if(route === '/damage') {
+    if(route === '/damage' || route === 'damage') {
       this.router.navigate(['/support']);
-    } else if(route === '/support') {
+    } else if(route === '/support' || route === 'support') {
       this.router.navigate(['/tanks']);
-    } else if(route === '/tanks') {
+    } else if(route === '/tanks' || route === 'tanks') {
       this.router.navigate(['/records']);
     }
   }
