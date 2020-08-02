@@ -39,7 +39,7 @@
         </div>
         <div class="row">
           <div class="col-1 d-flex align-items-center">
-            <i *ngIf="active !== '/records'" class="material-icons" (click)="back(active)">keyboard_arrow_left</i>
+            <i *ngIf="active !== '/records' && active !== '/'" class="material-icons" (click)="back(active)">keyboard_arrow_left</i>
           </div>
           <div class="col-10">
             <router-outlet *ngIf="ms.init_done" [ngbNavOutlet]="nav"></router-outlet>

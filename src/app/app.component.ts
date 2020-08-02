@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
   providers: [ MainService ]
 })
 export class AppComponent implements OnInit {
-  active: string = '/records';
+  active: string = '/';
 
   route_sub: Subscription;
 
@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
         if(this.active === '/damage') {
           this.ms.finished_slideshow = true;
         }
+        console.log(this.active);
       }
     })
   }
