@@ -6,7 +6,11 @@
 }
 
 .ow-logo {
+	cursor: pointer;
 	height: 80px;
+	&:focus {
+		outline: none;
+	}
 }
 
 .material-icons {

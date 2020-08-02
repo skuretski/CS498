@@ -171,7 +171,7 @@ export class MapStatsComponent implements OnInit {
     // Colors
     this.color_scale = d3.scaleOrdinal()
       .domain(this.subgroups)
-      .range(d3.schemeTableau10)
+      .range(['#43484c', '#f99e1a'])
     this.svg.selectAll("*").remove();
     // Skeleton graph
     this.svg.append("g")
@@ -236,9 +236,6 @@ export class MapStatsComponent implements OnInit {
           return 0
         })
         .attr("transform", `translate(0, -${this.margin.top})`)
-        // .attr("fill", (d,i) => {
-        //   return color_scale(i)
-        // })
 
         // Transition bars in
         this.svg.selectAll("rect")
@@ -259,6 +256,7 @@ export class MapStatsComponent implements OnInit {
           .text(`Most wins: ${this.max_wins.team}`)
           .attr("fill", "#000000")
           .attr("font-size", "12px")
+          .attr("font-weight", "bold")
 
         this.svg
           .append("text")
@@ -268,6 +266,7 @@ export class MapStatsComponent implements OnInit {
           .text(`Most losses: ${this.max_losses.team}`)
           .attr("fill", "#000000")
           .attr("font-size", "12px")
+          .attr("font-weight", "bold")
   }
 
   filterData(d: any, key_name, value) {

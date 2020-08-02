@@ -4,7 +4,7 @@
       <div class="sticky-top header">
         <div class="bg-ow-gray py-3">
           <div class="d-flex align-items-center">
-            <img class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
+            <img [routerLink]="['/']" class="ow-logo" src="assets/OW_League_Logo_Lockup_light_bkg.png"/>
             <h1 class="text-white">A Breakdown of the Overwatch League&trade;</h1>
           </div>
         </div>
@@ -30,7 +30,7 @@
           Blizzard Entertainment's game 
           <a href="https://playoverwatch.com/en-us/" target="_blank" rel="noopener" noreferrer>Overwatch</a>, 
           a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
-          playing different heroes and roles.
+          playing different heroes and roles. Many factors contribute to a team's success.
           <hr/>
           <div class="pb-2" *ngIf="active === '/records' || active === 'records'">Over three seasons, the Overwatch League has collected statistics on teams, players, and roles. Let's begin by looking at team win-loss records.</div>
           <div class="pb-2" *ngIf="active === '/tanks' || active === 'tanks'">Tanks are an important role in a team. They can create space for damage players, change the tempo of the match, or protect the team with shields and barriers.</div>

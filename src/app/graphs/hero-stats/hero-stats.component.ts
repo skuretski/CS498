@@ -24,6 +24,7 @@ export class HeroStatsComponent implements OnInit {
           return acc;
         }
         this.stats = [...this._data.reduce(my_func,my_set)];
+        this.active_filters.stat_name = this.stats[0];
       }
     }
   _data:any;
@@ -119,33 +120,22 @@ export class HeroStatsComponent implements OnInit {
       .style("padding", "0.5rem")
 
     this.color = d3.scaleOrdinal()
-      .domain(this.stats)
+      .domain(this.ms.support_data.teams)
       .range(d3.schemeTableau10)
 
     this.x = d3.scaleBand()
       .domain(this.ms.support_data.teams.map((t) => t))
       .range([0, this.width])
+      .padding(0.2)
 
-    if(this.active_filters.stat_name) {
-      let min = d3.min(this._data, d => Number(d['adjusted_stat_amount']));
-      this.y = d3.scaleLinear()
+    let min = d3.min(this._data, d => Number(d['adjusted_stat_amount']));
+    
+    this.y = d3.scaleLinear()
       .range([this.height, 0])
       .domain([Math.max(min - (min * 0.1), 0), d3.max(this._data, d => Number(d['adjusted_stat_amount']))]);
-    } else {
-      this.y = d3.scaleSymlog()
-      .range([this.height, 0])
-      .domain([0, d3.max(this._data, d => Number(d['adjusted_stat_amount']))]);
-    }
 
-    if(this.active_filters.stat_name) {
-      this.y_axis = d3.axisLeft(this.y)
+    this.y_axis = d3.axisLeft(this.y)
       .tickFormat(d3.format("~s"));
-    } else {
-      this.y_axis = d3.axisLeft(this.y)
-        .tickFormat(d3.format("~s"))
-        .tickValues([0, 10, 100, 1000, 10000, 15000])
-        .ticks(6)
-    }
 
     this.svg.selectAll("*").remove();
 
@@ -154,7 +144,7 @@ export class HeroStatsComponent implements OnInit {
       .call(d3.axisBottom(this.x))
       .selectAll("text")
       .attr("font-size", "11px")
-      .attr("transform", "translate(0,12)rotate(-90)")
+      .attr("transform", "translate(-14,12)rotate(-90)")
       .style("text-anchor", "end");
     this.svg.append("g")
       .attr("class", "y")
@@ -165,7 +155,7 @@ export class HeroStatsComponent implements OnInit {
       .selectAll("dot")
       .data(this._data)
       .enter()
-      .append("circle")
+      .append("rect")
       .on("mouseover", (d) => {
         d3.select("#tooltip")
           .style("opacity", 0.9)
@@ -176,11 +166,15 @@ export class HeroStatsComponent implements OnInit {
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
-          .text(`${d.stat_name}: ${this.formatNumber(parseFloat(d.adjusted_stat_amount).toFixed(2))}`)
+          .text(`Season: ${d.season}`)
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
-          .text(`Season: ${d.season}`)
+          .text(`${d.stat_name}: 
+            ${this.formatNumber(parseFloat(d.adjusted_stat_amount).toFixed(2))}
+            ${(this.active_filters.stat_name === 'Objective Time' || 
+            this.active_filters.stat_name === 'Time Alive') ? 'sec' : ''}`)
+
       })
       .on("mousemove", () => {
         d3.select("#tooltip")
@@ -192,50 +186,91 @@ export class HeroStatsComponent implements OnInit {
         d3.select("#tooltip-text").remove()
       })
 
-      .attr("cx", (d) => {
+      .attr("x", (d) => {
         if(d['stat_name'] != 'Time Played') {
-          return this.x(d['team']) + this.margin.left + this.margin.right
+          return this.x(d['team']) + this.margin.left 
         }
       })
-      .attr("cy", (d) => {
+      .attr("y", (d) => {
         if(d['stat_name'] != 'Time Played') {
-          return this.y(d['adjusted_stat_amount']) + this.margin.top
+          return this.height + this.margin.top
         }
       })
-      .attr("r", (d) => {
+      .attr("height", (d) => {
         if(d['stat_name'] != 'Time Played') {
-          return 8
+          return 0
+        }
+      })
+      .attr("width", (d) => {
+        if(d['stat_name'] != 'Time Played') {
+          return this.x.bandwidth()
         }
       })
       .style("fill", (d) => {
         if(d['stat_name'] != 'Time Played') {
-          return this.color(d['stat_name'])
+          if(this.active_filters.season == 1) {
+            if(this.teams_ranks['one']['top'].includes(d['team'])) {
+              return "#2a7230";
+            } else if(this.teams_ranks['one']['bottom'].includes(d['team'])) {
+              return "#af282f";
+            } else {
+              return "#6c757d"
+            }
+          } else if(this.active_filters.season == 2) {
+            if(this.teams_ranks['two']['top'].includes(d['team'])) {
+              return "#2a7230";
+            } else if(this.teams_ranks['two']['bottom'].includes(d['team'])) {
+              return "#af282f";
+            } else {
+              return "#6c757d"
+            }
+          } else if(this.active_filters.season == 3) {
+            if(this.teams_ranks['three']['top'].includes(d['team'])) {
+              return "#2a7230";
+            } else if(this.teams_ranks['three']['bottom'].includes(d['team'])) {
+              return "#af282f";
+            } else {
+              return "#6c757d"
+            }
+          }
         }
-      })
-      .style("stroke", (d) => {
-        if(this.active_filters.season == 1) {
-          if(this.teams_ranks['one']['top'].includes(d['team'])) {
-            return "green";
-          } else if(this.teams_ranks['one']['bottom'].includes(d['team'])) {
-            return "red";
+      });
+
+      this.svg
+        .append("text")
+        .attr("x", this.margin.left + 6)
+        .attr("y", this.margin.top - 4)
+        .attr("width", 20)
+        .text(`Teams in green have the best records for the season. Teams in red have the worst.`)
+        .attr("fill", "#000000")
+        .attr("font-size", "12px")
+    //    .style("font-family",)
+        .attr("font-weight", "bold");
+
+      if(this.active_filters.stat_name == 'Solo Kills') {
+        this.svg
+          .append("text")
+          .attr("x", this.width/2 - 100)
+          .attr("y", this.margin.top * 2)
+          .attr("width", 20)
+          .text(`Despite a good number of solo kills, it didn't make a huge impact for teams overall.`)
+          .attr("fill", "#000000")
+          .attr("font-size", "12px")
+      }
+
+      this.svg.selectAll("rect")
+        .transition()
+        .duration(800)
+        .attr("y", (d) => {
+          if(d['stat_name'] != 'Time Played') {
+            return this.y(d['adjusted_stat_amount']) + this.margin.top
           }
-        } else if(this.active_filters.season == 2) {
-          if(this.teams_ranks['two']['top'].includes(d['team'])) {
-            return "green";
-          } else if(this.teams_ranks['two']['bottom'].includes(d['team'])) {
-            return "red";
+        })
+        .attr("height", (d) => {
+          if(d['stat_name'] != 'Time Played') {
+            return this.height - this.y(d['adjusted_stat_amount'])
           }
-        } else if(this.active_filters.season == 3) {
-          if(this.teams_ranks['three']['top'].includes(d['team'])) {
-            return "green";
-          } else if(this.teams_ranks['three']['bottom'].includes(d['team'])) {
-            return "red";
-          }
-        }
-      })
-      .style("stroke-width", (d) => {
-        return 2;
-      })
+        })
   }
 
 }
