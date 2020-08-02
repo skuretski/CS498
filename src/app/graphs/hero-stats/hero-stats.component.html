@@ -1,3 +1,46 @@
 <div>
+	<h4 class="text-ow-gray text-center">
+		{{ title }}
+		{{ active_filters.season ? ' in Season ' + active_filters.season : '' }}
+		{{ active_filters.stat_name ? ' with ' + active_filters.stat_name : '' }}
+
+	</h4>
+	<div class="text-center font-italic">All stats are per 10 minutes of time played.</div>
+	<div class="text-center font-italic">Team stats are the sum of all players playing this role.</div>
+	<!-- Filters -->
+	<div class="py-2">
+		<div class="d-flex">
+			<div>
+				<h5 class="font-weight-bold p-2">Season</h5>
+				<nav aria-label="season navigation">
+					<ul class="pagination mb-0">
+						<li [ngClass]="{'active': active_filters.season == 1}"class="page-item" (click)="filter('season',1)"><a class="page-link">1</a></li>
+						<li [ngClass]="{'active': active_filters.season == 2}"class="page-item" (click)="filter('season',2)"><a class="page-link">2</a></li>
+						<li [ngClass]="{'active': active_filters.season == 3}"class="page-item" (click)="filter('season',3)"><a class="page-link">3</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="ml-4">
+				<h5 class="font-weight-bold p-2">Stat Name</h5>
+				<div ngbDropdown placement="bottom-left" class="d-inline-block">
+					<button class="btn"
+						[ngClass]="{
+							'bg-ow-light-blue btn-outline-gray-400 text-white':active_filters.stat_name, 
+							'bg-white text-ow-light-blue btn-outline-ow-light-blue': !active_filters.stat_name
+						}" 
+						ngbDropdownToggle>{{ !active_filters.stat_name ? 'Filter by Stat Name' : active_filters.stat_name }} 
+					</button>
+					<div ngbDropdownMenu aria-labelledby="stat name dropdown">
+						<ng-container *ngFor="let s of stats">
+							<button *ngIf="s != 'Time Played'" ngbDropdownItem (click)="filter('stat_name', s)">
+								{{ s }}
+							</button>
+						</ng-container>
+						<button ngbDropdownItem (click)="filter('stat_name', null)">Clear filters</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div #heroviz id="heroviz" class="px-4"></div>
 </div>

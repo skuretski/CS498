@@ -17,6 +17,9 @@ export class MainService {
   support: any;
   dps: any;
 
+  init_done: boolean = false;
+  finished_slideshow: boolean = false;
+
   constructor() {}
 
   async init() {
@@ -49,6 +52,7 @@ export class MainService {
     this.support_data.teams = Array.from(this.support_data.teams).sort();
     this.support_data.stages = Array.from(this.support_data.stages).sort();
     this.support_data.seasons = Array.from(this.support_data.seasons).sort();
+    this.init_done = true;
   }
 
 }

@@ -1,7 +1,7 @@
-<div class="h-100 pb-4 container">
+<div *ngIf="ms?.records" class="h-100 pb-4 container">
 	<div class="row justify-content-center">
 		<div class="col-12">
-			<app-map-stats *ngIf="ms?.records" [title]="title" [data]="ms?.records"></app-map-stats>
+			<app-map-stats [title]="title" [data]="ms?.records"></app-map-stats>
 		</div>
 	</div>
 </div>

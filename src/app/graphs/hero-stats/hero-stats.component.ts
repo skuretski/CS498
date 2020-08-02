@@ -17,13 +17,23 @@ export class HeroStatsComponent implements OnInit {
       if(d != undefined) {
         this.original_data = d;
         this._data = d;
-        this.filterBySeason(this._data, 1);
+        let my_set = new Set();
+
+        let my_func = (acc, curr) => {
+          acc.add(curr['stat_name']);
+          return acc;
+        }
+        this.stats = [...this._data.reduce(my_func,my_set)];
       }
     }
   _data:any;
-  @Input() stats: string[];
 
+  stats: string[];
   original_data: any;
+  active_filters = {
+    season: 1,
+    stat_name: null
+  }
   svg: any;
   margin: { top: number, right: number, bottom: number, left: number} = {
     top: 32,
@@ -40,6 +50,21 @@ export class HeroStatsComponent implements OnInit {
   width: number = 800 - this.margin.left - this.margin.right;
   height: number = 400 - this.margin.top - this.margin.bottom;
 
+  teams_ranks: {} = {
+    one: {
+      top: ['New York Excelsior', 'Los Angeles Valiant', 'Boston Uprising'],
+      bottom: ['Shanghai Dragons', 'Florida Mayhem', 'Dallas Fuel']
+    },
+    two: {
+      top: ['Vancouver Titans', 'San Francisco Shock', 'New York Excelsior'],
+      bottom: ['Florida Mayhem', 'Boston Uprising', 'Washington Justice']
+    },
+    three: {
+      top: ['Shanghai Dragons', 'Philadelphia Fusion', 'San Francisco Shock'],
+      bottom: ['Boston Uprising', 'Washington Justice', 'Vancouver Titans']
+    }
+  }
+
   constructor(public ms: MainService) { }
 
   ngOnInit(): void {
@@ -49,23 +74,39 @@ export class HeroStatsComponent implements OnInit {
     this.svg = d3.select("#heroviz")
     .append("svg")
     .attr("viewBox", `0 0 ${this.width + this.margin.left + this.margin.right} ${this.height + this.margin.top  + this.margin.bottom + 100}`)
-    this.buildInitialChart();
+    this.filter('season', 1);
   }
 
   formatNumber(num) {
     return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
   }
 
-  filterBySeason(d: any, season: number) {
-    let filter = (val) => {
-      return val['season'] == season;
-    }
-
-    let data = d.filter(filter);
-    this._data = data;
+  season_filter = (val) => {
+    return val['season'] == this.active_filters.season;
   }
 
-  buildInitialChart() {
+  stat_filter = (val) => {
+    if(this.active_filters.stat_name == null) return true;
+    return val['stat_name'] == this.active_filters.stat_name;
+  }
+  
+  filterAll = (val) => {
+    return this.season_filter(val) && this.stat_filter(val);
+  }
+
+  filter(key_name: string, val: any) {
+    if(key_name == null) {
+      Object.keys(this.active_filters).forEach(v => this.active_filters[v] = null);
+    } else {
+      this.active_filters[key_name] = val;
+    }
+
+    let data = this.original_data.filter(this.filterAll);
+    this._data = data;
+    this.buildScatterPlot();
+  }
+
+  buildScatterPlot() {
     let tooltip = d3.select("body")
       .append("div")
       .attr("id", "tooltip")
@@ -85,15 +126,29 @@ export class HeroStatsComponent implements OnInit {
       .domain(this.ms.support_data.teams.map((t) => t))
       .range([0, this.width])
 
-    this.y = d3.scaleSymlog()
+    if(this.active_filters.stat_name) {
+      let min = d3.min(this._data, d => Number(d['adjusted_stat_amount']));
+      this.y = d3.scaleLinear()
       .range([this.height, 0])
-      .domain([0, d3.max(this._data, d => parseInt(d['adjusted_stat_amount']) + 20000)]);
-    
-    this.y_axis = d3.axisLeft(this.y)
-      //.ticks(10)
-      .tickValues([10, 100, 1000, 5000, 10000, 20000])
+      .domain([Math.max(min - (min * 0.1), 0), d3.max(this._data, d => Number(d['adjusted_stat_amount']))]);
+    } else {
+      this.y = d3.scaleSymlog()
+      .range([this.height, 0])
+      .domain([0, d3.max(this._data, d => Number(d['adjusted_stat_amount']))]);
+    }
+
+    if(this.active_filters.stat_name) {
+      this.y_axis = d3.axisLeft(this.y)
       .tickFormat(d3.format("~s"));
-    
+    } else {
+      this.y_axis = d3.axisLeft(this.y)
+        .tickFormat(d3.format("~s"))
+        .tickValues([0, 10, 100, 1000, 10000, 15000])
+        .ticks(6)
+    }
+
+    this.svg.selectAll("*").remove();
+
     this.svg.append("g")
       .attr("transform", `translate(${this.margin.left},${this.height + this.margin.top})`)
       .call(d3.axisBottom(this.x))
@@ -121,7 +176,7 @@ export class HeroStatsComponent implements OnInit {
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
-          .text(`${d.stat_name}: ${this.formatNumber(Math.trunc(d.adjusted_stat_amount))}`)
+          .text(`${d.stat_name}: ${this.formatNumber(parseFloat(d.adjusted_stat_amount).toFixed(2))}`)
           .append("p")
           .style("margin-bottom", 0)
           .attr("id", "tooltip-text")
@@ -157,5 +212,30 @@ export class HeroStatsComponent implements OnInit {
           return this.color(d['stat_name'])
         }
       })
+      .style("stroke", (d) => {
+        if(this.active_filters.season == 1) {
+          if(this.teams_ranks['one']['top'].includes(d['team'])) {
+            return "green";
+          } else if(this.teams_ranks['one']['bottom'].includes(d['team'])) {
+            return "red";
+          }
+        } else if(this.active_filters.season == 2) {
+          if(this.teams_ranks['two']['top'].includes(d['team'])) {
+            return "green";
+          } else if(this.teams_ranks['two']['bottom'].includes(d['team'])) {
+            return "red";
+          }
+        } else if(this.active_filters.season == 3) {
+          if(this.teams_ranks['three']['top'].includes(d['team'])) {
+            return "green";
+          } else if(this.teams_ranks['three']['bottom'].includes(d['team'])) {
+            return "red";
+          }
+        }
+      })
+      .style("stroke-width", (d) => {
+        return 2;
+      })
   }
+
 }

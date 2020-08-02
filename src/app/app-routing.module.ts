@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'records', component: MapsComponent },
   { path: 'tanks', component: TanksComponent },
   { path: 'damage', component: DamageComponent }, 
-  { path: 'support', component: SupportComponent }
+  { path: 'support', component: SupportComponent },
+  { path: '**', component: MapsComponent }
 ];
 
 @NgModule({

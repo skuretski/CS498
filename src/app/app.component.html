@@ -8,23 +8,23 @@
             <h1 class="text-white">A Breakdown of the Overwatch League&trade;</h1>
           </div>
         </div>
-        <ul ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue p-2" [(activeId)]="active">
+        <ul [hidden]="!ms.finished_slideshow" ngbNav #nav="ngbNav" class="nav-pills bg-ow-light-blue p-2" [(activeId)]="active">
           <li ngbNavItem="records">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'records'}" ngbNavLink [routerLink]="['/records']">Records</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/records'}" ngbNavLink [routerLink]="['/records']">Records</a>
           </li>
           <li ngbNavItem="tanks">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'tanks'}" ngbNavLink [routerLink]="['/tanks']">Tanks</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/tanks'}" ngbNavLink [routerLink]="['/tanks']">Tanks</a>
           </li>
           <li ngbNavItem="support">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'support'}" ngbNavLink [routerLink]="['/support']">Support</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/support'}" ngbNavLink [routerLink]="['/support']">Support</a>
           </li>
           <li ngbNavItem="damage">
-            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === 'damage'}" ngbNavLink [routerLink]="['/damage']">Damage</a>
+            <a class="text-white" [ngClass]="{'text-ow-dark-blue bg-white': active === '/damage'}" ngbNavLink [routerLink]="['/damage']">Damage</a>
           </li>
         </ul>
       </div>
       <div>
-        <div class="p-4">
+        <div class="pt-4 px-4">
           The <a href="https://overwatchleague.com/en-us/about" target="_blank" rel="noopener" noreferrer>Overwatch League</a> 
           is a competitive video game league featuring 20 city-based teams. The teams play 280 regular season matches in 
           Blizzard Entertainment's game 
@@ -32,30 +32,22 @@
           a team-based strategic shooter with unique heroes and abilities. A team is comprised of 6 players, all 
           playing different heroes and roles.
           <hr/>
-          Over three seasons, the Overwatch League has collected statistics on teams, players, and roles. Let's begin
-          by looking at team win-loss records.
+          <div class="pb-2" *ngIf="active === '/records'">Over three seasons, the Overwatch League has collected statistics on teams, players, and roles. Let's begin by looking at team win-loss records.</div>
+          <div class="pb-2" *ngIf="active === '/tanks'">Tanks are an important role in a team. They can create space for damage players, change the tempo of the match, or protect the team with shields and barriers.</div>
+          <div class="pb-2" *ngIf="active === '/support'">Support heroes keep the team alive and assist in making offensive plays. Often times, they are protecting their own lives while trying to keep their team alive.</div>
+          <div class="pb-2" *ngIf="active === '/damage'">Damage players, or DPS, have burst damage, require consistent aim, and can make key eliminations to give their team a player advantage on an objective.</div>
         </div>
         <div class="row">
           <div class="col-1 d-flex align-items-center">
-            <i class="material-icons">keyboard_arrow_left</i>
+            <i *ngIf="active !== '/records'" class="material-icons" (click)="back(active)">keyboard_arrow_left</i>
           </div>
           <div class="col-10">
-            <router-outlet *ngIf="ms?.records"></router-outlet>
+            <router-outlet *ngIf="ms.init_done" [ngbNavOutlet]="nav"></router-outlet>
           </div>
           <div class="col-1 d-flex align-items-center">
-            <i class="material-icons">keyboard_arrow_right</i>
+            <i *ngIf="active !== '/damage'"class="material-icons" (click)="next(active)">keyboard_arrow_right</i>
           </div>
         </div>
-        <!-- <div [attr.id]="'tanks'">
-          <app-maps *ngIf="ms?.records"></app-maps>
-          <app-tanks *ngIf="ms?.tanks"></app-tanks>
-        </div>
-        <div [attr.id]="'support'">
-
-        </div>
-        <div [attr.id]="'damage'">
-
-        </div> -->
       </div>
       <footer class="py-4 text-center">
         <span class="font-italic">
